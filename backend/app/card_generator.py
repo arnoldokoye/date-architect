@@ -1,9 +1,6 @@
 import json
-import os
-import google.generativeai as genai
+import subprocess
 from app.models import Persona, RankedVenue, PersonaCard, DateCards
-
-genai.configure(api_key=os.environ.get("GEMINI_API_KEY", ""))
 
 
 def _build_prompt(p_a: Persona, p_b: Persona, ranked_venue: RankedVenue) -> str:
@@ -40,20 +37,33 @@ Generate a personalized date card for EACH person. Each card must:
 3. talking_points: Exactly 3 conversation topics grounded in their real shared or complementary interests. NOT generic icebreakers. Each should be a specific question or prompt.
 4. logistics: 2-3 practical sentences. Include: where to meet (venue entrance), suggested arrival time, what to order or do, practical tip.
 
-Return a JSON object with keys "{p_a.id}" and "{p_b.id}", each containing the 4 fields above.
+Return ONLY a raw JSON object (no markdown, no code fences) with keys "{p_a.id}" and "{p_b.id}", each containing the 4 fields above.
 Write warmly but concisely. No fluff. Make the person feel like this date was designed specifically for them."""
 
 
 def _call_gemini(prompt: str) -> dict:
-    model = genai.GenerativeModel(
-        model_name="gemini-2.0-flash",
-        generation_config=genai.GenerationConfig(
-            response_mime_type="application/json",
-            temperature=0.7,
-        )
+    result = subprocess.run(
+        ["claude", "-p", prompt],
+        capture_output=True,
+        text=True,
+        timeout=120,
+        stdin=subprocess.DEVNULL,
     )
-    response = model.generate_content(prompt)
-    return json.loads(response.text)
+    if result.returncode != 0:
+        raise RuntimeError(f"Claude CLI failed: {result.stderr.strip()}")
+
+    text = result.stdout.strip()
+
+    # Strip markdown code fences if the model wraps output in them
+    if text.startswith("```"):
+        lines = text.splitlines()
+        # Drop opening fence (```json or ```) and closing fence (```)
+        inner = lines[1:] if lines[-1].strip() == "```" else lines[1:]
+        if inner and inner[-1].strip() == "```":
+            inner = inner[:-1]
+        text = "\n".join(inner)
+
+    return json.loads(text)
 
 
 def generate_date_cards(p_a: Persona, p_b: Persona, ranked_venue: RankedVenue) -> DateCards:
