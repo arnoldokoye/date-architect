@@ -34,6 +34,19 @@ class ScoreBreakdown(BaseModel):
     vibe_alignment: int
 
 
+class CompatibilityBreakdown(BaseModel):
+    energy_alignment: int    # 0–25
+    interest_overlap: int    # 0–25
+    values_alignment: int    # 0–25
+    vibe_compatibility: int  # 0–25
+
+
+class PersonCompatibility(BaseModel):
+    score: int   # 0–100
+    label: str   # "Highly Compatible" | "Complementary" | "Interesting Mix" | "High Contrast"
+    breakdown: CompatibilityBreakdown
+
+
 class RankedVenue(BaseModel):
     venue: Venue
     score: int
@@ -54,7 +67,9 @@ class DateCards(BaseModel):
 
 class DatePlanResponse(BaseModel):
     venue: RankedVenue
+    runner_up_venues: list[RankedVenue]   # always exactly 2 items
     cards: DateCards
+    compatibility: PersonCompatibility
 
 
 class GenerateDateRequest(BaseModel):

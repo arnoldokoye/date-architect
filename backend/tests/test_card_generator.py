@@ -68,7 +68,7 @@ def test_generate_date_cards_returns_date_cards(sample_pair, sample_ranked_venue
         }
     }
 
-    with patch("app.card_generator._call_gemini", return_value=mock_response):
+    with patch("app.card_generator._call_claude", return_value=mock_response):
         result = generate_date_cards(p_a, p_b, sample_ranked_venue)
 
     assert isinstance(result, DateCards)
@@ -93,7 +93,7 @@ def test_generate_date_cards_card_fields_populated(sample_pair, sample_ranked_ve
         }
     }
 
-    with patch("app.card_generator._call_gemini", return_value=mock_response):
+    with patch("app.card_generator._call_claude", return_value=mock_response):
         result = generate_date_cards(p_a, p_b, sample_ranked_venue)
 
     assert len(result.persona_a.compatibility_story) > 0

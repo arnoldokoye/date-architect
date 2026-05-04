@@ -41,7 +41,7 @@ Return ONLY a raw JSON object (no markdown, no code fences) with keys "{p_a.id}"
 Write warmly but concisely. No fluff. Make the person feel like this date was designed specifically for them."""
 
 
-def _call_gemini(prompt: str) -> dict:
+def _call_claude(prompt: str) -> dict:
     result = subprocess.run(
         ["claude", "-p", prompt],
         capture_output=True,
@@ -68,7 +68,7 @@ def _call_gemini(prompt: str) -> dict:
 
 def generate_date_cards(p_a: Persona, p_b: Persona, ranked_venue: RankedVenue) -> DateCards:
     prompt = _build_prompt(p_a, p_b, ranked_venue)
-    raw = _call_gemini(prompt)
+    raw = _call_claude(prompt)
 
     def parse_card(data: dict) -> PersonaCard:
         return PersonaCard(

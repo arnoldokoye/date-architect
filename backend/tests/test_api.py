@@ -51,3 +51,26 @@ def test_generate_date_plan_cards_fields(client):
 def test_generate_date_plan_unknown_persona_returns_404(client):
     resp = client.post("/generate-date-plan", json={"persona_a_id": "unknown", "persona_b_id": "alex"})
     assert resp.status_code == 404
+
+
+def test_generate_date_plan_has_runner_up_venues(client):
+    resp = client.post("/generate-date-plan", json={"persona_a_id": "maya", "persona_b_id": "alex"})
+    body = resp.json()
+    assert "runner_up_venues" in body
+    assert len(body["runner_up_venues"]) == 2
+    for rv in body["runner_up_venues"]:
+        assert "score" in rv
+        assert "venue" in rv
+        assert "score_breakdown" in rv
+
+
+def test_generate_date_plan_has_compatibility(client):
+    resp = client.post("/generate-date-plan", json={"persona_a_id": "maya", "persona_b_id": "alex"})
+    body = resp.json()
+    assert "compatibility" in body
+    compat = body["compatibility"]
+    assert "score" in compat
+    assert "label" in compat
+    assert "breakdown" in compat
+    assert 0 <= compat["score"] <= 100
+    assert compat["label"] in {"Highly Compatible", "Complementary", "Interesting Mix", "High Contrast"}
