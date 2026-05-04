@@ -1,0 +1,62 @@
+[
+  {
+    "id": "maya",
+    "name": "Maya",
+    "energy_level": 2,
+    "conversation_style": "thoughtful",
+    "interests": ["film", "philosophy", "reading", "indie music"],
+    "values": ["depth", "authenticity", "intellectual curiosity"],
+    "comfort_with_strangers": 2,
+    "date_preference": "low_pressure"
+  },
+  {
+    "id": "jordan",
+    "name": "Jordan",
+    "energy_level": 5,
+    "conversation_style": "animated",
+    "interests": ["sports", "going out", "rap music", "basketball"],
+    "values": ["fun", "spontaneity", "loyalty"],
+    "comfort_with_strangers": 5,
+    "date_preference": "social"
+  },
+  {
+    "id": "riley",
+    "name": "Riley",
+    "energy_level": 3,
+    "conversation_style": "warm",
+    "interests": ["cooking", "travel", "korean culture", "trying new restaurants"],
+    "values": ["adventure", "openness", "good food"],
+    "comfort_with_strangers": 4,
+    "date_preference": "culinary"
+  },
+  {
+    "id": "alex",
+    "name": "Alex",
+    "energy_level": 2,
+    "conversation_style": "reflective",
+    "interests": ["craft beer", "live music", "history", "hiking"],
+    "values": ["honesty", "low pretense", "curiosity"],
+    "comfort_with_strangers": 3,
+    "date_preference": "low_pressure"
+  },
+  {
+    "id": "sam",
+    "name": "Sam",
+    "energy_level": 4,
+    "conversation_style": "outgoing",
+    "interests": ["dancing", "latin music", "fashion", "social media"],
+    "values": ["energy", "confidence", "living in the moment"],
+    "comfort_with_strangers": 5,
+    "date_preference": "social"
+  },
+  {
+    "id": "morgan",
+    "name": "Morgan",
+    "energy_level": 3,
+    "conversation_style": "curious",
+    "interests": ["nature", "photography", "astrology", "brent faiyaz", "art"],
+    "values": ["peace", "beauty", "intentionality"],
+    "comfort_with_strangers": 3,
+    "date_preference": "active"
+  }
+]
