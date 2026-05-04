@@ -5,6 +5,7 @@
 - `2662950` — `feat: add pair-venue matching engine with 5 passing tests`
 - `e2c19fd` — `feat: add Gemini-powered date card generator with 4 passing tests`
 - `e82ee26` — `fix: correct comfort alignment directionality, social vibe keywords, and pytest asyncio config`
+- `a526ad0` — `fix(card-generator): replace Gemini API with claude CLI subprocess`
 
 ---
 
