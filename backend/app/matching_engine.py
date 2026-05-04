@@ -24,9 +24,11 @@ def _shared_activity_score(p_a: Persona, p_b: Persona, venue: Venue) -> int:
 
 
 def _comfort_alignment_score(p_a: Persona, p_b: Persona, venue: Venue) -> int:
+    # Only penalise when the venue is MORE intimate than the pair is comfortable with.
+    # A high-comfort pair at a low-intimacy bar shouldn't be penalised.
     avg_comfort = (p_a.comfort_with_strangers + p_b.comfort_with_strangers) / 2
-    mismatch = abs(avg_comfort - venue.intimacy_score)
-    return max(0, 25 - int(mismatch * 5))
+    excess_intimacy = max(0.0, venue.intimacy_score - avg_comfort)
+    return max(0, 25 - int(excess_intimacy * 5))
 
 
 def _vibe_alignment_score(p_a: Persona, p_b: Persona, venue: Venue) -> int:
@@ -35,7 +37,7 @@ def _vibe_alignment_score(p_a: Persona, p_b: Persona, venue: Venue) -> int:
         "adventurous": ["adventurous", "unique", "lively", "spontaneous"],
         "active": ["outdoor", "active", "walk"],
         "culinary": ["food", "culinary", "foodie", "upscale"],
-        "social": ["social", "lively", "bars", "energetic"],
+        "social": ["social", "lively", "bar", "energy"],
     }
 
     def pref_score(pref: str) -> int:
