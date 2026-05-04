@@ -2,9 +2,10 @@ from app.models import CompatibilityBreakdown, Persona, PersonCompatibility
 
 INTEREST_GROUPS: list[set[str]] = [
     {"music", "indie music", "live music", "rap music", "latin music"},
-    {"outdoor", "hiking", "nature"},
-    {"art", "film", "photography", "design"},
-    {"food", "cooking", "culinary", "korean culture", "trying new restaurants"},
+    {"outdoor", "hiking", "nature", "travel"},                          # + travel
+    {"art", "film", "photography", "design", "fashion"},               # + fashion
+    {"food", "cooking", "culinary", "korean culture",
+     "trying new restaurants", "craft beer"},                          # + craft beer
     {"reading", "book", "philosophy", "history"},
     {"social", "going out", "dancing", "sports", "basketball"},
 ]
@@ -13,7 +14,7 @@ VALUES_GROUPS: list[set[str]] = [
     {"curiosity", "intellectual curiosity", "depth", "authenticity"},
     {"honesty", "low pretense", "authenticity"},
     {"fun", "spontaneity", "energy", "confidence", "living in the moment"},
-    {"adventure", "openness"},
+    {"adventure", "openness", "good food"},                            # + good food
     {"peace", "intentionality", "beauty"},
 ]
 
