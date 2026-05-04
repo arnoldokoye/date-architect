@@ -34,7 +34,7 @@ app = FastAPI(lifespan=lifespan)
 app.add_middleware(
     CORSMiddleware,
     allow_origins=["http://localhost:3000"],
-    allow_methods=["POST"],
+    allow_methods=["GET", "POST"],
     allow_headers=["Content-Type"],
 )
 
@@ -62,3 +62,8 @@ def generate_date_plan(req: GenerateDateRequest) -> DatePlanResponse:
         cards=cards,
         compatibility=compatibility,
     )
+
+
+@app.get("/personas", response_model=list[Persona])
+def get_personas() -> list[Persona]:
+    return list(_data["personas"].values())

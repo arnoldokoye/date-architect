@@ -74,3 +74,17 @@ def test_generate_date_plan_has_compatibility(client):
     assert "breakdown" in compat
     assert 0 <= compat["score"] <= 100
     assert compat["label"] in {"Highly Compatible", "Complementary", "Interesting Mix", "High Contrast"}
+
+
+def test_get_personas_returns_all_personas(client):
+    resp = client.get("/personas")
+    assert resp.status_code == 200
+    data = resp.json()
+    assert len(data) == 6
+    for p in data:
+        assert "id" in p
+        assert "name" in p
+        assert "energy_level" in p
+        assert "interests" in p
+        assert "values" in p
+        assert "date_preference" in p
