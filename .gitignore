@@ -17,3 +17,7 @@ out/
 
 # macOS
 .DS_Store
+
+# Playwright artifacts
+scripts/*.webm
+scripts/frames/
