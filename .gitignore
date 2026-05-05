@@ -24,3 +24,9 @@ out/
 # Playwright artifacts
 scripts/*.webm
 scripts/frames/
+
+# Superpowers planning artifacts
+docs/superpowers/
+
+# Runtime-generated SQLite DB (seed script is committed, data is not)
+backend/app/data/outcomes.db

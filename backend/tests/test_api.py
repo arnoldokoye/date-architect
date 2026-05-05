@@ -88,3 +88,55 @@ def test_get_personas_returns_all_personas(client):
         assert "interests" in p
         assert "values" in p
         assert "date_preference" in p
+
+
+def test_record_outcome_returns_200(client):
+    resp = client.post("/record-outcome", json={
+        "persona_a_id": "maya",
+        "persona_b_id": "alex",
+        "venue_id": "elixr_coffee",
+        "outcome": "great_date",
+    })
+    assert resp.status_code == 200
+    body = resp.json()
+    assert body["recorded"] is True
+    assert isinstance(body["id"], int)
+
+
+def test_record_outcome_invalid_outcome_returns_422(client):
+    resp = client.post("/record-outcome", json={
+        "persona_a_id": "maya",
+        "persona_b_id": "alex",
+        "venue_id": "elixr_coffee",
+        "outcome": "bad_value",
+    })
+    assert resp.status_code == 422
+
+
+def test_record_outcome_unknown_persona_returns_404(client):
+    resp = client.post("/record-outcome", json={
+        "persona_a_id": "unknown",
+        "persona_b_id": "alex",
+        "venue_id": "elixr_coffee",
+        "outcome": "went",
+    })
+    assert resp.status_code == 404
+
+
+def test_record_outcome_same_persona_returns_400(client):
+    resp = client.post("/record-outcome", json={
+        "persona_a_id": "maya",
+        "persona_b_id": "maya",
+        "venue_id": "elixr_coffee",
+        "outcome": "went",
+    })
+    assert resp.status_code == 400
+
+
+def test_outcome_stats_returns_200(client):
+    resp = client.get("/outcome-stats")
+    assert resp.status_code == 200
+    body = resp.json()
+    assert "total_outcomes" in body
+    assert "by_venue" in body
+    assert "by_outcome" in body

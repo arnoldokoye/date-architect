@@ -1,3 +1,5 @@
+from typing import Literal
+
 from pydantic import BaseModel
 
 
@@ -75,3 +77,15 @@ class DatePlanResponse(BaseModel):
 class GenerateDateRequest(BaseModel):
     persona_a_id: str
     persona_b_id: str
+
+
+class RecordOutcomeRequest(BaseModel):
+    persona_a_id: str
+    persona_b_id: str
+    venue_id: str
+    outcome: Literal["went", "skipped", "great_date"]
+
+
+class RecordOutcomeResponse(BaseModel):
+    recorded: bool
+    id: int
