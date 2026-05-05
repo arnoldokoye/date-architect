@@ -1,17 +1,13 @@
 # Phase 1 — Project Scaffold
 
-**What I built:** The project skeleton — Pydantic v2 models for the full type contract, a pinned `requirements.txt`, a Next.js 14 frontend scaffold, and Docker Compose wiring both services. Nothing runs yet; this is the skeleton that everything else slots into.
+The scaffold phase is boring to explain but the decisions here shape everything downstream.
 
-**Why models first:** By defining all Pydantic schemas before writing any logic, every downstream module gets type checking, autocomplete, and validation for free. The alternative — writing models alongside each module — leads to subtle shape mismatches between what the API sends and what the frontend expects. Locking the contract first means a TypeScript error in the frontend will catch any drift from the backend models before it reaches the browser.
+The main call was writing Pydantic models before any logic. Before there was a matching engine or a card generator or an API, I defined what every object in the system looks like: `Venue`, `Persona`, `ScoreBreakdown`, `RankedVenue`, `PersonaCard`, `DatePlanResponse`. The full type contract, locked in before a single algorithm was written.
 
-**Key decisions:**
-- **Pydantic v2 `str | None` syntax.** Modern Python (3.10+) union syntax over `Optional[str]`. It's more readable, it's idiomatic now, and it signals the codebase is current.
-- **`activity_type` is nullable, not empty string.** An empty string would silently pass through to prompts as "Activity: " — meaningless noise. `None` is explicit: the card generator checks for it and substitutes `"conversation"`. Prevents a class of silent data bugs.
-- **`ScoreBreakdown`: four equal-weight dimensions at 25 points each.** No arbitrary weights. "Four dimensions contribute equally to a 100-point score" is a clean, defensible answer. You tune weights after you have user data, not before.
-- **Docker Compose at the root from day one.** Infrastructure added before code means every commit is already deployable. Adding Docker after you've written 300 lines is when you discover path issues and env var gaps. Starting with it means `docker compose up` works for anyone cloning the repo.
-- **Pinned dependency versions.** Reproducible installs. For a submission someone else runs, you want identical builds every time.
+This isn't premature — it's sequencing. If the matching engine returns a `RankedVenue` and the API expects something slightly different, you find out at demo time in the worst case, or through confusing bugs in the best case. Models first means any mismatch is caught by Pydantic at startup, not while you're screen-recording.
 
-**What I rejected:**
-- **SQLAlchemy / any ORM.** No database. Venues and personas come from JSON files. Adding an ORM for a JSON-backed demo is over-engineering that actively hurts readability.
-- **Setting up Next.js manually.** `create-next-app` does the right thing by default (App Router, TypeScript, Tailwind, proper tsconfig). Setting it up manually costs 30 minutes and produces worse defaults.
-- **Separate `types.ts` in the frontend scaffold.** TypeScript types mirror the Pydantic models — writing them before the API is built risks drift. Deferred to Phase 5 where types are first consumed.
+One specific call worth noting: `activity_type` is nullable (`str | None`) rather than defaulting to an empty string. Some venues don't have a shared activity — you just talk. An empty string would silently slip through into the Claude prompt as "Activity: " which is meaningless. `None` is explicit; the card generator checks for it and substitutes `"conversation"`. Small thing, but it's the kind of thing that bites you later if you don't think about it early.
+
+I added Docker Compose at this stage rather than the end. The usual pattern is to dockerize as a final step, which is painful — you discover path issues and env var gaps after the code is all written. Starting with Docker means every commit is already deployable and you're forced to think about configuration injection before you've accidentally hardcoded anything.
+
+The scoring model uses four equal-weight dimensions at 25 points each summing to 100. I could've weighted them differently — give energy_match 40%, downweight vibe. I kept them equal because there's no real data to justify any particular weighting. When someone asks why energy match and vibe match are weighted the same, "I don't have user data to justify any other choice" is the right answer. You tune weights after you have feedback, not before.

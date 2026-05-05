@@ -18,6 +18,9 @@ out/
 # macOS
 .DS_Store
 
+# Ruff
+.ruff_cache/
+
 # Playwright artifacts
 scripts/*.webm
 scripts/frames/

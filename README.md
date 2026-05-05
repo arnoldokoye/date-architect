@@ -1,6 +1,6 @@
 # Date Architect
 
-A persona-aware date planning engine built for Penn State. Pick two people, get the ideal State College venue — chosen by a four-dimension algorithmic scorer, explained by Claude AI in a personalized date card for each person.
+Pick two people. Get the ideal Penn State date — venue chosen by a scoring engine, personalized date cards written by Claude. Built for Ditto's engineering submission.
 
 ![Date Architect demo](docs/demo.gif)
 

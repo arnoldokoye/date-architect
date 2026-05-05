@@ -1,10 +1,11 @@
 # Phase 6 — Demo Polish
 
-**What I built:** Full README rewrite — architecture ASCII diagram, exact run commands for both servers, a Maya+Alex example output showing the score table and a sample talking point. No source code changes; this phase was about making the project legible to someone cloning it for the first time.
+The README was a stub. I rewrote it to answer the three questions someone cloning a repo for the first time actually has: what does this do, how do I run it, what does the output look like.
 
-**Why this phase matters:** A project that works but can't be read is half a project. The README is the first thing a hiring engineer sees. It should answer three questions in under 60 seconds: what does this do, how do I run it, and what does the output look like. The previous README didn't.
+The ASCII architecture diagram was worth the five minutes it took. A diagram shows the two-stage pipeline faster than a paragraph can describe it. It also makes the hand-off boundary obvious — you can see exactly where the scoring engine stops and the card generator starts, and why they're separate.
 
-**Key decisions:**
-- **ASCII architecture diagram instead of prose.** A diagram shows the two-stage pipeline (algorithm → LLM) faster than describing it. It also makes the handoff boundary visible — you can see exactly where the matching engine stops and the card generator starts.
-- **Example output in the README.** A table showing Maya+Alex → Elixr Coffee (72/100) with the dimension breakdown is more convincing than "the system picks a personalized venue." Show the output, not just the claim.
-- **`docs/builder-briefs/` instead of long internal handoffs.** The original development handoffs were written agent-to-agent (exhaustive, procedural). This phase introduced a parallel set of hiring-manager-facing docs that cover what was built, why, what was decided, and what was surprising — without the procedural "here's what the next agent should do" scaffolding.
+The example output section (Maya+Alex → Elixr Coffee, 72/100, with the dimension table) matters more than it looks. "The system generates a personalized venue recommendation" is a claim. A concrete score table with the breakdown is evidence. Showing the output is more convincing than describing it.
+
+This phase also produced the 5-minute demo script, which I've internalized as anchor points rather than memorized as lines. The key moments: the Maya+Alex result with the talking points, the Jordan+Sam contrast showing the algorithm making a completely different call, and the Allen Street Grill iteration story. Those three things together tell the full arc — product, algorithm, iteration.
+
+Nothing about the source code changed in this phase. The feature was already complete. Polish is about making what's already there legible.

@@ -3,7 +3,7 @@
 Run once from the backend/ directory:
     python scripts/precompute_responses.py
 
-Requires: source venv/bin/activate && claude --version (auth must be valid)
+Requires: ANTHROPIC_API_KEY set in environment (or backend/.env)
 Outputs:  app/data/precomputed/{persona_a}__{persona_b}.json  (30 files)
 """
 import json

@@ -1,19 +1,15 @@
 # Phase 5 — Next.js Frontend
 
-**What I built:** A single-page client component — two dropdowns, a button, three UI states (loading / error / result), and a `DateCard` component that renders the full API response. Score breakdown grid showing each of the four dimensions per-venue. Responsive layout (side-by-side persona cards on desktop, stacked on mobile). 230 total lines of TypeScript + Tailwind, no external component library.
+Single page. Two dropdowns, a button, three states (loading / error / result). The frontend has one job: make the backend's output visible.
 
-**The frontend has one job: make the backend's output visible.** Every design decision flows from that constraint.
+The main design decision was using a client component (`"use client"`) with a standard fetch, not a React Server Component. The card generation takes a few seconds. A Server Component would block the entire page render on that wait — you'd see nothing until the backend responds. Client-side fetch renders the shell instantly and shows a spinner while the slow part happens. That's the right pattern when the user triggers the slow operation.
 
-**Key decisions:**
-- **`"use client"` — client-side fetch, not Server Component.** A Server Component fetching from the FastAPI backend during SSR would block the page render on the Claude subprocess (~5s). Client-side fetch with a loading state renders the HTML shell instantly and shows a spinner while the slow part happens after the user clicks a button they chose to click.
-- **Loading hint with "~5s" text.** Without it, users click and assume it's broken. Setting the right expectation keeps them on the page. Not decoration — it's UX.
-- **Score breakdown grid.** The 4-cell grid (Energy/Activity/Comfort/Vibe, each X/25) makes the matching algorithm legible without clicking anywhere. You can point at the numbers during a demo and explain the algorithm directly from the UI.
-- **TypeScript types live in `DateCard.tsx`, imported into `page.tsx`.** Two files, tightly coupled to the display component. No duplication without introducing a third file that would only exist to hold shared types. YAGNI.
-- **Hardcode the 6 persona names.** The spec said to hardcode them, and the personas are stable configuration. Fetching a `/personas` endpoint would require an additional backend endpoint that doesn't exist and adds complexity for zero user benefit.
-- **Error message from API `detail` field.** FastAPI returns `{"detail": "Persona 'unknown' not found"}`. Display that string directly — error messages in the UI exactly match the API contract, no translation layer, no risk of message drift.
+I added "~5s" to the loading text. Without it, users click and assume the app is broken. It's not decoration.
 
-**What I rejected:**
-- **External component library (shadcn/ui, Radix).** Two dropdowns, a button, some cards, and text. A component library would add install friction, configuration, and dependencies that can fail silently during a demo. Pure Tailwind is the right call for a UI this size.
-- **React Server Components + Suspense.** Cleaner looking but requires the backend to be reachable at build time, complicates the deployment model, and is the wrong pattern for "user triggers a slow async operation and waits for the result."
+The score breakdown grid — four cells showing Energy/Activity/Comfort/Vibe, each X/25 — was worth adding even though the spec didn't require it. The venue score means more when you can see why it got that score. During a demo you can point at the cells and explain the algorithm directly from the UI, which is useful.
 
-**No surprises.** The build worked first attempt, TypeScript passed, dev server came up cleanly. That's because Phases 2–4 did the hard work — the API contract was already designed, the response shapes were already Pydantic models, the endpoint was already tested. The frontend just rendered a contract that already existed.
+TypeScript types are defined in `DateCard.tsx` and imported into `page.tsx`. There are only two files and the types are tightly coupled to the display component — no reason to create a third file just to hold shared types. When a third file actually needs them, that's when you extract.
+
+The fetch hits `http://localhost:8000` directly. No Next.js API route proxy. The spec said no API routes, and the frontend and backend run on the same machine during the demo. Adding a proxy layer just for the sake of it would be complexity with no benefit.
+
+The `PersonaProfileCard` component in `page.tsx` shows each persona's energy level, interests, and values before you generate the plan. I added this because it makes the demo tell a story — you can see the two people, understand who they are, and then watch the system make a decision about them. Without it the page is just two dropdowns. With it you actually understand what the algorithm is working with.
