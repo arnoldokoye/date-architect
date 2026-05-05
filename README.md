@@ -2,6 +2,8 @@
 
 Pick two people. Get the ideal Penn State date — venue chosen by a scoring engine, personalized date cards written by Claude. Built for Ditto's engineering submission.
 
+Venue is the controllable variable. You can't change who the people are, but you can change where they meet — and the right environment unlocks a better first impression for the same pair. The matching engine is optimizing for that.
+
 ![Date Architect demo](docs/demo.gif)
 
 ---
@@ -137,7 +139,19 @@ source venv/bin/activate
 pytest tests/ -v
 ```
 
-25 tests across 4 files. All pass.
+37 tests across 6 files. All pass.
+
+---
+
+## What I'd build next
+
+**Close the feedback loop on scoring weights.** The `POST /record-outcome` endpoint records whether dates went well — but right now those outcomes are observational only. In v2, `great_date` outcomes would incrementally update venue scoring weights for similar pairs. The infrastructure is already in place; it just needs the update step wired in after enough signal accumulates.
+
+**Calibrate the compatibility label thresholds.** The current thresholds (`Highly Compatible`, `Complementary`, `Interesting Mix`, `High Contrast`) are informed guesses set against 6 synthetic personas. In production, you'd calibrate them against real outcome data — pairs that produced `great_date` outcomes should cluster in the upper labels. Right now the distribution skews toward High Contrast because the thresholds aren't grounded in real signal.
+
+**Expand the persona set and re-precompute.** 6 personas × 30 pairs is enough for a demo but not enough to test the edges of the scoring algorithm. Expanding to 20–30 real-world-style personas would reveal where the scoring breaks down and which venues are chronically over- or under-recommended.
+
+**Replace precomputed cache with live generation at scale.** The cache-first strategy was the right call for a demo with a fixed persona set. For a real product with dynamic users, you'd move to streamed responses and async card generation, keeping latency acceptable without needing to precompute every pair.
 
 ---
 

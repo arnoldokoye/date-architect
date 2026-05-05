@@ -4,7 +4,7 @@ Before writing a single line of code I spent a day just thinking about what the 
 
 My take: the match is table stakes. What Ditto users actually remember is whether the date was good. The venue is what makes or breaks it — if you send two people to Starbucks, you've built nothing. So I started by building the venue graph before touching any infrastructure.
 
-I chose Penn State because I go here and I've been to these places. That matters more than it sounds. "Local knowledge" in a generic demo usually means someone scraped Google Maps. Mine shows up in actual judgment calls:
+I chose Penn State because I go here and I've been to these places. That matters more than it sounds. "Local knowledge" in a generic demo usually means someone scraped Google Maps. Mine shows up in actual judgment calls as shown below:
 
 - I cut The Creamery from the venue list even though it's the most iconic PSU spot. It's on campus, it feels like you're still in school mode, it's not a real date. Any LLM would tell you it's a great Penn State date idea. It's not.
 - I kept The Basement (a nightclub) as a legitimate recommendation for the right pair type — two people who are both high-energy and comfortable physically. Excluding it would've made the system less honest. The match should be able to recommend a club when a club is actually right.
