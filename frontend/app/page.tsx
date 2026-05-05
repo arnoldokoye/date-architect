@@ -80,7 +80,7 @@ export default function Home() {
   const [result, setResult] = useState<DatePlanResponse | null>(null);
 
   useEffect(() => {
-    fetch("http://localhost:8000/personas")
+    fetch(`${process.env.NEXT_PUBLIC_API_URL ?? "http://localhost:8000"}/personas`)
       .then((r) => r.json())
       .then(setPersonas);
   }, []);
@@ -94,7 +94,7 @@ export default function Home() {
     setLoading(true);
     setResult(null);
     try {
-      const resp = await fetch("http://localhost:8000/generate-date-plan", {
+      const resp = await fetch(`${process.env.NEXT_PUBLIC_API_URL ?? "http://localhost:8000"}/generate-date-plan`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ persona_a_id: personaA, persona_b_id: personaB }),
