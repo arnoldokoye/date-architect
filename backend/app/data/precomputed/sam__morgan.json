@@ -1,0 +1,137 @@
+{
+  "venue": {
+    "venue": {
+      "id": "manna_korea",
+      "name": "Manna Korean BBQ & Hotpot",
+      "address": "542 Westerly Pkwy, State College, PA 16801",
+      "maps_url": "https://maps.app.goo.gl/manna-korea-state-college",
+      "noise_level": 3,
+      "intimacy_score": 4,
+      "activity_available": true,
+      "activity_type": "cooking and building hot pot together at the table",
+      "vibe_tags": [
+        "adventurous",
+        "interactive",
+        "fun",
+        "foodie",
+        "all-you-can-eat"
+      ],
+      "best_for": [
+        "foodies",
+        "adventurous pairs",
+        "high-energy matches",
+        "people who hate awkward silence"
+      ],
+      "price_tier": 2,
+      "notes": "Opened March 2026 — new and buzzy, which is a talking point itself. All-you-can-eat Korean BBQ and hot pot. The shared cooking activity eliminates awkward silence entirely — you're always doing something. Slightly off the main strip at Westerly Pkwy, which makes it feel like a deliberate choice rather than a default."
+    },
+    "score": 61,
+    "score_breakdown": {
+      "energy_match": 22,
+      "shared_activity": 10,
+      "comfort_alignment": 25,
+      "vibe_alignment": 4
+    }
+  },
+  "runner_up_venues": [
+    {
+      "venue": {
+        "id": "the_phyrst",
+        "name": "The Phyrst",
+        "address": "Downtown State College, PA 16801",
+        "maps_url": "https://maps.app.goo.gl/phyrst-state-college",
+        "noise_level": 4,
+        "intimacy_score": 2,
+        "activity_available": true,
+        "activity_type": "live music every night, Table Wars tradition",
+        "vibe_tags": [
+          "live music",
+          "Penn State tradition",
+          "rowdy",
+          "fun",
+          "high energy"
+        ],
+        "best_for": [
+          "Penn State-proud pairs",
+          "music lovers",
+          "high energy social types",
+          "people who love a spectacle"
+        ],
+        "price_tier": 1,
+        "notes": "Live music 365 days a year. Famous for Table Wars — when the band takes a break, each table shouts their chant at the others. Loud, chaotic, and genuinely fun if you're into it. Good for a pair that wants an experience, not a conversation."
+      },
+      "score": 61,
+      "score_breakdown": {
+        "energy_match": 22,
+        "shared_activity": 10,
+        "comfort_alignment": 25,
+        "vibe_alignment": 4
+      }
+    },
+    {
+      "venue": {
+        "id": "allen_street_grill",
+        "name": "Allen Street Grill",
+        "address": "100 W College Ave, State College, PA 16801",
+        "maps_url": "https://maps.app.goo.gl/allen-street-grill-state-college",
+        "noise_level": 3,
+        "intimacy_score": 3,
+        "activity_available": false,
+        "activity_type": null,
+        "vibe_tags": [
+          "upscale",
+          "lively",
+          "farm-to-table",
+          "food-forward",
+          "corner spot"
+        ],
+        "best_for": [
+          "confident pairs",
+          "food-forward dates",
+          "slightly more formal energy"
+        ],
+        "price_tier": 2,
+        "notes": "Corner of Allen and College Ave — prime downtown location. Recently reimagined with a farm-to-table focus. More energy than The Tavern but still good for conversation. Good pick when you want to signal effort without going full fine dining."
+      },
+      "score": 59,
+      "score_breakdown": {
+        "energy_match": 22,
+        "shared_activity": 8,
+        "comfort_alignment": 25,
+        "vibe_alignment": 4
+      }
+    }
+  ],
+  "cards": {
+    "persona_a": {
+      "compatibility_story": "Morgan brings a calm, intentional energy that creates real space for conversation — the kind of person who actually listens, which makes your confidence and outgoing nature shine even brighter. Their eye for beauty and photography means they notice things most people walk past, and that curiosity will keep the night from ever feeling flat. You bring the momentum; they bring the depth — that's a pairing that tends to surprise both people.",
+      "venue_rationale": "Manna is interactive and social by design — you're literally building something together at the table, which plays perfectly to your love of active, high-energy experiences. It opened in March 2026, so showing up here already signals you know what's current before everyone else does.",
+      "talking_points": [
+        "Morgan is into astrology — ask them what sign they think you are before telling them. See how close they get.",
+        "You're both drawn to aesthetics from different angles (fashion vs. photography/art) — ask them what they think makes something actually beautiful versus just visually interesting.",
+        "Brent Faiyaz has a very specific mood — ask Morgan what song of his they'd score tonight to, and why."
+      ],
+      "logistics": "Meet at the front entrance on Westerly Pkwy — it's slightly off the main strip so give yourself a couple extra minutes if you're coming from downtown. Aim to arrive around 7:00–7:30 PM on a weekday to skip the weekend rush. Go all-in on the hot pot side: pick your broth together (half-and-half spicy and mild is a good call), then take turns grabbing proteins from the spread — it keeps you both moving and talking the whole time."
+    },
+    "persona_b": {
+      "compatibility_story": "Sam operates at a frequency that's genuinely energizing without being overwhelming — outgoing and confident, but in a way that draws people in rather than drowning them out. Your love of intentionality actually pairs well here: Sam moves with purpose and presence, which you'll notice. Where you tend to observe and reflect, Sam tends to initiate — together that creates a natural back-and-forth that doesn't feel forced.",
+      "venue_rationale": "The shared cooking format at Manna removes any pressure to perform — you're always doing something with your hands, which gives your curious, observational nature room to breathe and engage at your own pace. It's also new enough (opened March 2026) to feel like a real discovery, not just a default dinner spot.",
+      "talking_points": [
+        "You're into photography and they're into fashion — ask Sam what moment or look from the last few months they wish someone had photographed properly. See what they describe.",
+        "You both value living with some intentionality — ask Sam what's one thing they do each week that's purely for themselves, no audience.",
+        "Brent Faiyaz and latin music aren't far apart in terms of mood and emotion — see if Sam knows his work, and if not, make the case for one song you'd play them first."
+      ],
+      "logistics": "The restaurant is at 542 Westerly Pkwy — meet just inside the entrance so you're not waiting outside if the weather's off. Shooting for a 7:00 PM arrival gives you a relaxed pace without a long wait. When you sit down, let Sam take the lead on the protein picks while you choose the broth — half spicy, half mild gives you both something to work with and is an easy first decision to make together."
+    }
+  },
+  "compatibility": {
+    "score": 49,
+    "label": "High Contrast",
+    "breakdown": {
+      "energy_alignment": 19,
+      "interest_overlap": 13,
+      "values_alignment": 5,
+      "vibe_compatibility": 12
+    }
+  }
+}

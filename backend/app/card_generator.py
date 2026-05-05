@@ -1,5 +1,7 @@
 import json
-import subprocess
+import os
+
+import anthropic
 from app.models import Persona, RankedVenue, PersonaCard, DateCards
 
 
@@ -42,28 +44,18 @@ Write warmly but concisely. No fluff. Make the person feel like this date was de
 
 
 def _call_claude(prompt: str) -> dict:
-    result = subprocess.run(
-        ["claude", "-p", prompt],
-        capture_output=True,
-        text=True,
-        timeout=120,
-        stdin=subprocess.DEVNULL,
+    client = anthropic.Anthropic(api_key=os.environ["ANTHROPIC_API_KEY"])
+    message = client.messages.create(
+        model="claude-sonnet-4-6",
+        max_tokens=1024,
+        messages=[{"role": "user", "content": prompt}],
     )
-    if result.returncode != 0:
-        raise RuntimeError(f"Claude CLI failed: {result.stderr.strip()}")
+    text = message.content[0].text.strip()
 
-    text = result.stdout.strip()
-
-    # Strip markdown code fences if the model wraps output in them
-    if text.startswith("```"):
-        lines = text.splitlines()
-        # Drop opening fence (```json or ```) and closing fence (```)
-        inner = lines[1:] if lines[-1].strip() == "```" else lines[1:]
-        if inner and inner[-1].strip() == "```":
-            inner = inner[:-1]
-        text = "\n".join(inner)
-
-    return json.loads(text)
+    # Find the first { and decode from there — handles any leading prose
+    start = text.index("{")
+    obj, _ = json.JSONDecoder().raw_decode(text[start:])
+    return obj
 
 
 def generate_date_cards(p_a: Persona, p_b: Persona, ranked_venue: RankedVenue) -> DateCards:

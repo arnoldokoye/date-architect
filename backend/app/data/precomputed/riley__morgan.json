@@ -1,0 +1,137 @@
+{
+  "venue": {
+    "venue": {
+      "id": "manna_korea",
+      "name": "Manna Korean BBQ & Hotpot",
+      "address": "542 Westerly Pkwy, State College, PA 16801",
+      "maps_url": "https://maps.app.goo.gl/manna-korea-state-college",
+      "noise_level": 3,
+      "intimacy_score": 4,
+      "activity_available": true,
+      "activity_type": "cooking and building hot pot together at the table",
+      "vibe_tags": [
+        "adventurous",
+        "interactive",
+        "fun",
+        "foodie",
+        "all-you-can-eat"
+      ],
+      "best_for": [
+        "foodies",
+        "adventurous pairs",
+        "high-energy matches",
+        "people who hate awkward silence"
+      ],
+      "price_tier": 2,
+      "notes": "Opened March 2026 — new and buzzy, which is a talking point itself. All-you-can-eat Korean BBQ and hot pot. The shared cooking activity eliminates awkward silence entirely — you're always doing something. Slightly off the main strip at Westerly Pkwy, which makes it feel like a deliberate choice rather than a default."
+    },
+    "score": 66,
+    "score_breakdown": {
+      "energy_match": 25,
+      "shared_activity": 10,
+      "comfort_alignment": 23,
+      "vibe_alignment": 8
+    }
+  },
+  "runner_up_venues": [
+    {
+      "venue": {
+        "id": "allen_street_grill",
+        "name": "Allen Street Grill",
+        "address": "100 W College Ave, State College, PA 16801",
+        "maps_url": "https://maps.app.goo.gl/allen-street-grill-state-college",
+        "noise_level": 3,
+        "intimacy_score": 3,
+        "activity_available": false,
+        "activity_type": null,
+        "vibe_tags": [
+          "upscale-casual",
+          "lively",
+          "quality food",
+          "corner spot",
+          "social"
+        ],
+        "best_for": [
+          "confident pairs",
+          "food-forward dates",
+          "slightly more formal energy"
+        ],
+        "price_tier": 2,
+        "notes": "Corner of Allen and College Ave — prime downtown location. Recently reimagined with a farm-to-table focus. More energy than The Tavern but still good for conversation. Good pick when you want to signal effort without going full fine dining."
+      },
+      "score": 66,
+      "score_breakdown": {
+        "energy_match": 25,
+        "shared_activity": 8,
+        "comfort_alignment": 25,
+        "vibe_alignment": 8
+      }
+    },
+    {
+      "venue": {
+        "id": "arboretum",
+        "name": "Penn State Arboretum",
+        "address": "1087 Overlook Rd, State College, PA 16802",
+        "maps_url": "https://maps.app.goo.gl/arboretum-psu",
+        "noise_level": 1,
+        "intimacy_score": 4,
+        "activity_available": true,
+        "activity_type": "walking scenic trails together, picnic on the grounds",
+        "vibe_tags": [
+          "earthy",
+          "peaceful",
+          "romantic",
+          "outdoor",
+          "low pressure"
+        ],
+        "best_for": [
+          "nature lovers",
+          "introverts",
+          "artsy pairs",
+          "low pressure first dates"
+        ],
+        "price_tier": 1,
+        "notes": "Free to enter. Genuinely stunning — rolling paths, flower gardens, open fields. Best in spring and fall. Bring a blanket and you have an instant picnic. The walk gives you something to react to together without the pressure of sitting across a table staring at each other."
+      },
+      "score": 58,
+      "score_breakdown": {
+        "energy_match": 13,
+        "shared_activity": 18,
+        "comfort_alignment": 23,
+        "vibe_alignment": 4
+      }
+    }
+  ],
+  "cards": {
+    "persona_a": {
+      "compatibility_story": "Morgan brings a quiet intentionality to everything they do — the kind of person who notices details you'd walk past, which pairs well with your warmth and curiosity about the world. Their love of beauty and art means they'll appreciate the care you put into food, and your shared moderate energy means neither of you will feel rushed or overwhelmed. You both move through experiences deliberately, which makes this kind of interactive, immersive date a natural fit.",
+      "venue_rationale": "Manna was chosen because Korean BBQ sits right at the intersection of your love for Korean culture and trying new restaurants — this one opened in March 2026, so you'll be among the first to experience it, which makes it a story in itself.",
+      "talking_points": [
+        "You're building the hot pot together — what's your instinct on broth: spicy or mild? And do you have a go-to Korean dish that you always order when you find a good spot?",
+        "Manna just opened a couple months ago — what's the best new restaurant you've discovered recently, and how did you find it?",
+        "You've traveled and eaten your way through a lot of places — if you had to pick one cuisine that consistently surprises you no matter where you try it, what would it be?"
+      ],
+      "logistics": "Meet at the entrance on Westerly Pkwy around 6:30 PM — arriving a few minutes early gets you a table before the dinner rush hits. Go all-you-can-eat: start with the combo broth for the hot pot so you can try both sides, and let the server walk you through the meat cuts if it's your first time at a Korean BBQ. Wear something you don't mind picking up a light smoke scent — it's part of the experience, but worth knowing ahead of time."
+    },
+    "persona_b": {
+      "compatibility_story": "Riley brings a genuine warmth and an adventurous palate that makes them easy to be around — the kind of person who's enthusiastic without being overwhelming, which suits your need for peace and intentionality. Their love of travel and Korean culture means the conversation will go somewhere real, not surface-level. And because you both operate at a similar pace, this date will feel like an experience you're sharing, not performing.",
+      "venue_rationale": "Manna was chosen because the shared cooking format is inherently slow, tactile, and intentional — it gives you something beautiful and sensory to engage with together, which aligns with how you naturally move through the world.",
+      "talking_points": [
+        "The hot pot setup is almost compositional — the way you arrange ingredients in the broth actually matters. Do you find yourself thinking visually like that in other parts of your life, like when you're framing a shot?",
+        "Riley loves to travel — have you ever been somewhere that completely changed how you saw light or color? The kind of place that made you want to photograph everything?",
+        "You're into astrology — what do you make of a first date that involves literal fire and water? Is that a good omen or are you reading into it?"
+      ],
+      "logistics": "Meet at the front entrance on Westerly Pkwy around 6:30 PM — it's slightly off the main strip, so give yourself a couple extra minutes if you're coming from downtown. The all-you-can-eat format means there's no pressure to decide fast — take your time choosing broths and proteins, and don't skip the mushrooms for the hot pot side. The cooking pace naturally controls the rhythm of the evening, so let it breathe."
+    }
+  },
+  "compatibility": {
+    "score": 58,
+    "label": "Interesting Mix",
+    "breakdown": {
+      "energy_alignment": 25,
+      "interest_overlap": 13,
+      "values_alignment": 5,
+      "vibe_compatibility": 15
+    }
+  }
+}

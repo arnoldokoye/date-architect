@@ -1,0 +1,137 @@
+{
+  "venue": {
+    "venue": {
+      "id": "allen_street_grill",
+      "name": "Allen Street Grill",
+      "address": "100 W College Ave, State College, PA 16801",
+      "maps_url": "https://maps.app.goo.gl/allen-street-grill-state-college",
+      "noise_level": 3,
+      "intimacy_score": 3,
+      "activity_available": false,
+      "activity_type": null,
+      "vibe_tags": [
+        "upscale-casual",
+        "lively",
+        "quality food",
+        "corner spot",
+        "social"
+      ],
+      "best_for": [
+        "confident pairs",
+        "food-forward dates",
+        "slightly more formal energy"
+      ],
+      "price_tier": 2,
+      "notes": "Corner of Allen and College Ave — prime downtown location. Recently reimagined with a farm-to-table focus. More energy than The Tavern but still good for conversation. Good pick when you want to signal effort without going full fine dining."
+    },
+    "score": 67,
+    "score_breakdown": {
+      "energy_match": 22,
+      "shared_activity": 8,
+      "comfort_alignment": 25,
+      "vibe_alignment": 12
+    }
+  },
+  "runner_up_venues": [
+    {
+      "venue": {
+        "id": "the_phyrst",
+        "name": "The Phyrst",
+        "address": "Downtown State College, PA 16801",
+        "maps_url": "https://maps.app.goo.gl/phyrst-state-college",
+        "noise_level": 4,
+        "intimacy_score": 2,
+        "activity_available": true,
+        "activity_type": "live music every night, Table Wars tradition",
+        "vibe_tags": [
+          "live music",
+          "Penn State tradition",
+          "rowdy",
+          "fun",
+          "high energy"
+        ],
+        "best_for": [
+          "Penn State-proud pairs",
+          "music lovers",
+          "high energy social types",
+          "people who love a spectacle"
+        ],
+        "price_tier": 1,
+        "notes": "Live music 365 days a year. Famous for Table Wars — when the band takes a break, each table shouts their chant at the others. Loud, chaotic, and genuinely fun if you're into it. Good for a pair that wants an experience, not a conversation."
+      },
+      "score": 61,
+      "score_breakdown": {
+        "energy_match": 22,
+        "shared_activity": 10,
+        "comfort_alignment": 25,
+        "vibe_alignment": 4
+      }
+    },
+    {
+      "venue": {
+        "id": "zenos_pub",
+        "name": "Zeno's Pub",
+        "address": "100 W College Ave, State College, PA 16801",
+        "maps_url": "https://maps.app.goo.gl/zenos-state-college",
+        "noise_level": 3,
+        "intimacy_score": 3,
+        "activity_available": false,
+        "activity_type": null,
+        "vibe_tags": [
+          "dive bar",
+          "character",
+          "live music",
+          "beer-forward",
+          "underground"
+        ],
+        "best_for": [
+          "laid-back pairs",
+          "anti-pretense types",
+          "music lovers",
+          "beer people"
+        ],
+        "price_tier": 1,
+        "notes": "50+ year old underground pub with an enormous beer selection and rotating live music. Low pretense, high character. The kind of place where a 2-hour date turns into a 4-hour date without either person noticing. Best for pairs who'd roll their eyes at a wine bar but still want somewhere with actual atmosphere."
+      },
+      "score": 59,
+      "score_breakdown": {
+        "energy_match": 22,
+        "shared_activity": 8,
+        "comfort_alignment": 25,
+        "vibe_alignment": 4
+      }
+    }
+  ],
+  "cards": {
+    "persona_a": {
+      "compatibility_story": "Alex brings a kind of curious, low-key energy that's a genuine counterweight to yours — the type who actually listens and goes deep instead of just keeping the hype going. Their live music obsession and yours for rap have more overlap than you'd think, and their love of hiking and getting outside means they're not just sitting on a couch. They're real — no pretense — which lines up directly with how much you value loyalty and people being straight with you.",
+      "venue_rationale": "Allen Street Grill is right in the middle of everything downtown, which keeps the energy up without making it a whole production. The food is legit and the corner spot gives you a good view of the scene — social without being a circus.",
+      "talking_points": [
+        "You're both into music from different angles — ask Alex what was the last live show they went to that actually surprised them, and tell them about a rap artist or album that hit different for you recently.",
+        "Alex hikes — ask them if they've ever done anything that felt spontaneous or borderline reckless on a trail, and tell them about a time you just decided to do something without a plan and it paid off.",
+        "You value loyalty hard. Ask Alex what honesty looks like to them in practice — not the theory, but a time someone was actually honest with them when it would've been easier not to be."
+      ],
+      "logistics": "Meet at the main entrance on the Allen Street corner — it's the corner of Allen and College Ave, hard to miss. Aim to arrive around 7:00 PM so you're not rushing. The menu leans farm-to-table so ask your server what's fresh — skip defaulting to the safe pick. The spot gets lively as the night goes on, so if the vibe is good, there's no reason to rush out."
+    },
+    "persona_b": {
+      "compatibility_story": "Jordan runs at a high frequency — animated, spontaneous, genuinely fun — and that's actually a complement to how you move, not a clash. You bring the curiosity and they bring the momentum, which tends to make for conversations that go somewhere real. They value loyalty the same way you value honesty: it's not a talking point for them, it's a baseline, and that kind of alignment tends to show up early.",
+      "venue_rationale": "Allen Street Grill has a farm-to-table menu that takes the food seriously without being precious about it — low pretense, good quality, exactly your speed. It's lively enough that the energy carries itself, so there's no pressure to perform.",
+      "talking_points": [
+        "You're both into music on different wavelengths — ask Jordan what rap artist or album genuinely means something to them beyond just liking the sound, and share what live show recently stuck with you after you left.",
+        "Jordan loves basketball — there's actually a rich history to how college basketball culture developed in towns like this one. Ask them how much of their sports fandom is about the game itself versus the community around it.",
+        "You value curiosity; they value spontaneity — ask Jordan about the most unplanned thing they've done recently that they'd actually do again, and share something you've been wanting to explore but haven't pulled the trigger on yet."
+      ],
+      "logistics": "The entrance is on the Allen Street side at the corner of Allen and College Ave — easy to find, just look for the corner spot. Getting there around 7:00 PM gives you a relaxed start before it fills up. The farm-to-table menu changes with what's in season, so ask what they're running as specials rather than defaulting to the menu staples. No need to over-plan the rest of the night — see where the conversation takes you."
+    }
+  },
+  "compatibility": {
+    "score": 33,
+    "label": "High Contrast",
+    "breakdown": {
+      "energy_alignment": 7,
+      "interest_overlap": 13,
+      "values_alignment": 5,
+      "vibe_compatibility": 8
+    }
+  }
+}

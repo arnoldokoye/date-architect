@@ -1,0 +1,137 @@
+{
+  "venue": {
+    "venue": {
+      "id": "manna_korea",
+      "name": "Manna Korean BBQ & Hotpot",
+      "address": "542 Westerly Pkwy, State College, PA 16801",
+      "maps_url": "https://maps.app.goo.gl/manna-korea-state-college",
+      "noise_level": 3,
+      "intimacy_score": 4,
+      "activity_available": true,
+      "activity_type": "cooking and building hot pot together at the table",
+      "vibe_tags": [
+        "adventurous",
+        "interactive",
+        "fun",
+        "foodie",
+        "all-you-can-eat"
+      ],
+      "best_for": [
+        "foodies",
+        "adventurous pairs",
+        "high-energy matches",
+        "people who hate awkward silence"
+      ],
+      "price_tier": 2,
+      "notes": "Opened March 2026 — new and buzzy, which is a talking point itself. All-you-can-eat Korean BBQ and hot pot. The shared cooking activity eliminates awkward silence entirely — you're always doing something. Slightly off the main strip at Westerly Pkwy, which makes it feel like a deliberate choice rather than a default."
+    },
+    "score": 64,
+    "score_breakdown": {
+      "energy_match": 22,
+      "shared_activity": 18,
+      "comfort_alignment": 20,
+      "vibe_alignment": 4
+    }
+  },
+  "runner_up_venues": [
+    {
+      "venue": {
+        "id": "elixr_coffee",
+        "name": "Elixr Coffee Roasters",
+        "address": "123 W Beaver Ave, State College, PA 16801",
+        "maps_url": "https://maps.app.goo.gl/elixr-state-college",
+        "noise_level": 2,
+        "intimacy_score": 3,
+        "activity_available": false,
+        "activity_type": null,
+        "vibe_tags": [
+          "cozy",
+          "trendy",
+          "neighborhood",
+          "coffee-forward",
+          "casual"
+        ],
+        "best_for": [
+          "thoughtful pairs",
+          "conversation-first dates",
+          "low energy introverts",
+          "coffee people"
+        ],
+        "price_tier": 1,
+        "notes": "Philadelphia roaster with a State College outpost on Beaver Ave. Warm decor, good seating variety, not overly loud. Strawberry matcha is a talking point on its own. Good neutral ground for a first meet — low stakes, easy to extend or exit."
+      },
+      "score": 63,
+      "score_breakdown": {
+        "energy_match": 22,
+        "shared_activity": 8,
+        "comfort_alignment": 25,
+        "vibe_alignment": 8
+      }
+    },
+    {
+      "venue": {
+        "id": "allen_street_grill",
+        "name": "Allen Street Grill",
+        "address": "100 W College Ave, State College, PA 16801",
+        "maps_url": "https://maps.app.goo.gl/allen-street-grill-state-college",
+        "noise_level": 3,
+        "intimacy_score": 3,
+        "activity_available": false,
+        "activity_type": null,
+        "vibe_tags": [
+          "upscale",
+          "lively",
+          "farm-to-table",
+          "food-forward",
+          "corner spot"
+        ],
+        "best_for": [
+          "confident pairs",
+          "food-forward dates",
+          "slightly more formal energy"
+        ],
+        "price_tier": 2,
+        "notes": "Corner of Allen and College Ave — prime downtown location. Recently reimagined with a farm-to-table focus. More energy than The Tavern but still good for conversation. Good pick when you want to signal effort without going full fine dining."
+      },
+      "score": 63,
+      "score_breakdown": {
+        "energy_match": 22,
+        "shared_activity": 8,
+        "comfort_alignment": 25,
+        "vibe_alignment": 8
+      }
+    }
+  ],
+  "cards": {
+    "persona_a": {
+      "compatibility_story": "Maya brings a thoughtful, curious energy that pairs beautifully with your love of exploration — she's the kind of person who'll ask the question you didn't think to ask, then want to hear your take on it. Her appreciation for depth and authenticity means she's genuinely interested in the stories behind places and experiences, not just the surface. You'll find her easy to open up around, and your warmth will draw her out of her shell.",
+      "venue_rationale": "Manna opened in March 2026 and sits just off the main strip — exactly the kind of deliberate, slightly-off-the-beaten-path find that signals you actually thought about the date. The hands-on Korean BBQ and hot pot format turns your love of cooking and Korean culture into the activity itself.",
+      "talking_points": [
+        "You're both building the meal together — ask Maya if she has a philosophy about the 'right' way to cook something, or if she prefers improvising and seeing what happens.",
+        "Manna just opened a few months ago — what's the best new restaurant or food experience either of you has stumbled onto recently, and what made it memorable?",
+        "You love travel and she loves film — ask her if there's a movie that made her want to visit a specific place, and share a destination that changed how you thought about food."
+      ],
+      "logistics": "Meet at the main entrance on Westerly Pkwy at 7:00 PM — it's a standalone building so it's easy to spot. All-you-can-eat means you can take your time ordering rounds, so start with the hot pot broth base and a round of meats and let the meal unfold slowly. Tip: the interactive table setup means there's always something to do with your hands, which keeps the energy comfortable and light."
+    },
+    "persona_b": {
+      "compatibility_story": "Riley has a warmth and curiosity about the world that you'll feel immediately — this isn't someone who skims the surface of things. Their genuine love of food and culture runs deep, and they'll bring a sense of adventure that complements your more reflective pace without ever rushing you. You'll have room to be thoughtful here, and they'll meet you there.",
+      "venue_rationale": "This venue was chosen specifically because the shared cooking format removes the pressure of 'performing' a first date — you're always doing something together, which gives conversation space to breathe naturally. It's a low-pressure setting dressed up as an experience, which fits exactly where you are.",
+      "talking_points": [
+        "The act of building a meal together is actually a pretty revealing process — ask Riley how they approach cooking at home: do they follow recipes or trust intuition, and what does that say about how they approach new things in general?",
+        "You love film and philosophy — has Riley ever been somewhere that felt like it belonged in a specific movie? Ask them, and share one of your own.",
+        "Authenticity matters to you — ask Riley about a place they've traveled to that surprised them, not because it was beautiful, but because it changed something about how they thought."
+      ],
+      "logistics": "Head to Manna at 542 Westerly Pkwy and meet Riley at the front entrance around 7:00 PM. The all-you-can-eat format means there's no pressure to rush through ordering — let Riley take the lead on the first round if you want, then weigh in on the next. Tip: the table does most of the work, so you can settle in, stay as long as you want, and just let the evening move at its own pace."
+    }
+  },
+  "compatibility": {
+    "score": 47,
+    "label": "High Contrast",
+    "breakdown": {
+      "energy_alignment": 19,
+      "interest_overlap": 5,
+      "values_alignment": 5,
+      "vibe_compatibility": 18
+    }
+  }
+}

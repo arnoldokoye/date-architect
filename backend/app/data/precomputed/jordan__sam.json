@@ -1,0 +1,136 @@
+{
+  "venue": {
+    "venue": {
+      "id": "champs",
+      "name": "Champs",
+      "address": "College Ave, State College, PA 16801",
+      "maps_url": "https://maps.app.goo.gl/champs-state-college",
+      "noise_level": 5,
+      "intimacy_score": 1,
+      "activity_available": false,
+      "activity_type": null,
+      "vibe_tags": [
+        "sports bar",
+        "Greek life",
+        "loud",
+        "cheap drinks",
+        "social"
+      ],
+      "best_for": [
+        "high energy extroverts",
+        "social Greek-life types",
+        "pairs who already know each other"
+      ],
+      "price_tier": 1,
+      "notes": "One of the 4 main Penn State sports bars. Packed on weekends, cheap drinks, sports on every screen. Loud enough that conversation is hard — works best for pairs who are already comfortable with each other and want to be out in the scene rather than talking deeply. Not a great first-date venue for two strangers."
+    },
+    "score": 71,
+    "score_breakdown": {
+      "energy_match": 22,
+      "shared_activity": 8,
+      "comfort_alignment": 25,
+      "vibe_alignment": 16
+    }
+  },
+  "runner_up_venues": [
+    {
+      "venue": {
+        "id": "allen_street_grill",
+        "name": "Allen Street Grill",
+        "address": "100 W College Ave, State College, PA 16801",
+        "maps_url": "https://maps.app.goo.gl/allen-street-grill-state-college",
+        "noise_level": 3,
+        "intimacy_score": 3,
+        "activity_available": false,
+        "activity_type": null,
+        "vibe_tags": [
+          "upscale-casual",
+          "lively",
+          "quality food",
+          "corner spot",
+          "social"
+        ],
+        "best_for": [
+          "confident pairs",
+          "food-forward dates",
+          "slightly more formal energy"
+        ],
+        "price_tier": 2,
+        "notes": "Corner of Allen and College Ave — prime downtown location. Recently reimagined with a farm-to-table focus. More energy than The Tavern but still good for conversation. Good pick when you want to signal effort without going full fine dining."
+      },
+      "score": 65,
+      "score_breakdown": {
+        "energy_match": 16,
+        "shared_activity": 8,
+        "comfort_alignment": 25,
+        "vibe_alignment": 16
+      }
+    },
+    {
+      "venue": {
+        "id": "the_basement",
+        "name": "The Basement Nightspot",
+        "address": "112 W College Ave, State College, PA 16801",
+        "maps_url": "https://maps.app.goo.gl/basement-state-college",
+        "noise_level": 5,
+        "intimacy_score": 2,
+        "activity_available": true,
+        "activity_type": "dancing — Latin nights, themed events, high-energy dance floor",
+        "vibe_tags": [
+          "club",
+          "dancing",
+          "Latin nights",
+          "high energy",
+          "packed"
+        ],
+        "best_for": [
+          "pairs that want to dance not talk",
+          "very social extroverts",
+          "high comfort with strangers",
+          "adventurous pairs"
+        ],
+        "price_tier": 1,
+        "notes": "More nightclub than bar. Latin nights are a real thing here — they clear the floor and people actually dance. $1 vodka drinks, open Thu-Sat 9pm-2am. Loud and packed but weirdly intimate on the dance floor. Only works for a pair where both people are genuinely comfortable physically and don't need conversation to connect."
+      },
+      "score": 65,
+      "score_breakdown": {
+        "energy_match": 22,
+        "shared_activity": 10,
+        "comfort_alignment": 25,
+        "vibe_alignment": 8
+      }
+    }
+  ],
+  "cards": {
+    "persona_a": {
+      "compatibility_story": "Sam brings the energy you're looking for — high-voltage, outgoing, and all about living in the moment, which pairs perfectly with your spontaneous streak. They're into dancing and latin music, so they know how to have fun in a loud room, just like you. Loyalty and confidence are values you both lead with, which means the vibe should feel natural from the jump.",
+      "venue_rationale": "Champs was picked because you thrive in social, high-energy settings — sports on every screen, cheap drinks, and a crowd that's already in the mood. It's your kind of scene, and having the game on gives you a built-in anchor if the conversation needs a beat.",
+      "talking_points": [
+        "There's always a debate about the best sports bar in State College — where do you usually end up on a game night, and what makes it your spot?",
+        "You're big on rap — who's your current most-played artist, and do you think the energy in rap right now is at a high or a low?",
+        "You're into basketball — are you more of a 'watch the game and break it down' person or a 'just vibe and enjoy the crowd' person when you're out?"
+      ],
+      "logistics": "Meet at the main entrance on College Ave — it gets crowded fast, so aim to arrive by 9:00 PM to grab a spot before the rush. Order whatever's on drink special; Champs keeps it cheap and that's the move. If the game's on, use it — reacting to the same play together is a low-pressure way to break the ice fast."
+    },
+    "persona_b": {
+      "compatibility_story": "Jordan is exactly the high-energy, spontaneous type you vibe with — 5/5 energy, animated in conversation, and someone who genuinely loves being out in the scene rather than staying in. They're passionate about basketball and sports, which means they know how to get excited about something, and that kind of enthusiasm translates well when you're both out together. You both put a premium on confidence and living in the moment, so expect the conversation to move fast and feel easy.",
+      "venue_rationale": "Champs fits because you and Jordan are both at your best in loud, social environments where the energy is already high — no awkward quiet to fill, just the two of you in the middle of a buzzing crowd. It's the kind of place where your outgoing personality gets to shine without having to carry the whole vibe yourself.",
+      "talking_points": [
+        "Dancing and sports both come down to rhythm and reading the room — do you think athletes and dancers actually have more in common than people think?",
+        "You're into fashion and social media — do you find that your style influences your feed, or does your feed influence how you dress? And does Jordan look like someone with a signature vibe?",
+        "Latin music has been crossing over everywhere lately — are there any artists you've been playing non-stop, and do you think the mainstream is finally catching up or still sleeping?"
+      ],
+      "logistics": "Head to the main entrance on College Ave and plan to get there around 9:00 PM — it fills up quick and you want to actually find each other without the chaos. Drinks are cheap, so don't overthink the order; grab whatever and get comfortable. The venue is loud, so lean in close when you talk — it naturally makes the conversation feel more personal without trying."
+    }
+  },
+  "compatibility": {
+    "score": 78,
+    "label": "Complementary",
+    "breakdown": {
+      "energy_alignment": 19,
+      "interest_overlap": 21,
+      "values_alignment": 13,
+      "vibe_compatibility": 25
+    }
+  }
+}

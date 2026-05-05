@@ -1,0 +1,137 @@
+{
+  "venue": {
+    "venue": {
+      "id": "allen_street_grill",
+      "name": "Allen Street Grill",
+      "address": "100 W College Ave, State College, PA 16801",
+      "maps_url": "https://maps.app.goo.gl/allen-street-grill-state-college",
+      "noise_level": 3,
+      "intimacy_score": 3,
+      "activity_available": false,
+      "activity_type": null,
+      "vibe_tags": [
+        "upscale-casual",
+        "lively",
+        "quality food",
+        "corner spot",
+        "social"
+      ],
+      "best_for": [
+        "confident pairs",
+        "food-forward dates",
+        "slightly more formal energy"
+      ],
+      "price_tier": 2,
+      "notes": "Corner of Allen and College Ave — prime downtown location. Recently reimagined with a farm-to-table focus. More energy than The Tavern but still good for conversation. Good pick when you want to signal effort without going full fine dining."
+    },
+    "score": 70,
+    "score_breakdown": {
+      "energy_match": 25,
+      "shared_activity": 8,
+      "comfort_alignment": 25,
+      "vibe_alignment": 12
+    }
+  },
+  "runner_up_venues": [
+    {
+      "venue": {
+        "id": "zenos_pub",
+        "name": "Zeno's Pub",
+        "address": "100 W College Ave, State College, PA 16801",
+        "maps_url": "https://maps.app.goo.gl/zenos-state-college",
+        "noise_level": 3,
+        "intimacy_score": 3,
+        "activity_available": false,
+        "activity_type": null,
+        "vibe_tags": [
+          "dive bar",
+          "character",
+          "live music",
+          "beer-forward",
+          "underground"
+        ],
+        "best_for": [
+          "laid-back pairs",
+          "anti-pretense types",
+          "music lovers",
+          "beer people"
+        ],
+        "price_tier": 1,
+        "notes": "50+ year old underground pub with an enormous beer selection and rotating live music. Low pretense, high character. The kind of place where a 2-hour date turns into a 4-hour date without either person noticing. Best for pairs who'd roll their eyes at a wine bar but still want somewhere with actual atmosphere."
+      },
+      "score": 62,
+      "score_breakdown": {
+        "energy_match": 25,
+        "shared_activity": 8,
+        "comfort_alignment": 25,
+        "vibe_alignment": 4
+      }
+    },
+    {
+      "venue": {
+        "id": "field_burger",
+        "name": "Field Burger & Tap",
+        "address": "Downtown State College, PA 16801",
+        "maps_url": "https://maps.app.goo.gl/field-burger-state-college",
+        "noise_level": 3,
+        "intimacy_score": 2,
+        "activity_available": false,
+        "activity_type": null,
+        "vibe_tags": [
+          "casual",
+          "relaxed",
+          "farm-to-table",
+          "no pressure",
+          "burgers"
+        ],
+        "best_for": [
+          "easy first dates",
+          "casual pairs",
+          "people who hate formal dinners",
+          "any pair needing zero pressure"
+        ],
+        "price_tier": 1,
+        "notes": "Gourmet burgers from locally sourced grass-fed beef, good craft beer selection, casual atmosphere. The menu is approachable and the vibe removes all formality. Good safety net venue for when the pair is hard to read — almost no one has a bad time here."
+      },
+      "score": 62,
+      "score_breakdown": {
+        "energy_match": 25,
+        "shared_activity": 8,
+        "comfort_alignment": 25,
+        "vibe_alignment": 4
+      }
+    }
+  ],
+  "cards": {
+    "persona_a": {
+      "compatibility_story": "Sam brings a social energy that complements your reflective nature without overwhelming it — they're confident and outgoing, which means you won't have to carry the conversation. Their love of latin music and dancing overlaps with your appreciation for live music, giving you real common ground. They live in the moment in a way that might pull you out of your head, which is a good thing.",
+      "venue_rationale": "Allen Street Grill is lively enough to match Sam's energy but still conducive to real conversation — you won't have to shout over a DJ, and the farm-to-table menu gives you something genuine to talk about without the stuffiness of fine dining.",
+      "talking_points": [
+        "Their latin music background vs. your live music scene — ask them: 'Is there a show or artist that first got you into it, or was it always just in the environment growing up?'",
+        "The history of State College and College Ave itself — the corner you're sitting on has changed a lot. Ask: 'Do you ever think about what this block looked like 50 years ago?'",
+        "Craft beer and food pairing — the menu is locally sourced. Ask the server what's on tap and use it as a low-key way to share what you actually like."
+      ],
+      "logistics": "Meet at the main entrance on the Allen and College Ave corner — it's hard to miss. Aim to arrive around 7pm on a weekday or 6:30pm on a weekend to beat the rush. Order something from the seasonal menu and ask the server about it — it's an easy, natural way to kick things off. The corner location means good people-watching if there's ever a quiet moment."
+    },
+    "persona_b": {
+      "compatibility_story": "Alex is thoughtful and low-key, which means they'll actually listen to you — no one-upping, no performative energy. Their taste in live music and craft beer means they're not boring, just intentional, and that's a good foil for your spontaneity. They value honesty and low pretense, so what you see is what you get.",
+      "venue_rationale": "Allen Street Grill has the social buzz you need to feel comfortable and energized, while still being the kind of place where you can actually get to know someone — good food, good atmosphere, right in the heart of downtown.",
+      "talking_points": [
+        "Music crossover — you're into latin music, they're into live music. Ask: 'Have you ever been to a live latin or salsa show, or is that totally outside your world?'",
+        "Fashion and personal style vs. their low-pretense vibe — not a contradiction, just a conversation. Try: 'Do you think how someone dresses actually tells you anything real about them?'",
+        "Living in the moment vs. being a planner — ask: 'What's the most spontaneous thing you've done recently that you didn't regret?'"
+      ],
+      "logistics": "Meet right outside the front entrance at Allen and College Ave — it's a corner spot so it's easy to spot each other. Get there a couple minutes early so you're not the one walking in. The bar area tends to have good energy if you want to start with drinks before sitting down. Don't overthink the menu — order what sounds good and go from there."
+    }
+  },
+  "compatibility": {
+    "score": 39,
+    "label": "High Contrast",
+    "breakdown": {
+      "energy_alignment": 13,
+      "interest_overlap": 13,
+      "values_alignment": 5,
+      "vibe_compatibility": 8
+    }
+  }
+}

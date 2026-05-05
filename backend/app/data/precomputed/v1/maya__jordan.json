@@ -1,0 +1,137 @@
+{
+  "venue": {
+    "venue": {
+      "id": "allen_street_grill",
+      "name": "Allen Street Grill",
+      "address": "100 W College Ave, State College, PA 16801",
+      "maps_url": "https://maps.app.goo.gl/allen-street-grill-state-college",
+      "noise_level": 3,
+      "intimacy_score": 3,
+      "activity_available": false,
+      "activity_type": null,
+      "vibe_tags": [
+        "upscale-casual",
+        "lively",
+        "quality food",
+        "corner spot",
+        "social"
+      ],
+      "best_for": [
+        "confident pairs",
+        "food-forward dates",
+        "slightly more formal energy"
+      ],
+      "price_tier": 2,
+      "notes": "Corner of Allen and College Ave — prime downtown location. Recently reimagined with a farm-to-table focus. More energy than The Tavern but still good for conversation. Good pick when you want to signal effort without going full fine dining."
+    },
+    "score": 67,
+    "score_breakdown": {
+      "energy_match": 22,
+      "shared_activity": 8,
+      "comfort_alignment": 25,
+      "vibe_alignment": 12
+    }
+  },
+  "runner_up_venues": [
+    {
+      "venue": {
+        "id": "the_phyrst",
+        "name": "The Phyrst",
+        "address": "Downtown State College, PA 16801",
+        "maps_url": "https://maps.app.goo.gl/phyrst-state-college",
+        "noise_level": 4,
+        "intimacy_score": 2,
+        "activity_available": true,
+        "activity_type": "live music every night, Table Wars tradition",
+        "vibe_tags": [
+          "live music",
+          "Penn State tradition",
+          "rowdy",
+          "fun",
+          "high energy"
+        ],
+        "best_for": [
+          "Penn State-proud pairs",
+          "music lovers",
+          "high energy social types",
+          "people who love a spectacle"
+        ],
+        "price_tier": 1,
+        "notes": "Live music 365 days a year. Famous for Table Wars — when the band takes a break, each table shouts their chant at the others. Loud, chaotic, and genuinely fun if you're into it. Good for a pair that wants an experience, not a conversation."
+      },
+      "score": 61,
+      "score_breakdown": {
+        "energy_match": 22,
+        "shared_activity": 10,
+        "comfort_alignment": 25,
+        "vibe_alignment": 4
+      }
+    },
+    {
+      "venue": {
+        "id": "zenos_pub",
+        "name": "Zeno's Pub",
+        "address": "100 W College Ave, State College, PA 16801",
+        "maps_url": "https://maps.app.goo.gl/zenos-state-college",
+        "noise_level": 3,
+        "intimacy_score": 3,
+        "activity_available": false,
+        "activity_type": null,
+        "vibe_tags": [
+          "dive bar",
+          "character",
+          "live music",
+          "beer-forward",
+          "underground"
+        ],
+        "best_for": [
+          "laid-back pairs",
+          "anti-pretense types",
+          "music lovers",
+          "beer people"
+        ],
+        "price_tier": 1,
+        "notes": "50+ year old underground pub with an enormous beer selection and rotating live music. Low pretense, high character. The kind of place where a 2-hour date turns into a 4-hour date without either person noticing. Best for pairs who'd roll their eyes at a wine bar but still want somewhere with actual atmosphere."
+      },
+      "score": 59,
+      "score_breakdown": {
+        "energy_match": 22,
+        "shared_activity": 8,
+        "comfort_alignment": 25,
+        "vibe_alignment": 4
+      }
+    }
+  ],
+  "cards": {
+    "persona_a": {
+      "compatibility_story": "Jordan leads with loyalty and genuine enthusiasm — two things that translate directly into the kind of authenticity you value most. Their animated energy isn't noise; it's investment, and that creates space for the kind of real exchange you're actually after. The contrast in your interests isn't a gap — it's the friction that makes for an honest, surprising conversation.",
+      "venue_rationale": "Allen Street Grill is lively enough that silence won't feel awkward, but it's a corner spot with actual ambiance — not a sports bar, not a scene. The farm-to-table menu gives you something worth talking about beyond small talk.",
+      "talking_points": [
+        "Jordan is intensely loyal — ask them about the moment they knew a friendship was the real thing, and what loyalty actually looks like in practice for them.",
+        "Sports and film overlap more than people think — bring up a documentary or a movie about athletes (Hoop Dreams, Creed, anything) and see what they think about how their world gets portrayed on screen.",
+        "Ask Jordan what song they'd play if they had to introduce themselves to a stranger — and be ready to share yours. Rap vs. indie music is a genuinely interesting aesthetic divide to dig into."
+      ],
+      "logistics": "Meet at the front entrance on the College Ave corner — it's easy to spot. Aim to arrive around 7pm on a weeknight to avoid the peak rush while still catching the energy. The menu skews seasonal, so ask your server what's fresh. If the conversation is flowing, the bar area is a good move for a second drink without committing to another full table."
+    },
+    "persona_b": {
+      "compatibility_story": "Maya doesn't do surface-level — which means if they're engaged with you, it's real. Their thoughtfulness isn't aloofness; it's the kind of depth that makes a conversation actually stick with you after the night ends. They bring curiosity to everything they care about, and that's going to push you in a way that's different from your usual circle.",
+      "venue_rationale": "Allen Street Grill is a legit spot — prime corner location downtown, real food, good energy. It signals effort without being stiff, which is exactly the right move when you want the vibe to feel natural but not lazy.",
+      "talking_points": [
+        "Ask Maya which film changed the way they think about something — not their favorite, but the one that actually shifted something. Then tell them the last thing that genuinely surprised you.",
+        "You've both got strong taste in music even if the genres don't overlap — get into what rap means to you beyond the sound. Is it the storytelling? The culture? See where Maya lands on music as identity.",
+        "Ask Maya what they think loyalty looks like in a friendship or relationship. It's a value you both care about, but you probably come at it from completely different angles — that's worth exploring."
+      ],
+      "logistics": "Head to the main entrance on Allen Street — corner of Allen and College, can't miss it. Get there by 7pm; the spot fills up later in the evening and you want a good table, not a wait. Order something off the seasonal menu and skip the safe picks — it's a farm-to-table spot, so the specials are worth it. If you want to keep things moving after dinner, you're already downtown."
+    }
+  },
+  "compatibility": {
+    "score": 33,
+    "label": "High Contrast",
+    "breakdown": {
+      "energy_alignment": 7,
+      "interest_overlap": 13,
+      "values_alignment": 5,
+      "vibe_compatibility": 8
+    }
+  }
+}

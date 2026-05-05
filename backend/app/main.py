@@ -1,7 +1,9 @@
 import json
+import os
 from contextlib import asynccontextmanager
 from pathlib import Path
 
+from dotenv import load_dotenv
 from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 
@@ -15,7 +17,17 @@ from app.models import (
     Venue,
 )
 
+load_dotenv()
+
 _data: dict = {}
+_PRECOMPUTED_DIR = Path(__file__).parent / "data" / "precomputed"
+
+
+def _load_from_cache(a_id: str, b_id: str) -> DatePlanResponse | None:
+    path = _PRECOMPUTED_DIR / f"{a_id}__{b_id}.json"
+    if path.exists():
+        return DatePlanResponse.model_validate_json(path.read_text())
+    return None
 
 
 @asynccontextmanager
@@ -51,6 +63,13 @@ def generate_date_plan(req: GenerateDateRequest) -> DatePlanResponse:
     p_b = personas.get(req.persona_b_id)
     if p_b is None:
         raise HTTPException(status_code=404, detail=f"Persona '{req.persona_b_id}' not found")
+
+    cached = _load_from_cache(req.persona_a_id, req.persona_b_id)
+    if cached:
+        return cached
+
+    if not os.environ.get("ANTHROPIC_API_KEY"):
+        raise HTTPException(status_code=503, detail="No cached result for this pair and ANTHROPIC_API_KEY is not set.")
 
     ranked = rank_venues_for_pair(p_a, p_b, venues)
     compatibility = score_person_compatibility(p_a, p_b)

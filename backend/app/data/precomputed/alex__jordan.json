@@ -1,0 +1,137 @@
+{
+  "venue": {
+    "venue": {
+      "id": "the_phyrst",
+      "name": "The Phyrst",
+      "address": "Downtown State College, PA 16801",
+      "maps_url": "https://maps.app.goo.gl/phyrst-state-college",
+      "noise_level": 4,
+      "intimacy_score": 2,
+      "activity_available": true,
+      "activity_type": "live music every night, Table Wars tradition",
+      "vibe_tags": [
+        "live music",
+        "Penn State tradition",
+        "rowdy",
+        "fun",
+        "high energy"
+      ],
+      "best_for": [
+        "Penn State-proud pairs",
+        "music lovers",
+        "high energy social types",
+        "people who love a spectacle"
+      ],
+      "price_tier": 1,
+      "notes": "Live music 365 days a year. Famous for Table Wars — when the band takes a break, each table shouts their chant at the others. Loud, chaotic, and genuinely fun if you're into it. Good for a pair that wants an experience, not a conversation."
+    },
+    "score": 61,
+    "score_breakdown": {
+      "energy_match": 22,
+      "shared_activity": 10,
+      "comfort_alignment": 25,
+      "vibe_alignment": 4
+    }
+  },
+  "runner_up_venues": [
+    {
+      "venue": {
+        "id": "allen_street_grill",
+        "name": "Allen Street Grill",
+        "address": "100 W College Ave, State College, PA 16801",
+        "maps_url": "https://maps.app.goo.gl/allen-street-grill-state-college",
+        "noise_level": 3,
+        "intimacy_score": 3,
+        "activity_available": false,
+        "activity_type": null,
+        "vibe_tags": [
+          "upscale",
+          "lively",
+          "farm-to-table",
+          "food-forward",
+          "corner spot"
+        ],
+        "best_for": [
+          "confident pairs",
+          "food-forward dates",
+          "slightly more formal energy"
+        ],
+        "price_tier": 2,
+        "notes": "Corner of Allen and College Ave — prime downtown location. Recently reimagined with a farm-to-table focus. More energy than The Tavern but still good for conversation. Good pick when you want to signal effort without going full fine dining."
+      },
+      "score": 59,
+      "score_breakdown": {
+        "energy_match": 22,
+        "shared_activity": 8,
+        "comfort_alignment": 25,
+        "vibe_alignment": 4
+      }
+    },
+    {
+      "venue": {
+        "id": "zenos_pub",
+        "name": "Zeno's Pub",
+        "address": "100 W College Ave, State College, PA 16801",
+        "maps_url": "https://maps.app.goo.gl/zenos-state-college",
+        "noise_level": 3,
+        "intimacy_score": 3,
+        "activity_available": false,
+        "activity_type": null,
+        "vibe_tags": [
+          "dive bar",
+          "character",
+          "live music",
+          "beer-forward",
+          "underground"
+        ],
+        "best_for": [
+          "laid-back pairs",
+          "anti-pretense types",
+          "music lovers",
+          "beer people"
+        ],
+        "price_tier": 1,
+        "notes": "50+ year old underground pub with an enormous beer selection and rotating live music. Low pretense, high character. The kind of place where a 2-hour date turns into a 4-hour date without either person noticing. Best for pairs who'd roll their eyes at a wine bar but still want somewhere with actual atmosphere."
+      },
+      "score": 59,
+      "score_breakdown": {
+        "energy_match": 22,
+        "shared_activity": 8,
+        "comfort_alignment": 25,
+        "vibe_alignment": 4
+      }
+    }
+  ],
+  "cards": {
+    "persona_a": {
+      "compatibility_story": "Jordan brings the spontaneous, high-energy spark that can pull you out of your head and into the moment — something a reflective person sometimes needs. You both value authenticity over pretense, just expressed differently: you through honesty, Jordan through loyalty and keeping it real. The live music scene is genuinely your territory, which means you'll have natural footing even when the energy around you gets loud.",
+      "venue_rationale": "The Phyrst runs live music every single night, which lands squarely in your wheelhouse — you'll have something real to react to and talk about rather than manufacturing conversation. The rowdy Table Wars tradition gives the night a built-in shared experience that doesn't require you to match Jordan's energy level; you can appreciate the chaos from your own angle.",
+      "talking_points": [
+        "The band tonight — do you have a read on them yet? What makes a live act actually worth watching versus just background noise?",
+        "Table Wars is coming up when the band breaks — which table looks like they've got the best chant, and are we joining in or judging from the sidelines?",
+        "You both seem to care about people being straight with you — what's something most people put on a front about that you find kind of exhausting?"
+      ],
+      "logistics": "Meet at the front entrance on Beaver Avenue — it gets crowded fast so aim to arrive by 9:00 PM to grab a table before the first set. Order a craft beer from the tap list; ask the bartender what's local or rotating. The venue is loud, so lean in close and don't fight it — short, direct exchanges work better than long stories here."
+    },
+    "persona_b": {
+      "compatibility_story": "Alex isn't your usual energy match, but that's actually the interesting part — reflective people ask better questions and actually listen, which makes for a more memorable night than just vibing with someone exactly like you. You both care about loyalty and keeping it real, which means the foundation is there even if the styles are different. Alex's pull toward live music means you've already got a shared starting point before you even walk in.",
+      "venue_rationale": "The Phyrst is built for someone with your appetite for a good time — live music, loud crowd, and Table Wars is basically a sport, which is your language. You'll be in your element, and that comfort lets you bring Alex into the fun on your terms rather than having to dial yourself back.",
+      "talking_points": [
+        "Table Wars is about to kick off — are we the table that goes hard or the table that watches everyone else embarrass themselves?",
+        "You're into rap and basketball — if an artist had to score the highlight reel of the best game you've ever seen live, who's making that track?",
+        "Alex is into craft beer and you're into going out — what's the move after this spot if the night's still got legs?"
+      ],
+      "logistics": "Head straight to the entrance on Beaver Avenue and get there by 9:00 PM — tables go fast and standing all night is a different vibe. Get a round in early; the beer is cheap and the bartenders move quick between sets. When Table Wars starts during the band's break, lead the table chant — that's your moment and Alex will follow your read on it."
+    }
+  },
+  "compatibility": {
+    "score": 33,
+    "label": "High Contrast",
+    "breakdown": {
+      "energy_alignment": 7,
+      "interest_overlap": 13,
+      "values_alignment": 5,
+      "vibe_compatibility": 8
+    }
+  }
+}

@@ -1,0 +1,137 @@
+{
+  "venue": {
+    "venue": {
+      "id": "the_phyrst",
+      "name": "The Phyrst",
+      "address": "Downtown State College, PA 16801",
+      "maps_url": "https://maps.app.goo.gl/phyrst-state-college",
+      "noise_level": 4,
+      "intimacy_score": 2,
+      "activity_available": true,
+      "activity_type": "live music every night, Table Wars tradition",
+      "vibe_tags": [
+        "live music",
+        "Penn State tradition",
+        "rowdy",
+        "fun",
+        "high energy"
+      ],
+      "best_for": [
+        "Penn State-proud pairs",
+        "music lovers",
+        "high energy social types",
+        "people who love a spectacle"
+      ],
+      "price_tier": 1,
+      "notes": "Live music 365 days a year. Famous for Table Wars — when the band takes a break, each table shouts their chant at the others. Loud, chaotic, and genuinely fun if you're into it. Good for a pair that wants an experience, not a conversation."
+    },
+    "score": 61,
+    "score_breakdown": {
+      "energy_match": 22,
+      "shared_activity": 10,
+      "comfort_alignment": 25,
+      "vibe_alignment": 4
+    }
+  },
+  "runner_up_venues": [
+    {
+      "venue": {
+        "id": "allen_street_grill",
+        "name": "Allen Street Grill",
+        "address": "100 W College Ave, State College, PA 16801",
+        "maps_url": "https://maps.app.goo.gl/allen-street-grill-state-college",
+        "noise_level": 3,
+        "intimacy_score": 3,
+        "activity_available": false,
+        "activity_type": null,
+        "vibe_tags": [
+          "upscale",
+          "lively",
+          "farm-to-table",
+          "food-forward",
+          "corner spot"
+        ],
+        "best_for": [
+          "confident pairs",
+          "food-forward dates",
+          "slightly more formal energy"
+        ],
+        "price_tier": 2,
+        "notes": "Corner of Allen and College Ave — prime downtown location. Recently reimagined with a farm-to-table focus. More energy than The Tavern but still good for conversation. Good pick when you want to signal effort without going full fine dining."
+      },
+      "score": 59,
+      "score_breakdown": {
+        "energy_match": 22,
+        "shared_activity": 8,
+        "comfort_alignment": 25,
+        "vibe_alignment": 4
+      }
+    },
+    {
+      "venue": {
+        "id": "zenos_pub",
+        "name": "Zeno's Pub",
+        "address": "100 W College Ave, State College, PA 16801",
+        "maps_url": "https://maps.app.goo.gl/zenos-state-college",
+        "noise_level": 3,
+        "intimacy_score": 3,
+        "activity_available": false,
+        "activity_type": null,
+        "vibe_tags": [
+          "dive bar",
+          "character",
+          "live music",
+          "beer-forward",
+          "underground"
+        ],
+        "best_for": [
+          "laid-back pairs",
+          "anti-pretense types",
+          "music lovers",
+          "beer people"
+        ],
+        "price_tier": 1,
+        "notes": "50+ year old underground pub with an enormous beer selection and rotating live music. Low pretense, high character. The kind of place where a 2-hour date turns into a 4-hour date without either person noticing. Best for pairs who'd roll their eyes at a wine bar but still want somewhere with actual atmosphere."
+      },
+      "score": 59,
+      "score_breakdown": {
+        "energy_match": 22,
+        "shared_activity": 8,
+        "comfort_alignment": 25,
+        "vibe_alignment": 4
+      }
+    }
+  ],
+  "cards": {
+    "persona_a": {
+      "compatibility_story": "Jordan brings the spontaneous, high-energy presence that can pull you out of your head and into the moment — a genuine counterbalance to your more contemplative nature. Their loyalty and directness are authentic in a way you'll respect, even if the vibe is louder than your usual scene. This isn't a guaranteed soulmate match, but it's the kind of experience that reveals something about yourself.",
+      "venue_rationale": "The Phyrst was chosen because the live music gives you something to actually react to together — no pressure to fill silence, just a shared experience unfolding in real time. It's low-cost and unpretentious, which strips away the performance of a fancier date.",
+      "talking_points": [
+        "The band is playing cover songs — ask Jordan which artists they think get better or worse when covered live, then share your indie picks and see where tastes collide.",
+        "Table Wars is essentially organized chaos — ask Jordan if they think rituals like that bring people together or just create an illusion of belonging. See how deep the conversation can go under the noise.",
+        "You both ended up here through an algorithm — ask Jordan whether they trust gut instinct or data more when making decisions, and what they think a 61% compatibility score actually means."
+      ],
+      "logistics": "Meet at the front entrance on Allen Street — it's the main door under the neon sign. Aim to arrive around 9 PM when the first band set is in full swing. Order a beer or a cider from the bar (cash is faster) and stake out a spot near a table before Table Wars kicks off — being part of it, even reluctantly, is the whole point."
+    },
+    "persona_b": {
+      "compatibility_story": "Maya is the kind of person who will actually listen when you talk — not just wait to respond — and who will push back thoughtfully when they disagree with you. Your loyalty and energy are real, and someone with depth will notice that fast. The contrast between you two isn't a problem; it's what makes the conversation worth having.",
+      "venue_rationale": "The Phyrst is your element — live music every night, Table Wars chaos, and a crowd that's there to have fun, not impress anyone. It gives you the social, high-energy night you want while giving Maya something genuinely interesting to experience.",
+      "talking_points": [
+        "You're into basketball — ask Maya if they've ever watched a game purely for the strategy and aesthetics rather than team loyalty, and make the case for why it's as layered as any film they've seen.",
+        "Rap and indie music seem like opposites but they're both built around authenticity and storytelling — ask Maya which artists they think are the most honest, and share yours. Kendrick vs. whoever they name.",
+        "You both got matched by an AI — ask Maya if they think an algorithm can actually measure chemistry, or if some things only reveal themselves in person. Their answer will tell you a lot about how they think."
+      ],
+      "logistics": "Head to the front entrance on Allen Street — show up around 9 PM to catch the live set while it's still early enough to grab a good spot. Get a beer at the bar and find a table with some space — you'll want room when Table Wars starts. Don't overthink it: just be loud, have fun, and let the night run."
+    }
+  },
+  "compatibility": {
+    "score": 33,
+    "label": "High Contrast",
+    "breakdown": {
+      "energy_alignment": 7,
+      "interest_overlap": 13,
+      "values_alignment": 5,
+      "vibe_compatibility": 8
+    }
+  }
+}

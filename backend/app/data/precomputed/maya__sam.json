@@ -1,0 +1,137 @@
+{
+  "venue": {
+    "venue": {
+      "id": "allen_street_grill",
+      "name": "Allen Street Grill",
+      "address": "100 W College Ave, State College, PA 16801",
+      "maps_url": "https://maps.app.goo.gl/allen-street-grill-state-college",
+      "noise_level": 3,
+      "intimacy_score": 3,
+      "activity_available": false,
+      "activity_type": null,
+      "vibe_tags": [
+        "upscale-casual",
+        "lively",
+        "quality food",
+        "corner spot",
+        "social"
+      ],
+      "best_for": [
+        "confident pairs",
+        "food-forward dates",
+        "slightly more formal energy"
+      ],
+      "price_tier": 2,
+      "notes": "Corner of Allen and College Ave — prime downtown location. Recently reimagined with a farm-to-table focus. More energy than The Tavern but still good for conversation. Good pick when you want to signal effort without going full fine dining."
+    },
+    "score": 70,
+    "score_breakdown": {
+      "energy_match": 25,
+      "shared_activity": 8,
+      "comfort_alignment": 25,
+      "vibe_alignment": 12
+    }
+  },
+  "runner_up_venues": [
+    {
+      "venue": {
+        "id": "zenos_pub",
+        "name": "Zeno's Pub",
+        "address": "100 W College Ave, State College, PA 16801",
+        "maps_url": "https://maps.app.goo.gl/zenos-state-college",
+        "noise_level": 3,
+        "intimacy_score": 3,
+        "activity_available": false,
+        "activity_type": null,
+        "vibe_tags": [
+          "dive bar",
+          "character",
+          "live music",
+          "beer-forward",
+          "underground"
+        ],
+        "best_for": [
+          "laid-back pairs",
+          "anti-pretense types",
+          "music lovers",
+          "beer people"
+        ],
+        "price_tier": 1,
+        "notes": "50+ year old underground pub with an enormous beer selection and rotating live music. Low pretense, high character. The kind of place where a 2-hour date turns into a 4-hour date without either person noticing. Best for pairs who'd roll their eyes at a wine bar but still want somewhere with actual atmosphere."
+      },
+      "score": 62,
+      "score_breakdown": {
+        "energy_match": 25,
+        "shared_activity": 8,
+        "comfort_alignment": 25,
+        "vibe_alignment": 4
+      }
+    },
+    {
+      "venue": {
+        "id": "field_burger",
+        "name": "Field Burger & Tap",
+        "address": "Downtown State College, PA 16801",
+        "maps_url": "https://maps.app.goo.gl/field-burger-state-college",
+        "noise_level": 3,
+        "intimacy_score": 2,
+        "activity_available": false,
+        "activity_type": null,
+        "vibe_tags": [
+          "casual",
+          "relaxed",
+          "farm-to-table",
+          "no pressure",
+          "burgers"
+        ],
+        "best_for": [
+          "easy first dates",
+          "casual pairs",
+          "people who hate formal dinners",
+          "any pair needing zero pressure"
+        ],
+        "price_tier": 1,
+        "notes": "Gourmet burgers from locally sourced grass-fed beef, good craft beer selection, casual atmosphere. The menu is approachable and the vibe removes all formality. Good safety net venue for when the pair is hard to read — almost no one has a bad time here."
+      },
+      "score": 62,
+      "score_breakdown": {
+        "energy_match": 25,
+        "shared_activity": 8,
+        "comfort_alignment": 25,
+        "vibe_alignment": 4
+      }
+    }
+  ],
+  "cards": {
+    "persona_a": {
+      "compatibility_story": "Sam's confidence and in-the-moment energy is a genuine counterpoint to your reflective nature — not a mismatch, but a complement. Someone who moves through the world fully and unapologetically tends to draw out sides of thoughtful people that quieter company never reaches. And beneath the outgoing surface, there's real authenticity in someone who knows exactly who they are.",
+      "venue_rationale": "Allen Street Grill is lively enough that silence never feels loaded, but the table setting keeps the focus on conversation — which is where you connect best. The farm-to-table ethos also gives you something to engage with beyond small talk: food made with intention is its own kind of philosophy.",
+      "talking_points": [
+        "Sam is deep into latin music and dancing — ask what a song has to do to them physically before it earns a repeat listen. It's a side-door into talking about how each of you actually experiences emotion.",
+        "Fashion is central to Sam's identity — explore whether personal style is self-expression or performance, and what the difference even means. It connects directly to authenticity, which you care about.",
+        "Ask Sam about a moment recently where they felt completely present. Not a highlight — a real one. See where it leads."
+      ],
+      "logistics": "Meet at the front entrance on the College Ave corner at 7:00 PM — it's easy to spot and avoids any confusion. The menu skews seasonal, so ask your server what's fresh. Let Sam drive the energy early; you don't need to match it, just stay curious and you'll find your rhythm."
+    },
+    "persona_b": {
+      "compatibility_story": "Maya is the kind of person who actually listens — not waiting for their turn to talk, but genuinely tracking where a conversation goes, and that's rarer than it sounds. Their world of film, philosophy, and indie music isn't intimidating; it's a different frequency, and tuning into it for one evening tends to be more energizing than it looks on paper. There's real depth there, and depth is interesting.",
+      "venue_rationale": "Allen Street Grill has genuine atmosphere — corner location, good crowd, the kind of spot that signals you made a real choice. It has enough energy to feel alive without being so loud that conversation becomes work, which matters when you're with someone who engages best one-on-one.",
+      "talking_points": [
+        "Maya loves film — ask if there's a specific movie that actually changed how they saw something in their real life. Specific enough to get a real answer, not just a title drop.",
+        "You think a lot about fashion and self-presentation; Maya thinks a lot about authenticity. Ask them: is there a version of yourself you perform for others that you secretly like being?",
+        "Indie music and latin music don't obviously overlap — but compare notes on what a song has to do emotionally to earn a place in your regular rotation. You'll learn a lot about each other fast."
+      ],
+      "logistics": "Aim to arrive at the College Ave entrance around 7:00 PM. If you get there first, grab a spot at the bar while you wait — it's a comfortable hold. Order something to share when you sit down; it lowers the formality fast. Keep your phone off the table for the first half hour — Maya will notice, and it sets exactly the right tone."
+    }
+  },
+  "compatibility": {
+    "score": 47,
+    "label": "High Contrast",
+    "breakdown": {
+      "energy_alignment": 13,
+      "interest_overlap": 21,
+      "values_alignment": 5,
+      "vibe_compatibility": 8
+    }
+  }
+}

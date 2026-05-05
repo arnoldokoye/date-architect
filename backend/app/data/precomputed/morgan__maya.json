@@ -1,0 +1,138 @@
+{
+  "venue": {
+    "venue": {
+      "id": "elixr_coffee",
+      "name": "Elixr Coffee Roasters",
+      "address": "123 W Beaver Ave, State College, PA 16801",
+      "maps_url": "https://maps.app.goo.gl/elixr-state-college",
+      "noise_level": 2,
+      "intimacy_score": 3,
+      "activity_available": false,
+      "activity_type": null,
+      "vibe_tags": [
+        "cozy",
+        "trendy",
+        "neighborhood",
+        "coffee-forward",
+        "casual"
+      ],
+      "best_for": [
+        "thoughtful pairs",
+        "conversation-first dates",
+        "low energy introverts",
+        "coffee people"
+      ],
+      "price_tier": 1,
+      "notes": "Philadelphia roaster with a State College outpost on Beaver Ave. Warm decor, good seating variety, not overly loud. Strawberry matcha is a talking point on its own. Good neutral ground for a first meet — low stakes, easy to extend or exit."
+    },
+    "score": 61,
+    "score_breakdown": {
+      "energy_match": 22,
+      "shared_activity": 8,
+      "comfort_alignment": 23,
+      "vibe_alignment": 8
+    }
+  },
+  "runner_up_venues": [
+    {
+      "venue": {
+        "id": "arboretum",
+        "name": "Penn State Arboretum",
+        "address": "1087 Overlook Rd, State College, PA 16802",
+        "maps_url": "https://maps.app.goo.gl/arboretum-psu",
+        "noise_level": 1,
+        "intimacy_score": 4,
+        "activity_available": true,
+        "activity_type": "walking scenic trails together, picnic on the grounds",
+        "vibe_tags": [
+          "earthy",
+          "peaceful",
+          "romantic",
+          "outdoor",
+          "low pressure"
+        ],
+        "best_for": [
+          "nature lovers",
+          "introverts",
+          "artsy pairs",
+          "low pressure first dates"
+        ],
+        "price_tier": 1,
+        "notes": "Free to enter. Genuinely stunning — rolling paths, flower gardens, open fields. Best in spring and fall. Bring a blanket and you have an instant picnic. The walk gives you something to react to together without the pressure of sitting across a table staring at each other."
+      },
+      "score": 60,
+      "score_breakdown": {
+        "energy_match": 16,
+        "shared_activity": 18,
+        "comfort_alignment": 18,
+        "vibe_alignment": 8
+      }
+    },
+    {
+      "venue": {
+        "id": "field_burger",
+        "name": "Field Burger & Tap",
+        "address": "Downtown State College, PA 16801",
+        "maps_url": "https://maps.app.goo.gl/field-burger-state-college",
+        "noise_level": 3,
+        "intimacy_score": 2,
+        "activity_available": false,
+        "activity_type": null,
+        "vibe_tags": [
+          "casual",
+          "relaxed",
+          "farm-to-table",
+          "no pressure",
+          "burgers"
+        ],
+        "best_for": [
+          "easy first dates",
+          "casual pairs",
+          "people who hate formal dinners",
+          "any pair needing zero pressure"
+        ],
+        "price_tier": 1,
+        "notes": "Gourmet burgers from locally sourced grass-fed beef, good craft beer selection, casual atmosphere. The menu is approachable and the vibe removes all formality. Good safety net venue for when the pair is hard to read — almost no one has a bad time here."
+      },
+      "score": 59,
+      "score_breakdown": {
+        "energy_match": 22,
+        "shared_activity": 8,
+        "comfort_alignment": 25,
+        "vibe_alignment": 4
+      }
+    }
+  ],
+  "cards": {
+    "persona_a": {
+      "compatibility_story": "Maya brings the philosophical depth and film literacy that pairs naturally with your eye for beauty and intentionality — she's someone who notices things, which means your photography instincts will have company. Her love of indie music and reading suggests she moves through the world at a pace that won't rush your curiosity. You both value substance over noise, which is a rare starting point.",
+      "venue_rationale": "Elixr's warm, unhurried atmosphere gives your curious energy room to breathe without the pressure of a packed itinerary — it's a space you can photograph in your head and actually enjoy being in. The aesthetic is considered without being try-hard, which fits your sensibility around beauty and intentionality.",
+      "talking_points": [
+        "Maya's into film — ask her what movie she thinks captures something most people miss about being human. Then tell her what photograph you'd take of that same feeling.",
+        "Astrology gets dismissed a lot, but it's really a system for noticing patterns in people. Ask her what she thinks drives personality more: environment, choice, or something harder to name.",
+        "You both gravitate toward indie and alternative artists — ask her what a song she loves says about the kind of stories she's drawn to. Brent Faiyaz might be a good entry point."
+      ],
+      "logistics": "Meet at the front entrance on Beaver Ave — it's easy to spot and avoids any awkward lobby wandering. Aim to arrive around 2–3pm on a weekend when it's lively but not slammed. Order the strawberry matcha if you want an instant conversation piece; it's visually interesting and genuinely good. The seating variety means you can grab a quieter corner if the vibe calls for it."
+    },
+    "persona_b": {
+      "compatibility_story": "Morgan is a visually attuned, genuinely curious person who thinks in layers — the kind of person who connects nature, art, and astrology not as hobbies but as different lenses on the same questions you explore through philosophy and film. Her energy is active but her values are grounded in peace and intentionality, so this won't feel like a performance. She's interested in meaning, which is your native language.",
+      "venue_rationale": "Elixr is low-pressure by design — good coffee, real seating, no agenda — which honors your preference for depth over spectacle and gives a natural, unhurried container for the kind of conversation you actually enjoy. It's a place where you can stay as long as the conversation warrants, or wrap up gracefully if needed.",
+      "talking_points": [
+        "Morgan shoots photography with a real eye for beauty — ask her what she's most recently photographed that surprised her, and what she was actually trying to capture versus what she got.",
+        "You love philosophy and she's drawn to astrology as a meaning-making system. Ask each other: what framework — scientific, spiritual, aesthetic — do you actually trust most when trying to understand another person?",
+        "Pick a film you love that most people haven't seen and describe it only in terms of its mood, not its plot. See if she can do the same with a piece of music or a place she's been."
+      ],
+      "logistics": "Meet at the front entrance on Beaver Ave — Morgan will likely be there right on time, so no need to stress about it. A weekend afternoon around 2–3pm keeps things relaxed and gives you both a natural out if energy runs low, or easy room to extend into a walk. The strawberry matcha is worth trying and will give you something to react to immediately. Grab a corner seat if you can — it's quieter and better for the kind of conversation you're both here for."
+    }
+  },
+  "compatibility": {
+    "score": 52,
+    "label": "Interesting Mix",
+    "breakdown": {
+      "energy_alignment": 19,
+      "interest_overlap": 13,
+      "values_alignment": 5,
+      "vibe_compatibility": 15
+    }
+  }
+}

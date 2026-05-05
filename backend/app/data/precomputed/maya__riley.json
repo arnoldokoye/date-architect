@@ -1,0 +1,137 @@
+{
+  "venue": {
+    "venue": {
+      "id": "manna_korea",
+      "name": "Manna Korean BBQ & Hotpot",
+      "address": "542 Westerly Pkwy, State College, PA 16801",
+      "maps_url": "https://maps.app.goo.gl/manna-korea-state-college",
+      "noise_level": 3,
+      "intimacy_score": 4,
+      "activity_available": true,
+      "activity_type": "cooking and building hot pot together at the table",
+      "vibe_tags": [
+        "adventurous",
+        "interactive",
+        "fun",
+        "foodie",
+        "all-you-can-eat"
+      ],
+      "best_for": [
+        "foodies",
+        "adventurous pairs",
+        "high-energy matches",
+        "people who hate awkward silence"
+      ],
+      "price_tier": 2,
+      "notes": "Opened March 2026 — new and buzzy, which is a talking point itself. All-you-can-eat Korean BBQ and hot pot. The shared cooking activity eliminates awkward silence entirely — you're always doing something. Slightly off the main strip at Westerly Pkwy, which makes it feel like a deliberate choice rather than a default."
+    },
+    "score": 64,
+    "score_breakdown": {
+      "energy_match": 22,
+      "shared_activity": 18,
+      "comfort_alignment": 20,
+      "vibe_alignment": 4
+    }
+  },
+  "runner_up_venues": [
+    {
+      "venue": {
+        "id": "elixr_coffee",
+        "name": "Elixr Coffee Roasters",
+        "address": "123 W Beaver Ave, State College, PA 16801",
+        "maps_url": "https://maps.app.goo.gl/elixr-state-college",
+        "noise_level": 2,
+        "intimacy_score": 3,
+        "activity_available": false,
+        "activity_type": null,
+        "vibe_tags": [
+          "cozy",
+          "trendy",
+          "neighborhood",
+          "coffee-forward",
+          "casual"
+        ],
+        "best_for": [
+          "thoughtful pairs",
+          "conversation-first dates",
+          "low energy introverts",
+          "coffee people"
+        ],
+        "price_tier": 1,
+        "notes": "Philadelphia roaster with a State College outpost on Beaver Ave. Warm decor, good seating variety, not overly loud. Strawberry matcha is a talking point on its own. Good neutral ground for a first meet — low stakes, easy to extend or exit."
+      },
+      "score": 63,
+      "score_breakdown": {
+        "energy_match": 22,
+        "shared_activity": 8,
+        "comfort_alignment": 25,
+        "vibe_alignment": 8
+      }
+    },
+    {
+      "venue": {
+        "id": "allen_street_grill",
+        "name": "Allen Street Grill",
+        "address": "100 W College Ave, State College, PA 16801",
+        "maps_url": "https://maps.app.goo.gl/allen-street-grill-state-college",
+        "noise_level": 3,
+        "intimacy_score": 3,
+        "activity_available": false,
+        "activity_type": null,
+        "vibe_tags": [
+          "upscale",
+          "lively",
+          "farm-to-table",
+          "food-forward",
+          "corner spot"
+        ],
+        "best_for": [
+          "confident pairs",
+          "food-forward dates",
+          "slightly more formal energy"
+        ],
+        "price_tier": 2,
+        "notes": "Corner of Allen and College Ave — prime downtown location. Recently reimagined with a farm-to-table focus. More energy than The Tavern but still good for conversation. Good pick when you want to signal effort without going full fine dining."
+      },
+      "score": 63,
+      "score_breakdown": {
+        "energy_match": 22,
+        "shared_activity": 8,
+        "comfort_alignment": 25,
+        "vibe_alignment": 8
+      }
+    }
+  ],
+  "cards": {
+    "persona_a": {
+      "compatibility_story": "Riley brings a warmth and curiosity about the world that complements your depth — they've traveled widely and developed a genuine passion for Korean culture, not just the food. Where you find meaning in ideas, Riley finds it in experiences, and that contrast tends to make for surprisingly rich conversation. You're both drawn to authenticity, just through different doors.",
+      "venue_rationale": "Korean BBQ was chosen because the shared cooking at the table gives you something to do with your hands, which takes the pressure off and lets conversation unfold naturally — perfect for your low-pressure style. It's also a genuinely interesting cultural subject, not just a meal.",
+      "talking_points": [
+        "Riley has spent time exploring Korean culture — ask what pulled them into it beyond the food, and whether there's a film or piece of music from there that stuck with them.",
+        "The restaurant just opened in March — it's still finding its identity. What do you think makes a place feel like it has soul versus just hype?",
+        "You both seem drawn to things that reward close attention. What's something — a film, a book, a dish — that got better every time you returned to it?"
+      ],
+      "logistics": "Meet at the entrance on Westerly Pkwy around 6:45 PM to beat the dinner rush — this place has gotten busy fast since opening. Once seated, let Riley take the lead on broth and protein choices since Korean BBQ is their territory; it's a good first move to give them that. Bring cash as backup — new spots sometimes have payment hiccups."
+    },
+    "persona_b": {
+      "compatibility_story": "Maya thinks carefully about things, which means when they engage with something you love — a dish, a place, a culture — they're actually going to ask the question underneath it, not just nod along. Your openness to new experiences pairs well with someone who wants to understand the why behind them. It's a pairing where your enthusiasm and their depth make each other more interesting.",
+      "venue_rationale": "This spot was picked because it hands the two of you an activity — you're literally cooking together at the table — which plays directly to your love of food and giving Riley a natural way to share something they know well. The Korean BBQ angle also opens up cultural conversation that goes beyond the menu.",
+      "talking_points": [
+        "You know food and travel — what's a meal you've had somewhere that actually changed how you thought about a place or a people?",
+        "Maya is into film and philosophy. Ask them if there's a movie that genuinely shifted how they see something in everyday life — and be ready for a real answer.",
+        "You both value authenticity. What's a place — restaurant, city, neighborhood — that still feels like itself despite everyone knowing about it now?"
+      ],
+      "logistics": "Head to 542 Westerly Pkwy and meet at the front entrance around 6:45 PM — arriving a few minutes early means you get first pick of the grill tables, which are better than the hotpot-only seats for a first date. Order the all-you-can-eat option and pick one broth to share; starting simple lets you build from there. The beef brisket and thinly sliced pork are safe anchors if Maya's unfamiliar with the format."
+    }
+  },
+  "compatibility": {
+    "score": 47,
+    "label": "High Contrast",
+    "breakdown": {
+      "energy_alignment": 19,
+      "interest_overlap": 5,
+      "values_alignment": 5,
+      "vibe_compatibility": 18
+    }
+  }
+}

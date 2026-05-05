@@ -1,0 +1,136 @@
+{
+  "venue": {
+    "venue": {
+      "id": "the_phyrst",
+      "name": "The Phyrst",
+      "address": "Downtown State College, PA 16801",
+      "maps_url": "https://maps.app.goo.gl/phyrst-state-college",
+      "noise_level": 4,
+      "intimacy_score": 2,
+      "activity_available": true,
+      "activity_type": "live music every night, Table Wars tradition",
+      "vibe_tags": [
+        "live music",
+        "Penn State tradition",
+        "rowdy",
+        "fun",
+        "high energy"
+      ],
+      "best_for": [
+        "Penn State-proud pairs",
+        "music lovers",
+        "high energy social types",
+        "people who love a spectacle"
+      ],
+      "price_tier": 1,
+      "notes": "Live music 365 days a year. Famous for Table Wars — when the band takes a break, each table shouts their chant at the others. Loud, chaotic, and genuinely fun if you're into it. Good for a pair that wants an experience, not a conversation."
+    },
+    "score": 64,
+    "score_breakdown": {
+      "energy_match": 25,
+      "shared_activity": 10,
+      "comfort_alignment": 25,
+      "vibe_alignment": 4
+    }
+  },
+  "runner_up_venues": [
+    {
+      "venue": {
+        "id": "allen_street_grill",
+        "name": "Allen Street Grill",
+        "address": "100 W College Ave, State College, PA 16801",
+        "maps_url": "https://maps.app.goo.gl/allen-street-grill-state-college",
+        "noise_level": 3,
+        "intimacy_score": 3,
+        "activity_available": false,
+        "activity_type": null,
+        "vibe_tags": [
+          "upscale-casual",
+          "lively",
+          "quality food",
+          "corner spot",
+          "social"
+        ],
+        "best_for": [
+          "confident pairs",
+          "food-forward dates",
+          "slightly more formal energy"
+        ],
+        "price_tier": 2,
+        "notes": "Corner of Allen and College Ave — prime downtown location. Recently reimagined with a farm-to-table focus. More energy than The Tavern but still good for conversation. Good pick when you want to signal effort without going full fine dining."
+      },
+      "score": 60,
+      "score_breakdown": {
+        "energy_match": 19,
+        "shared_activity": 8,
+        "comfort_alignment": 25,
+        "vibe_alignment": 8
+      }
+    },
+    {
+      "venue": {
+        "id": "champs",
+        "name": "Champs",
+        "address": "College Ave, State College, PA 16801",
+        "maps_url": "https://maps.app.goo.gl/champs-state-college",
+        "noise_level": 5,
+        "intimacy_score": 1,
+        "activity_available": false,
+        "activity_type": null,
+        "vibe_tags": [
+          "sports bar",
+          "Greek life",
+          "loud",
+          "cheap drinks",
+          "social"
+        ],
+        "best_for": [
+          "high energy extroverts",
+          "social Greek-life types",
+          "pairs who already know each other"
+        ],
+        "price_tier": 1,
+        "notes": "One of the 4 main Penn State sports bars. Packed on weekends, cheap drinks, sports on every screen. Loud enough that conversation is hard — works best for pairs who are already comfortable with each other and want to be out in the scene rather than talking deeply. Not a great first-date venue for two strangers."
+      },
+      "score": 60,
+      "score_breakdown": {
+        "energy_match": 19,
+        "shared_activity": 8,
+        "comfort_alignment": 25,
+        "vibe_alignment": 8
+      }
+    }
+  ],
+  "cards": {
+    "persona_a": {
+      "compatibility_story": "Jordan brings the spontaneous, high-energy spark that complements your more intentional, curious nature — you won't have to plan everything, and that's a gift. Their loyalty runs deep, which aligns with your value of peace: no games, just presence. And while your interests differ on the surface, there's a shared appreciation for experiences that feel alive and real.",
+      "venue_rationale": "The Phyrst was chosen because its live music scene gives you something beautiful and atmospheric to tune into, while the Table Wars tradition turns a night out into a genuine shared experience — the kind of intentional, memorable moment you gravitate toward.",
+      "talking_points": [
+        "The band is playing tonight — do you think live music changes the energy of a place, or is it just background noise? What's the best live show you've ever stumbled into?",
+        "If you could photograph one moment from tonight to keep forever, what would it be and why?",
+        "You're into astrology — what sign do you think Jordan is just from how they carry themselves tonight? What made you guess that?"
+      ],
+      "logistics": "Meet at the front entrance on Beaver Avenue around 9:30 PM, when the first set is usually in full swing. Grab a spot near the stage if you want to feel the music, or a booth toward the back if you'd rather talk between sets. Order whatever's on draft — it's a dive bar in the best way, so keep it simple. Heads up: it gets loud fast, so lean in close and let that do some of the work for you."
+    },
+    "persona_b": {
+      "compatibility_story": "Morgan is the kind of person who actually pays attention — curious, observant, and genuinely interested in the world around them, which means your conversations won't stay surface level for long. They match your loyalty with their own brand of intentionality: they show up fully or not at all. And honestly, someone who moves at a different pace than you can make a night feel more interesting, not less.",
+      "venue_rationale": "The Phyrst is your home turf energy — live music, loud room, Table Wars, and a crowd that's actually having fun. It lets you be yourself without having to dial it back, which is exactly where you thrive on a first date.",
+      "talking_points": [
+        "Table Wars is about to pop off — which table do you think has the best chant energy in here, and what would ours be if we had one?",
+        "You're big on basketball — if the band had to soundtrack an NBA Finals game-winner moment, what song would it be and why?",
+        "What's the most spontaneous thing you've done recently that actually paid off? Like a decision you made on the spot that ended up being the right call?"
+      ],
+      "logistics": "Head to the main entrance on Beaver Avenue and get there by 9:15 PM to snag a good table before it fills up — weeknights go fast. Get there early enough to stake out a spot close to the floor so you're in the mix when Table Wars kicks off. Beer's the move here; don't overthink the drink order. If the energy between you two is good, stay for the second set — that's when the room really locks in."
+    }
+  },
+  "compatibility": {
+    "score": 35,
+    "label": "High Contrast",
+    "breakdown": {
+      "energy_alignment": 13,
+      "interest_overlap": 5,
+      "values_alignment": 5,
+      "vibe_compatibility": 12
+    }
+  }
+}

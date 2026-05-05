@@ -1,0 +1,137 @@
+{
+  "venue": {
+    "venue": {
+      "id": "manna_korea",
+      "name": "Manna Korean BBQ & Hotpot",
+      "address": "542 Westerly Pkwy, State College, PA 16801",
+      "maps_url": "https://maps.app.goo.gl/manna-korea-state-college",
+      "noise_level": 3,
+      "intimacy_score": 4,
+      "activity_available": true,
+      "activity_type": "cooking and building hot pot together at the table",
+      "vibe_tags": [
+        "adventurous",
+        "interactive",
+        "fun",
+        "foodie",
+        "all-you-can-eat"
+      ],
+      "best_for": [
+        "foodies",
+        "adventurous pairs",
+        "high-energy matches",
+        "people who hate awkward silence"
+      ],
+      "price_tier": 2,
+      "notes": "Opened March 2026 — new and buzzy, which is a talking point itself. All-you-can-eat Korean BBQ and hot pot. The shared cooking activity eliminates awkward silence entirely — you're always doing something. Slightly off the main strip at Westerly Pkwy, which makes it feel like a deliberate choice rather than a default."
+    },
+    "score": 67,
+    "score_breakdown": {
+      "energy_match": 22,
+      "shared_activity": 18,
+      "comfort_alignment": 23,
+      "vibe_alignment": 4
+    }
+  },
+  "runner_up_venues": [
+    {
+      "venue": {
+        "id": "the_tavern",
+        "name": "The Tavern Restaurant",
+        "address": "220 E College Ave, State College, PA 16801",
+        "maps_url": "https://maps.app.goo.gl/the-tavern-state-college",
+        "noise_level": 2,
+        "intimacy_score": 4,
+        "activity_available": false,
+        "activity_type": null,
+        "vibe_tags": [
+          "classic",
+          "cozy",
+          "colonial",
+          "upscale-casual",
+          "intimate"
+        ],
+        "best_for": [
+          "intentional daters",
+          "any pair wanting a real dinner",
+          "mid-range date energy"
+        ],
+        "price_tier": 2,
+        "notes": "State College institution since 1948. Colonial tavern atmosphere — dark wood, warm lighting, booths. One of those places that signals you put thought into the date without being pretentious. Good for pairs where both people actually want to have a real conversation over a real meal."
+      },
+      "score": 65,
+      "score_breakdown": {
+        "energy_match": 22,
+        "shared_activity": 8,
+        "comfort_alignment": 23,
+        "vibe_alignment": 12
+      }
+    },
+    {
+      "venue": {
+        "id": "elixr_coffee",
+        "name": "Elixr Coffee Roasters",
+        "address": "123 W Beaver Ave, State College, PA 16801",
+        "maps_url": "https://maps.app.goo.gl/elixr-state-college",
+        "noise_level": 2,
+        "intimacy_score": 3,
+        "activity_available": false,
+        "activity_type": null,
+        "vibe_tags": [
+          "cozy",
+          "trendy",
+          "neighborhood",
+          "coffee-forward",
+          "casual"
+        ],
+        "best_for": [
+          "thoughtful pairs",
+          "conversation-first dates",
+          "low energy introverts",
+          "coffee people"
+        ],
+        "price_tier": 1,
+        "notes": "Philadelphia roaster with a State College outpost on Beaver Ave. Warm decor, good seating variety, not overly loud. Strawberry matcha is a talking point on its own. Good neutral ground for a first meet — low stakes, easy to extend or exit."
+      },
+      "score": 63,
+      "score_breakdown": {
+        "energy_match": 22,
+        "shared_activity": 8,
+        "comfort_alignment": 25,
+        "vibe_alignment": 8
+      }
+    }
+  ],
+  "cards": {
+    "persona_a": {
+      "compatibility_story": "Alex brings a reflective curiosity that pairs well with your warmth — they're genuinely interested in the world, just at a quieter pace. Their love of history and craft beer means they'll actually have opinions about the food and culture you're diving into together, not just go along for the ride. The low-key energy is a feature, not a bug: you'll get real conversation instead of performance.",
+      "venue_rationale": "Manna is tailor-made for someone who loves Korean culture and trying new restaurants — it's brand new (March 2026), all-you-can-eat, and puts you both in the role of cooks, which plays directly to your interest in cooking as connection.",
+      "talking_points": [
+        "You're both building the hot pot together — ask Alex: 'Do you have a go-to dish you make at home that you'd never order at a restaurant?' It'll tell you a lot about how they think about food vs. experience.",
+        "Manna just opened a few months ago — ask Alex what their relationship is with new places vs. tried-and-true spots. Their answer will reveal something real about how they take risks.",
+        "You love travel and Korean culture — share one specific thing about Korean food culture (banchan, the communal style, the broth base choices) and ask if there's a cuisine from their travels or reading that surprised them the same way."
+      ],
+      "logistics": "Meet at the main entrance on Westerly Pkwy — it's slightly off the main strip so give yourself a buffer and don't rely on parking being right out front. Aim to arrive around 6:30 PM on a weekday to avoid the weekend rush at a hot new spot. Start with the spicy mala broth and one mild option so you have range to work with, and let the meat-and-veggie selection be a collaborative call — it's a natural early decision to make together."
+    },
+    "persona_b": {
+      "compatibility_story": "Riley runs warmer and a bit more adventurous than you, which is exactly the right kind of energy to pull you into something new without making it feel like a test. They genuinely love food and culture — not as a trend, but as a way of connecting — so you won't feel like you're performing enthusiasm you don't have. The shared curiosity is real, it just shows up differently in each of you.",
+      "venue_rationale": "This isn't a loud, high-pressure scene — the activity of cooking at the table gives you something to do with your hands and your attention, which takes the edge off first-date energy and keeps things grounded and tactile rather than performative.",
+      "talking_points": [
+        "You're into history and Riley loves Korean culture — ask them what drew them to it specifically. Is it the food, the travel, something they stumbled into? The origin story usually matters more than the interest itself.",
+        "Craft beer and Korean BBQ actually overlap in interesting ways (fermentation, bold flavors, regional variation) — if it comes up naturally, see if Riley has a food equivalent: something they got obsessive about and went deep on.",
+        "You value low pretense — early on, ask Riley about a trip or meal that didn't go as planned but turned into something better. It's a low-stakes way to find out if they're honest about the gap between expectations and reality."
+      ],
+      "logistics": "Meet at the front entrance off Westerly Pkwy — it's a deliberate address, not a default downtown spot, so look it up in advance rather than guessing. A 6:30 PM arrival on a weekday gives you a quieter room as the night starts. You don't need to know Korean BBQ to navigate the menu — the staff will walk you through it, and letting Riley take the lead on broth and protein choices is a completely natural move that plays to their strengths."
+    }
+  },
+  "compatibility": {
+    "score": 63,
+    "label": "Interesting Mix",
+    "breakdown": {
+      "energy_alignment": 19,
+      "interest_overlap": 21,
+      "values_alignment": 5,
+      "vibe_compatibility": 18
+    }
+  }
+}

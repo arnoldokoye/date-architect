@@ -1,0 +1,137 @@
+{
+  "venue": {
+    "venue": {
+      "id": "manna_korea",
+      "name": "Manna Korean BBQ & Hotpot",
+      "address": "542 Westerly Pkwy, State College, PA 16801",
+      "maps_url": "https://maps.app.goo.gl/manna-korea-state-college",
+      "noise_level": 3,
+      "intimacy_score": 4,
+      "activity_available": true,
+      "activity_type": "cooking and building hot pot together at the table",
+      "vibe_tags": [
+        "adventurous",
+        "interactive",
+        "fun",
+        "foodie",
+        "all-you-can-eat"
+      ],
+      "best_for": [
+        "foodies",
+        "adventurous pairs",
+        "high-energy matches",
+        "people who hate awkward silence"
+      ],
+      "price_tier": 2,
+      "notes": "Opened March 2026 — new and buzzy, which is a talking point itself. All-you-can-eat Korean BBQ and hot pot. The shared cooking activity eliminates awkward silence entirely — you're always doing something. Slightly off the main strip at Westerly Pkwy, which makes it feel like a deliberate choice rather than a default."
+    },
+    "score": 69,
+    "score_breakdown": {
+      "energy_match": 22,
+      "shared_activity": 18,
+      "comfort_alignment": 25,
+      "vibe_alignment": 4
+    }
+  },
+  "runner_up_venues": [
+    {
+      "venue": {
+        "id": "allen_street_grill",
+        "name": "Allen Street Grill",
+        "address": "100 W College Ave, State College, PA 16801",
+        "maps_url": "https://maps.app.goo.gl/allen-street-grill-state-college",
+        "noise_level": 3,
+        "intimacy_score": 3,
+        "activity_available": false,
+        "activity_type": null,
+        "vibe_tags": [
+          "upscale",
+          "lively",
+          "farm-to-table",
+          "food-forward",
+          "corner spot"
+        ],
+        "best_for": [
+          "confident pairs",
+          "food-forward dates",
+          "slightly more formal energy"
+        ],
+        "price_tier": 2,
+        "notes": "Corner of Allen and College Ave — prime downtown location. Recently reimagined with a farm-to-table focus. More energy than The Tavern but still good for conversation. Good pick when you want to signal effort without going full fine dining."
+      },
+      "score": 67,
+      "score_breakdown": {
+        "energy_match": 22,
+        "shared_activity": 8,
+        "comfort_alignment": 25,
+        "vibe_alignment": 12
+      }
+    },
+    {
+      "venue": {
+        "id": "the_phyrst",
+        "name": "The Phyrst",
+        "address": "Downtown State College, PA 16801",
+        "maps_url": "https://maps.app.goo.gl/phyrst-state-college",
+        "noise_level": 4,
+        "intimacy_score": 2,
+        "activity_available": true,
+        "activity_type": "live music every night, Table Wars tradition",
+        "vibe_tags": [
+          "live music",
+          "Penn State tradition",
+          "rowdy",
+          "fun",
+          "high energy"
+        ],
+        "best_for": [
+          "Penn State-proud pairs",
+          "music lovers",
+          "high energy social types",
+          "people who love a spectacle"
+        ],
+        "price_tier": 1,
+        "notes": "Live music 365 days a year. Famous for Table Wars — when the band takes a break, each table shouts their chant at the others. Loud, chaotic, and genuinely fun if you're into it. Good for a pair that wants an experience, not a conversation."
+      },
+      "score": 61,
+      "score_breakdown": {
+        "energy_match": 22,
+        "shared_activity": 10,
+        "comfort_alignment": 25,
+        "vibe_alignment": 4
+      }
+    }
+  ],
+  "cards": {
+    "persona_a": {
+      "compatibility_story": "Riley brings a warmth and curiosity that complements your high-energy confidence — they're genuinely adventurous and open, so you won't have to dial yourself down. Their love of travel and Korean culture means they'll match your enthusiasm for trying bold things, just with a bit more intention behind it. You'll bring the spark; they'll bring the depth.",
+      "venue_rationale": "Manna Korean BBQ & Hotpot is the kind of buzzy, just-opened spot that fits your social, in-the-moment style — it's a talking point before you even sit down. The all-you-can-eat format keeps the energy high and gives you both something to do with your hands, which plays to your outgoing nature.",
+      "talking_points": [
+        "Manna just opened in March — ask Riley if they've been tracking any other new spots in town or found hidden gems while traveling that felt like a deliberate discovery rather than a tourist pick.",
+        "You're both drawn to culture in different ways — ask Riley what first pulled them into Korean culture and whether it started with food, music, or something else entirely.",
+        "You live for the moment; Riley loves the adventure of the unfamiliar — ask them about the most spontaneous food decision they've ever made and whether it paid off."
+      ],
+      "logistics": "Meet at the front entrance on Westerly Pkwy — it's slightly off the main strip so give yourself an extra five minutes if you're coming from downtown. Aim to arrive around 6:30 PM before the dinner rush hits. Order a mix of the BBQ proteins and start the hot pot broth early so it's ready when you want it — the server will walk you through it, but don't be afraid to just dive in."
+    },
+    "persona_b": {
+      "compatibility_story": "Sam's energy and confidence are exactly the kind of presence that makes a night feel alive — and because they genuinely love social, immersive experiences, they'll be fully present with you rather than distracted. Your shared appetite for the new and unfamiliar gives you real common ground, and your love of food gives the evening a natural anchor. This isn't a mismatch of pace — it's a balance.",
+      "venue_rationale": "Korean BBQ and hot pot is a natural fit for someone who loves Korean culture and seeks out great food experiences — and the shared cooking format turns dinner into an actual activity, not just a backdrop. Manna is newly opened and slightly off the beaten path, which makes it feel like a find rather than a fallback.",
+      "talking_points": [
+        "You both value the experience of discovering something new — ask Sam about a place, event, or moment that genuinely surprised them recently, somewhere they didn't expect to love.",
+        "You love cooking and Riley loves trying new restaurants — ask Sam if they've ever tried cooking a cuisine at home that they first fell in love with at a restaurant, and whether it lived up.",
+        "Korean culture runs deep for you — ask Sam if there's a music scene, food culture, or travel destination they've been quietly curious about but haven't explored yet, and share what drew you in."
+      ],
+      "logistics": "Meet at the entrance on Westerly Pkwy — plug the address into maps ahead of time since it's not on the main strip. A 6:30 PM arrival is ideal to get settled before it fills up. For the hot pot, pick your broth first (the spicy option is worth it if you can handle heat) and let the BBQ proteins cook low and slow — the server will guide you, but feel free to take the lead since you know your way around a kitchen."
+    }
+  },
+  "compatibility": {
+    "score": 39,
+    "label": "High Contrast",
+    "breakdown": {
+      "energy_alignment": 19,
+      "interest_overlap": 5,
+      "values_alignment": 5,
+      "vibe_compatibility": 10
+    }
+  }
+}

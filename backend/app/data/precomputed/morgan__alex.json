@@ -1,0 +1,137 @@
+{
+  "venue": {
+    "venue": {
+      "id": "elixr_coffee",
+      "name": "Elixr Coffee Roasters",
+      "address": "123 W Beaver Ave, State College, PA 16801",
+      "maps_url": "https://maps.app.goo.gl/elixr-state-college",
+      "noise_level": 2,
+      "intimacy_score": 3,
+      "activity_available": false,
+      "activity_type": null,
+      "vibe_tags": [
+        "cozy",
+        "trendy",
+        "neighborhood",
+        "coffee-forward",
+        "casual"
+      ],
+      "best_for": [
+        "thoughtful pairs",
+        "conversation-first dates",
+        "low energy introverts",
+        "coffee people"
+      ],
+      "price_tier": 1,
+      "notes": "Philadelphia roaster with a State College outpost on Beaver Ave. Warm decor, good seating variety, not overly loud. Strawberry matcha is a talking point on its own. Good neutral ground for a first meet — low stakes, easy to extend or exit."
+    },
+    "score": 63,
+    "score_breakdown": {
+      "energy_match": 22,
+      "shared_activity": 8,
+      "comfort_alignment": 25,
+      "vibe_alignment": 8
+    }
+  },
+  "runner_up_venues": [
+    {
+      "venue": {
+        "id": "arboretum",
+        "name": "Penn State Arboretum",
+        "address": "1087 Overlook Rd, State College, PA 16802",
+        "maps_url": "https://maps.app.goo.gl/arboretum-psu",
+        "noise_level": 1,
+        "intimacy_score": 4,
+        "activity_available": true,
+        "activity_type": "walking scenic trails together, picnic on the grounds",
+        "vibe_tags": [
+          "earthy",
+          "peaceful",
+          "romantic",
+          "outdoor",
+          "low pressure"
+        ],
+        "best_for": [
+          "nature lovers",
+          "introverts",
+          "artsy pairs",
+          "low pressure first dates"
+        ],
+        "price_tier": 1,
+        "notes": "Free to enter. Genuinely stunning — rolling paths, flower gardens, open fields. Best in spring and fall. Bring a blanket and you have an instant picnic. The walk gives you something to react to together without the pressure of sitting across a table staring at each other."
+      },
+      "score": 62,
+      "score_breakdown": {
+        "energy_match": 16,
+        "shared_activity": 18,
+        "comfort_alignment": 20,
+        "vibe_alignment": 8
+      }
+    },
+    {
+      "venue": {
+        "id": "allen_street_grill",
+        "name": "Allen Street Grill",
+        "address": "100 W College Ave, State College, PA 16801",
+        "maps_url": "https://maps.app.goo.gl/allen-street-grill-state-college",
+        "noise_level": 3,
+        "intimacy_score": 3,
+        "activity_available": false,
+        "activity_type": null,
+        "vibe_tags": [
+          "upscale-casual",
+          "lively",
+          "quality food",
+          "corner spot",
+          "social"
+        ],
+        "best_for": [
+          "confident pairs",
+          "food-forward dates",
+          "slightly more formal energy"
+        ],
+        "price_tier": 2,
+        "notes": "Corner of Allen and College Ave — prime downtown location. Recently reimagined with a farm-to-table focus. More energy than The Tavern but still good for conversation. Good pick when you want to signal effort without going full fine dining."
+      },
+      "score": 59,
+      "score_breakdown": {
+        "energy_match": 22,
+        "shared_activity": 8,
+        "comfort_alignment": 25,
+        "vibe_alignment": 4
+      }
+    }
+  ],
+  "cards": {
+    "persona_a": {
+      "compatibility_story": "Alex brings the reflective depth you'd naturally vibe with — someone who thinks before they speak and values honesty over performance. Their love of hiking and live music overlaps with your pull toward nature and art in ways that could spark real conversation. They're low-energy enough to match your pace, but curious enough to keep up with yours.",
+      "venue_rationale": "Elixr keeps things grounded and unpretentious — no loud crowds, just good coffee and room to actually talk. The aesthetic is warm enough to satisfy your eye for beauty without feeling forced or over-designed.",
+      "talking_points": [
+        "You're into astrology and they're into history — ask them if they think the era someone is born into shapes their personality as much as the stars do.",
+        "You both have a thing for craft and discovery. Ask them about the best live show they've ever stumbled into, and share what drew you to photography — what you're actually trying to capture.",
+        "Hiking and nature are shared ground. Ask where they'd go if they could spend a full day outside with no agenda — and tell them yours."
+      ],
+      "logistics": "Meet at the front entrance on Beaver Ave — it's easy to spot and there's usually seating available without a wait. Aim to arrive around 11am on a weekend or 4pm on a weekday to avoid the lunch and after-class rushes. Try the strawberry matcha — it's a genuine conversation starter and gives you something to react to together. If things are flowing, the walk along Beaver Ave afterward is a natural, low-pressure extension."
+    },
+    "persona_b": {
+      "compatibility_story": "Morgan is genuinely curious and moves with intention — they're not going to fill silence with small talk for the sake of it, which should feel like a relief. Their interests in nature, photography, and art give you real things to dig into, not surface-level stuff. And their calm energy means this won't feel like a performance.",
+      "venue_rationale": "Elixr is exactly the kind of place you'd actually choose yourself — unpretentious, quality-forward, no dress code implied. It's a Philadelphia roaster doing its thing quietly in State College, which tracks with your low-pretense sensibility.",
+      "talking_points": [
+        "They shoot photography and you're drawn to history — ask them what era or place they'd most want to photograph if they could go anywhere, and why.",
+        "You both value what's real over what's polished. Ask them what drew them to astrology — is it the mythology, the patterns, or something else entirely?",
+        "Hiking is yours, nature is theirs. Compare notes on what being outside actually does for you — whether it's the silence, the movement, or just being away from screens."
+      ],
+      "logistics": "Head to the front entrance on Beaver Ave — parking is available on the street or in the nearby garage on Pugh St. Arriving around 11am on a weekend gives you a relaxed start without the midday crowd. Order whatever sounds good and don't overthink it — the strawberry matcha is worth trying if you're open to it. The vibe is easy to settle into, and there's no pressure to rush."
+    }
+  },
+  "compatibility": {
+    "score": 52,
+    "label": "Interesting Mix",
+    "breakdown": {
+      "energy_alignment": 19,
+      "interest_overlap": 13,
+      "values_alignment": 5,
+      "vibe_compatibility": 15
+    }
+  }
+}

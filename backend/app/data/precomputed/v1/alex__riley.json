@@ -1,0 +1,136 @@
+{
+  "venue": {
+    "venue": {
+      "id": "allen_street_grill",
+      "name": "Allen Street Grill",
+      "address": "100 W College Ave, State College, PA 16801",
+      "maps_url": "https://maps.app.goo.gl/allen-street-grill-state-college",
+      "noise_level": 3,
+      "intimacy_score": 3,
+      "activity_available": false,
+      "activity_type": null,
+      "vibe_tags": [
+        "upscale-casual",
+        "lively",
+        "quality food",
+        "corner spot",
+        "social"
+      ],
+      "best_for": [
+        "confident pairs",
+        "food-forward dates",
+        "slightly more formal energy"
+      ],
+      "price_tier": 2,
+      "notes": "Corner of Allen and College Ave — prime downtown location. Recently reimagined with a farm-to-table focus. More energy than The Tavern but still good for conversation. Good pick when you want to signal effort without going full fine dining."
+    },
+    "score": 67,
+    "score_breakdown": {
+      "energy_match": 22,
+      "shared_activity": 8,
+      "comfort_alignment": 25,
+      "vibe_alignment": 12
+    }
+  },
+  "runner_up_venues": [
+    {
+      "venue": {
+        "id": "the_tavern",
+        "name": "The Tavern Restaurant",
+        "address": "220 E College Ave, State College, PA 16801",
+        "maps_url": "https://maps.app.goo.gl/the-tavern-state-college",
+        "noise_level": 2,
+        "intimacy_score": 4,
+        "activity_available": false,
+        "activity_type": null,
+        "vibe_tags": [
+          "classic",
+          "cozy",
+          "colonial",
+          "upscale-casual",
+          "intimate"
+        ],
+        "best_for": [
+          "intentional daters",
+          "any pair wanting a real dinner",
+          "mid-range date energy"
+        ],
+        "price_tier": 2,
+        "notes": "State College institution since 1948. Colonial tavern atmosphere — dark wood, warm lighting, booths. One of those places that signals you put thought into the date without being pretentious. Good for pairs where both people actually want to have a real conversation over a real meal."
+      },
+      "score": 65,
+      "score_breakdown": {
+        "energy_match": 22,
+        "shared_activity": 8,
+        "comfort_alignment": 23,
+        "vibe_alignment": 12
+      }
+    },
+    {
+      "venue": {
+        "id": "elixr_coffee",
+        "name": "Elixr Coffee Roasters",
+        "address": "123 W Beaver Ave, State College, PA 16801",
+        "maps_url": "https://maps.app.goo.gl/elixr-state-college",
+        "noise_level": 2,
+        "intimacy_score": 3,
+        "activity_available": false,
+        "activity_type": null,
+        "vibe_tags": [
+          "cozy",
+          "trendy",
+          "neighborhood",
+          "coffee-forward",
+          "casual"
+        ],
+        "best_for": [
+          "thoughtful pairs",
+          "conversation-first dates",
+          "low energy introverts",
+          "coffee people"
+        ],
+        "price_tier": 1,
+        "notes": "Philadelphia roaster with a State College outpost on Beaver Ave. Warm decor, good seating variety, not overly loud. Strawberry matcha is a talking point on its own. Good neutral ground for a first meet — low stakes, easy to extend or exit."
+      },
+      "score": 63,
+      "score_breakdown": {
+        "energy_match": 22,
+        "shared_activity": 8,
+        "comfort_alignment": 25,
+        "vibe_alignment": 8
+      }
+    }
+  ],
+  "cards": {
+    "persona_a": {
+      "compatibility_story": "Riley brings a warmth and curiosity about the world that pairs well with your reflective nature — they've traveled enough to have real stories, not just opinions. Their love of food culture means they actually care about what they put in front of them, which aligns with your low-pretense values. You'll find someone who asks genuine questions and listens to the answers.",
+      "venue_rationale": "Allen Street Grill's farm-to-table focus gives you something real to talk about — sourcing, craft, intentionality — without the stuffiness of fine dining. It's the kind of place that signals effort without performing it, which fits how you approach things.",
+      "talking_points": [
+        "Riley has traveled a fair bit — ask them about the most surprising meal they've had somewhere unexpected, and what made it memorable beyond the food itself.",
+        "You're both drawn to things made with care. Ask them what drew them to Korean food culture specifically — is it the technique, the communal aspect, something else entirely?",
+        "You value honesty and low pretense. At some point, ask them what they think makes a first date actually work — their answer will tell you a lot."
+      ],
+      "logistics": "Meet at the corner entrance on Allen and College Ave — it's hard to miss. Aim to arrive around 6:30 PM on a weekday to avoid the weekend rush and keep the energy conversational. The menu leans seasonal, so ask your server what's fresh; it's a good excuse to be decisive without overthinking it. If you're a craft beer person, check what they have on tap before defaulting to wine."
+    },
+    "persona_b": {
+      "compatibility_story": "Alex is the kind of person who's thought carefully about what they actually like — craft beer, live music, history — and isn't trying to impress anyone with it. Their reflective conversation style means you'll get real responses, not small talk. If you're someone who finds depth attractive, this is a good sign.",
+      "venue_rationale": "Allen Street Grill's farm-to-table approach puts good food at the center of the date without making it precious about it — exactly the right frame for someone who takes food seriously but doesn't need it to be a performance. It's a corner spot with energy, which means the atmosphere does some of the work.",
+      "talking_points": [
+        "You love trying new restaurants and exploring food culture — ask Alex what the best meal they've ever had at a dive bar or totally unassuming place was. Their answer will reveal a lot about how they see the world.",
+        "You've traveled and they're drawn to history. Find a place you've visited that had a history you didn't expect — ask them if they've ever gone somewhere specifically because of its past, not its Instagram presence.",
+        "You both value openness and curiosity. Ask them what they're currently most curious about — not a hobby, but an actual question they've been sitting with. See where it goes."
+      ],
+      "logistics": "The restaurant is right at the corner of Allen and College Ave downtown — meet at the front entrance. A 6:30 PM arrival gives you a relaxed pace without rushing into the dinner crowd. The menu is seasonal and ingredient-forward, so it's worth asking what they're doing well that night. If you're tempted to over-order, start with one shared plate — it's a good way to get comfortable before committing to the full spread."
+    }
+  },
+  "compatibility": {
+    "score": 63,
+    "label": "Interesting Mix",
+    "breakdown": {
+      "energy_alignment": 19,
+      "interest_overlap": 21,
+      "values_alignment": 5,
+      "vibe_compatibility": 18
+    }
+  }
+}

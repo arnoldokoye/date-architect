@@ -1,0 +1,137 @@
+{
+  "venue": {
+    "venue": {
+      "id": "allen_street_grill",
+      "name": "Allen Street Grill",
+      "address": "100 W College Ave, State College, PA 16801",
+      "maps_url": "https://maps.app.goo.gl/allen-street-grill-state-college",
+      "noise_level": 3,
+      "intimacy_score": 3,
+      "activity_available": false,
+      "activity_type": null,
+      "vibe_tags": [
+        "upscale-casual",
+        "lively",
+        "quality food",
+        "corner spot",
+        "social"
+      ],
+      "best_for": [
+        "confident pairs",
+        "food-forward dates",
+        "slightly more formal energy"
+      ],
+      "price_tier": 2,
+      "notes": "Corner of Allen and College Ave — prime downtown location. Recently reimagined with a farm-to-table focus. More energy than The Tavern but still good for conversation. Good pick when you want to signal effort without going full fine dining."
+    },
+    "score": 70,
+    "score_breakdown": {
+      "energy_match": 25,
+      "shared_activity": 8,
+      "comfort_alignment": 25,
+      "vibe_alignment": 12
+    }
+  },
+  "runner_up_venues": [
+    {
+      "venue": {
+        "id": "zenos_pub",
+        "name": "Zeno's Pub",
+        "address": "100 W College Ave, State College, PA 16801",
+        "maps_url": "https://maps.app.goo.gl/zenos-state-college",
+        "noise_level": 3,
+        "intimacy_score": 3,
+        "activity_available": false,
+        "activity_type": null,
+        "vibe_tags": [
+          "dive bar",
+          "character",
+          "live music",
+          "beer-forward",
+          "underground"
+        ],
+        "best_for": [
+          "laid-back pairs",
+          "anti-pretense types",
+          "music lovers",
+          "beer people"
+        ],
+        "price_tier": 1,
+        "notes": "50+ year old underground pub with an enormous beer selection and rotating live music. Low pretense, high character. The kind of place where a 2-hour date turns into a 4-hour date without either person noticing. Best for pairs who'd roll their eyes at a wine bar but still want somewhere with actual atmosphere."
+      },
+      "score": 62,
+      "score_breakdown": {
+        "energy_match": 25,
+        "shared_activity": 8,
+        "comfort_alignment": 25,
+        "vibe_alignment": 4
+      }
+    },
+    {
+      "venue": {
+        "id": "field_burger",
+        "name": "Field Burger & Tap",
+        "address": "Downtown State College, PA 16801",
+        "maps_url": "https://maps.app.goo.gl/field-burger-state-college",
+        "noise_level": 3,
+        "intimacy_score": 2,
+        "activity_available": false,
+        "activity_type": null,
+        "vibe_tags": [
+          "casual",
+          "relaxed",
+          "farm-to-table",
+          "no pressure",
+          "burgers"
+        ],
+        "best_for": [
+          "easy first dates",
+          "casual pairs",
+          "people who hate formal dinners",
+          "any pair needing zero pressure"
+        ],
+        "price_tier": 1,
+        "notes": "Gourmet burgers from locally sourced grass-fed beef, good craft beer selection, casual atmosphere. The menu is approachable and the vibe removes all formality. Good safety net venue for when the pair is hard to read — almost no one has a bad time here."
+      },
+      "score": 62,
+      "score_breakdown": {
+        "energy_match": 25,
+        "shared_activity": 8,
+        "comfort_alignment": 25,
+        "vibe_alignment": 4
+      }
+    }
+  ],
+  "cards": {
+    "persona_a": {
+      "compatibility_story": "Maya brings a depth and intentionality that's actually rare — she's not going to scroll her phone or give surface-level answers. Her taste in film and philosophy means she's thought hard about what she values, and that kind of confidence in her own perspective is something you'll feel immediately. She may be lower energy, but she's genuinely interesting, which beats high-energy and forgettable.",
+      "venue_rationale": "Allen Street Grill has the downtown buzz and social atmosphere you thrive in — it's a corner spot right in the middle of everything, so the energy of the street is part of the experience. The elevated food signals you put thought into this without making it stiff.",
+      "talking_points": [
+        "You're into fashion as self-expression — ask Maya if she has a director or film era whose visual style she thinks is genuinely underrated. See if she has opinions.",
+        "Latin music is all about feel and movement — ask her what kind of music actually moves her, not just what she listens to. It's a more interesting version of 'what's your favorite song.'",
+        "You both care about authenticity, just in different ways — ask her what she thinks people most misrepresent about themselves when they're trying to impress someone. Good for early honesty."
+      ],
+      "logistics": "Meet at the main entrance on the corner of Allen and College Ave — it's easy to spot and a natural place to greet someone. Aim to arrive around 7pm on a weekday or 7:30 on a weekend to catch the lively atmosphere without a long wait. Order something from their seasonal menu and share an appetizer — it gives you something to react to together. Don't overthink the vibe; the room will carry some of the energy so you can focus on the conversation."
+    },
+    "persona_b": {
+      "compatibility_story": "Sam is high-energy but not shallow — the interests in fashion and latin music point to someone who thinks carefully about aesthetics and culture, which overlaps more with your world than it might seem at first. The social confidence means you won't have to carry the conversation, which gives you space to go deeper when something interesting comes up. This isn't a pairing of opposites so much as two people who care about different dimensions of the same thing: what makes life feel alive.",
+      "venue_rationale": "Allen Street Grill is lively enough that there's no awkward silence pressure, but it's still a sit-down place with good food — so real conversation is actually the point. The farm-to-table focus means there's something genuine behind the menu, which tends to matter to you.",
+      "talking_points": [
+        "Sam is drawn to living in the moment — ask what film or scene you've seen recently that you think actually captures what that feels like, rather than just romanticizing it. It's a real question with a real answer.",
+        "Fashion and philosophy overlap more than people expect — ask Sam if they think personal style is something you discover or something you construct. It'll tell you a lot about how they think.",
+        "You're both curious about authenticity in different ways — ask Sam what they think is the most overrated thing people do to seem interesting on a first date. Low-stakes but surprisingly revealing."
+      ],
+      "logistics": "Meet at the corner entrance on Allen and College Ave — it's the most visible spot and easy to find if you're coming from campus. Arriving around 7 or 7:15 gives you a good table without the later weekend rush. The menu has solid seasonal options; if you're unsure, the apps are a good shared starting point. It's a corner spot so there's natural ambient noise — enough to feel relaxed, not so much that you're shouting."
+    }
+  },
+  "compatibility": {
+    "score": 47,
+    "label": "High Contrast",
+    "breakdown": {
+      "energy_alignment": 13,
+      "interest_overlap": 21,
+      "values_alignment": 5,
+      "vibe_compatibility": 8
+    }
+  }
+}

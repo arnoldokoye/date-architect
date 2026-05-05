@@ -1,0 +1,137 @@
+{
+  "venue": {
+    "venue": {
+      "id": "manna_korea",
+      "name": "Manna Korean BBQ & Hotpot",
+      "address": "542 Westerly Pkwy, State College, PA 16801",
+      "maps_url": "https://maps.app.goo.gl/manna-korea-state-college",
+      "noise_level": 3,
+      "intimacy_score": 4,
+      "activity_available": true,
+      "activity_type": "cooking and building hot pot together at the table",
+      "vibe_tags": [
+        "adventurous",
+        "interactive",
+        "fun",
+        "foodie",
+        "all-you-can-eat"
+      ],
+      "best_for": [
+        "foodies",
+        "adventurous pairs",
+        "high-energy matches",
+        "people who hate awkward silence"
+      ],
+      "price_tier": 2,
+      "notes": "Opened March 2026 — new and buzzy, which is a talking point itself. All-you-can-eat Korean BBQ and hot pot. The shared cooking activity eliminates awkward silence entirely — you're always doing something. Slightly off the main strip at Westerly Pkwy, which makes it feel like a deliberate choice rather than a default."
+    },
+    "score": 67,
+    "score_breakdown": {
+      "energy_match": 22,
+      "shared_activity": 18,
+      "comfort_alignment": 23,
+      "vibe_alignment": 4
+    }
+  },
+  "runner_up_venues": [
+    {
+      "venue": {
+        "id": "the_tavern",
+        "name": "The Tavern Restaurant",
+        "address": "220 E College Ave, State College, PA 16801",
+        "maps_url": "https://maps.app.goo.gl/the-tavern-state-college",
+        "noise_level": 2,
+        "intimacy_score": 4,
+        "activity_available": false,
+        "activity_type": null,
+        "vibe_tags": [
+          "classic",
+          "cozy",
+          "colonial",
+          "upscale-casual",
+          "intimate"
+        ],
+        "best_for": [
+          "intentional daters",
+          "any pair wanting a real dinner",
+          "mid-range date energy"
+        ],
+        "price_tier": 2,
+        "notes": "State College institution since 1948. Colonial tavern atmosphere — dark wood, warm lighting, booths. One of those places that signals you put thought into the date without being pretentious. Good for pairs where both people actually want to have a real conversation over a real meal."
+      },
+      "score": 65,
+      "score_breakdown": {
+        "energy_match": 22,
+        "shared_activity": 8,
+        "comfort_alignment": 23,
+        "vibe_alignment": 12
+      }
+    },
+    {
+      "venue": {
+        "id": "elixr_coffee",
+        "name": "Elixr Coffee Roasters",
+        "address": "123 W Beaver Ave, State College, PA 16801",
+        "maps_url": "https://maps.app.goo.gl/elixr-state-college",
+        "noise_level": 2,
+        "intimacy_score": 3,
+        "activity_available": false,
+        "activity_type": null,
+        "vibe_tags": [
+          "cozy",
+          "trendy",
+          "neighborhood",
+          "coffee-forward",
+          "casual"
+        ],
+        "best_for": [
+          "thoughtful pairs",
+          "conversation-first dates",
+          "low energy introverts",
+          "coffee people"
+        ],
+        "price_tier": 1,
+        "notes": "Philadelphia roaster with a State College outpost on Beaver Ave. Warm decor, good seating variety, not overly loud. Strawberry matcha is a talking point on its own. Good neutral ground for a first meet — low stakes, easy to extend or exit."
+      },
+      "score": 63,
+      "score_breakdown": {
+        "energy_match": 22,
+        "shared_activity": 8,
+        "comfort_alignment": 25,
+        "vibe_alignment": 8
+      }
+    }
+  ],
+  "cards": {
+    "persona_a": {
+      "compatibility_story": "Riley brings the culinary adventurousness you don't always push yourself toward — someone who's genuinely excited about food as an experience, not just fuel. Their warmth means you won't have to perform; the conversation will find its own pace. The shared value of openness lines up well with your honesty — neither of you is here to impress, just to connect.",
+      "venue_rationale": "Korean BBQ gives you something to do with your hands, which takes the pressure off — no staring across a table waiting for the next question. It's a new spot that only opened in March, so you're both discovering it together rather than one person playing tour guide.",
+      "talking_points": [
+        "You've both traveled — ask Riley about one meal from a trip that changed how they think about food, then compare it to a place you found hiking that surprised you.",
+        "Manna just opened in March — ask Riley whether they think a restaurant's buzz is ever earned on day one, or if it always takes time. Good way to find out how they think.",
+        "You care about low pretense. Ask Riley what their version of a perfect low-key Saturday looks like — not a travel highlight reel, just a regular good day."
+      ],
+      "logistics": "Meet at the front entrance on Westerly Pkwy — it's slightly off the main strip so give yourself a few extra minutes to find parking. Aim to arrive around 6:30 PM before the dinner rush hits. Go all-you-can-eat and let Riley lead on the Korean BBQ side while you handle the hot pot broth decisions — it makes the meal feel collaborative from the start."
+    },
+    "persona_b": {
+      "compatibility_story": "Alex is low-key in the best way — no performance, no agenda, just genuine curiosity about the world. Their interest in history and travel means you'll find real overlap in how you both think about place and culture, including Korean culture. The honesty they lead with means what you see is what you get, which makes for a surprisingly easy first date.",
+      "venue_rationale": "You wanted culinary, and this delivers — interactive Korean BBQ and hot pot where you're literally cooking together. Alex is open to new experiences even if they don't seek them out, so showing up somewhere adventurous like this is exactly the right move to set the tone.",
+      "talking_points": [
+        "You love Korean culture — share something specific about Korean BBQ etiquette or flavor combos you think Alex should try first. Teaching someone something you love is a great way to show who you are.",
+        "Alex hikes and has a thing for history. Ask them about a trail or place they've been where the history of it hit differently in person than on a page — then connect it to somewhere you've traveled.",
+        "You both value openness. Ask Alex what's something they used to be indifferent about that they now genuinely love — food, music, anything. It's a low-pressure way to find out how they grow."
+      ],
+      "logistics": "Meet at the front entrance on Westerly Pkwy — plug the address in ahead of time since it's slightly off the main drag. Aim for 6:30 PM to get a grill table without a long wait. Order the all-you-can-eat and take charge of the ordering early — Alex will appreciate not having to navigate an unfamiliar menu alone, and it'll make you feel at home right away."
+    }
+  },
+  "compatibility": {
+    "score": 63,
+    "label": "Interesting Mix",
+    "breakdown": {
+      "energy_alignment": 19,
+      "interest_overlap": 21,
+      "values_alignment": 5,
+      "vibe_compatibility": 18
+    }
+  }
+}

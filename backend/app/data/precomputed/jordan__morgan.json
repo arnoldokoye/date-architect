@@ -1,0 +1,136 @@
+{
+  "venue": {
+    "venue": {
+      "id": "the_phyrst",
+      "name": "The Phyrst",
+      "address": "Downtown State College, PA 16801",
+      "maps_url": "https://maps.app.goo.gl/phyrst-state-college",
+      "noise_level": 4,
+      "intimacy_score": 2,
+      "activity_available": true,
+      "activity_type": "live music every night, Table Wars tradition",
+      "vibe_tags": [
+        "live music",
+        "Penn State tradition",
+        "rowdy",
+        "fun",
+        "high energy"
+      ],
+      "best_for": [
+        "Penn State-proud pairs",
+        "music lovers",
+        "high energy social types",
+        "people who love a spectacle"
+      ],
+      "price_tier": 1,
+      "notes": "Live music 365 days a year. Famous for Table Wars — when the band takes a break, each table shouts their chant at the others. Loud, chaotic, and genuinely fun if you're into it. Good for a pair that wants an experience, not a conversation."
+    },
+    "score": 64,
+    "score_breakdown": {
+      "energy_match": 25,
+      "shared_activity": 10,
+      "comfort_alignment": 25,
+      "vibe_alignment": 4
+    }
+  },
+  "runner_up_venues": [
+    {
+      "venue": {
+        "id": "allen_street_grill",
+        "name": "Allen Street Grill",
+        "address": "100 W College Ave, State College, PA 16801",
+        "maps_url": "https://maps.app.goo.gl/allen-street-grill-state-college",
+        "noise_level": 3,
+        "intimacy_score": 3,
+        "activity_available": false,
+        "activity_type": null,
+        "vibe_tags": [
+          "upscale-casual",
+          "lively",
+          "quality food",
+          "corner spot",
+          "social"
+        ],
+        "best_for": [
+          "confident pairs",
+          "food-forward dates",
+          "slightly more formal energy"
+        ],
+        "price_tier": 2,
+        "notes": "Corner of Allen and College Ave — prime downtown location. Recently reimagined with a farm-to-table focus. More energy than The Tavern but still good for conversation. Good pick when you want to signal effort without going full fine dining."
+      },
+      "score": 60,
+      "score_breakdown": {
+        "energy_match": 19,
+        "shared_activity": 8,
+        "comfort_alignment": 25,
+        "vibe_alignment": 8
+      }
+    },
+    {
+      "venue": {
+        "id": "champs",
+        "name": "Champs",
+        "address": "College Ave, State College, PA 16801",
+        "maps_url": "https://maps.app.goo.gl/champs-state-college",
+        "noise_level": 5,
+        "intimacy_score": 1,
+        "activity_available": false,
+        "activity_type": null,
+        "vibe_tags": [
+          "sports bar",
+          "Greek life",
+          "loud",
+          "cheap drinks",
+          "social"
+        ],
+        "best_for": [
+          "high energy extroverts",
+          "social Greek-life types",
+          "pairs who already know each other"
+        ],
+        "price_tier": 1,
+        "notes": "One of the 4 main Penn State sports bars. Packed on weekends, cheap drinks, sports on every screen. Loud enough that conversation is hard — works best for pairs who are already comfortable with each other and want to be out in the scene rather than talking deeply. Not a great first-date venue for two strangers."
+      },
+      "score": 60,
+      "score_breakdown": {
+        "energy_match": 19,
+        "shared_activity": 8,
+        "comfort_alignment": 25,
+        "vibe_alignment": 8
+      }
+    }
+  ],
+  "cards": {
+    "persona_a": {
+      "compatibility_story": "Morgan brings a curiosity and calm that'll actually make you slow down and notice things — in a good way. They're into Brent Faiyaz, which means they appreciate real artistry, same as you do with rap. The intentionality they bring won't kill the vibe — it'll make the night feel more intentional than just another night out.",
+      "venue_rationale": "The Phyrst is built for your energy — live music every night, Table Wars tradition, and a crowd that's actually showing up to have fun. This is the kind of spot where your animated energy is an asset, not a lot.",
+      "talking_points": [
+        "You're into rap and they're deep into Brent Faiyaz — ask them what it is about his sound that hits different for them, then tell them your equivalent artist.",
+        "Table Wars is about to happen — which table do you two think has the best chant energy in here, and what would yours be?",
+        "You're spontaneous, they're intentional — ask them about the most unplanned thing they've ever done that turned out to be exactly right."
+      ],
+      "logistics": "Meet at the front entrance on College Ave — it's easy to spot and avoids the confusion of the side door. Aim to arrive around 9pm when the band is warmed up and the room has energy. Grab drinks at the bar first, stake out a table with a good sightline to the stage, and when Table Wars kicks off, commit fully — it's more fun if you're all in."
+    },
+    "persona_b": {
+      "compatibility_story": "Jordan runs on high energy and spontaneity, which might actually be exactly what pulls you out of your head and into the moment — the kind of presence you value, just louder than usual. They're loyal and genuinely fun, not just performatively social. There's something to photograph in a person who moves through the world that unguardedly.",
+      "venue_rationale": "The Phyrst has real character — a Penn State institution with a live music tradition that's been running 365 days a year. It's not just noise; there's a ritual to it (Table Wars) that rewards the kind of intentional attention you bring to things.",
+      "talking_points": [
+        "You're into astrology — ask Jordan what their sign is and whether they think it actually tracks for them. See how self-aware they are.",
+        "You do photography and they're drawn to big moments — ask them what's the most visually alive place they've ever been, somewhere they'd want documented.",
+        "You both value loyalty differently — for them it's people, for you it might be aesthetics or places. Ask them about a person or place they keep coming back to and why."
+      ],
+      "logistics": "Meet at the main entrance on College Ave around 9pm — the band hits its stride later in the evening. The bar has a straightforward drink menu; order whatever and don't overthink it. Find a spot with a little breathing room from the speakers if you want to actually hear each other talk during the breaks — that's when the best conversation happens anyway."
+    }
+  },
+  "compatibility": {
+    "score": 35,
+    "label": "High Contrast",
+    "breakdown": {
+      "energy_alignment": 13,
+      "interest_overlap": 5,
+      "values_alignment": 5,
+      "vibe_compatibility": 12
+    }
+  }
+}

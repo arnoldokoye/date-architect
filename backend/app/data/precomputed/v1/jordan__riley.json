@@ -1,0 +1,136 @@
+{
+  "venue": {
+    "venue": {
+      "id": "allen_street_grill",
+      "name": "Allen Street Grill",
+      "address": "100 W College Ave, State College, PA 16801",
+      "maps_url": "https://maps.app.goo.gl/allen-street-grill-state-college",
+      "noise_level": 3,
+      "intimacy_score": 3,
+      "activity_available": false,
+      "activity_type": null,
+      "vibe_tags": [
+        "upscale-casual",
+        "lively",
+        "quality food",
+        "corner spot",
+        "social"
+      ],
+      "best_for": [
+        "confident pairs",
+        "food-forward dates",
+        "slightly more formal energy"
+      ],
+      "price_tier": 2,
+      "notes": "Corner of Allen and College Ave — prime downtown location. Recently reimagined with a farm-to-table focus. More energy than The Tavern but still good for conversation. Good pick when you want to signal effort without going full fine dining."
+    },
+    "score": 68,
+    "score_breakdown": {
+      "energy_match": 19,
+      "shared_activity": 8,
+      "comfort_alignment": 25,
+      "vibe_alignment": 16
+    }
+  },
+  "runner_up_venues": [
+    {
+      "venue": {
+        "id": "the_phyrst",
+        "name": "The Phyrst",
+        "address": "Downtown State College, PA 16801",
+        "maps_url": "https://maps.app.goo.gl/phyrst-state-college",
+        "noise_level": 4,
+        "intimacy_score": 2,
+        "activity_available": true,
+        "activity_type": "live music every night, Table Wars tradition",
+        "vibe_tags": [
+          "live music",
+          "Penn State tradition",
+          "rowdy",
+          "fun",
+          "high energy"
+        ],
+        "best_for": [
+          "Penn State-proud pairs",
+          "music lovers",
+          "high energy social types",
+          "people who love a spectacle"
+        ],
+        "price_tier": 1,
+        "notes": "Live music 365 days a year. Famous for Table Wars — when the band takes a break, each table shouts their chant at the others. Loud, chaotic, and genuinely fun if you're into it. Good for a pair that wants an experience, not a conversation."
+      },
+      "score": 64,
+      "score_breakdown": {
+        "energy_match": 25,
+        "shared_activity": 10,
+        "comfort_alignment": 25,
+        "vibe_alignment": 4
+      }
+    },
+    {
+      "venue": {
+        "id": "champs",
+        "name": "Champs",
+        "address": "College Ave, State College, PA 16801",
+        "maps_url": "https://maps.app.goo.gl/champs-state-college",
+        "noise_level": 5,
+        "intimacy_score": 1,
+        "activity_available": false,
+        "activity_type": null,
+        "vibe_tags": [
+          "sports bar",
+          "Greek life",
+          "loud",
+          "cheap drinks",
+          "social"
+        ],
+        "best_for": [
+          "high energy extroverts",
+          "social Greek-life types",
+          "pairs who already know each other"
+        ],
+        "price_tier": 1,
+        "notes": "One of the 4 main Penn State sports bars. Packed on weekends, cheap drinks, sports on every screen. Loud enough that conversation is hard — works best for pairs who are already comfortable with each other and want to be out in the scene rather than talking deeply. Not a great first-date venue for two strangers."
+      },
+      "score": 60,
+      "score_breakdown": {
+        "energy_match": 19,
+        "shared_activity": 8,
+        "comfort_alignment": 25,
+        "vibe_alignment": 8
+      }
+    }
+  ],
+  "cards": {
+    "persona_a": {
+      "compatibility_story": "Riley brings something you don't usually find in one person — genuine warmth, a serious love of good food, and a curiosity about the world that matches your spontaneous energy. Their passion for Korean culture and trying new restaurants means you're not going to be stuck somewhere boring talking about nothing. Riley values adventure and openness, which means they'll roll with your vibe and probably push you somewhere unexpected too.",
+      "venue_rationale": "Allen Street Grill hits the sweet spot for you two — it's lively enough that you won't feel like you're whispering over candlelight, but the farm-to-table quality signals to Riley that you put thought into this, not just picked the first spot on the strip.",
+      "talking_points": [
+        "Riley's into Korean culture and you're into rap — ask them what K-hip-hop artists they've come across, because the Seoul underground scene has been going crazy lately and it might surprise you.",
+        "You follow basketball closely — ask Riley if they've ever traveled somewhere just to see a live sporting event or cultural moment. Their answer will tell you a lot about how they move.",
+        "Riley cooks seriously — ask them what's the most technically difficult dish they've ever attempted, and whether they'd ever try to recreate something from a restaurant they loved abroad."
+      ],
+      "logistics": "Meet at the front corner entrance on Allen and College Ave — it's hard to miss, it's the actual corner of both streets. Aim for 7:15 so you're not the first ones in and the room has some energy already. Ask your server about the seasonal specials; that's where the farm-to-table focus really shows. If you're driving, garage parking on Pugh Street is your best bet on a weekend night."
+    },
+    "persona_b": {
+      "compatibility_story": "Jordan brings an animated, high-energy presence that'll keep the conversation from ever going flat — you won't have to carry the room. Their loyalty and spontaneity complement your openness really well; they're the kind of person who commits fully once they're in, which pairs naturally with your sense of adventure. And while your interests don't overlap on the surface, that's actually the interesting part — there's genuine curiosity to trade here.",
+      "venue_rationale": "Allen Street Grill was chosen specifically because it takes food seriously — the farm-to-table menu is the kind of thing you'll actually want to talk about, not just eat through. It's got enough life in the room that Jordan will be comfortable, but the quality is there for you.",
+      "talking_points": [
+        "You love Korean cuisine and Jordan's into rap — there's a real crossover in how Korean street food culture and hip-hop aesthetics have influenced each other globally. Ask Jordan what they know about it; you might end up teaching them something.",
+        "You've traveled and you seek out food as part of the experience — ask Jordan about the best thing they've ever eaten somewhere unexpected, even if it was just a different city. It opens the door to talking about what adventure means to each of you.",
+        "You cook seriously — if you could design a tasting menu around one trip you've taken, what would it look like? Share yours and ask theirs. It's a good way to find out if someone actually engages with food or just eats."
+      ],
+      "logistics": "The entrance is right on the corner of Allen Street and College Ave, easy to spot. Plan to arrive around 7:00 — a few minutes early gives you a moment to settle before Jordan gets there. The seasonal menu is where they put their best work, so ask the server what just came in. If you have a reservation, confirm it the day before — it's a popular corner on weekends."
+    }
+  },
+  "compatibility": {
+    "score": 33,
+    "label": "High Contrast",
+    "breakdown": {
+      "energy_alignment": 13,
+      "interest_overlap": 5,
+      "values_alignment": 5,
+      "vibe_compatibility": 10
+    }
+  }
+}

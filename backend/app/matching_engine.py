@@ -14,7 +14,7 @@ def _shared_activity_score(p_a: Persona, p_b: Persona, venue: Venue) -> int:
     interest_pool = set(i.lower() for i in p_a.interests + p_b.interests)
     overlap_signals = [
         "book" in activity_keywords and any("read" in i or "book" in i for i in interest_pool),
-        "food" in activity_keywords and any("food" in i or "cook" in i or "culinary" in i for i in interest_pool),
+        ("food" in activity_keywords or "cook" in activity_keywords) and any("food" in i or "cook" in i or "culinary" in i for i in interest_pool),
         "ice cream" in activity_keywords,
         "art" in activity_keywords and any("art" in i or "film" in i or "design" in i for i in interest_pool),
         "walk" in activity_keywords and any("hike" in i or "outdoor" in i or "nature" in i for i in interest_pool),

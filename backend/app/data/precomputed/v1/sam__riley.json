@@ -1,0 +1,137 @@
+{
+  "venue": {
+    "venue": {
+      "id": "allen_street_grill",
+      "name": "Allen Street Grill",
+      "address": "100 W College Ave, State College, PA 16801",
+      "maps_url": "https://maps.app.goo.gl/allen-street-grill-state-college",
+      "noise_level": 3,
+      "intimacy_score": 3,
+      "activity_available": false,
+      "activity_type": null,
+      "vibe_tags": [
+        "upscale-casual",
+        "lively",
+        "quality food",
+        "corner spot",
+        "social"
+      ],
+      "best_for": [
+        "confident pairs",
+        "food-forward dates",
+        "slightly more formal energy"
+      ],
+      "price_tier": 2,
+      "notes": "Corner of Allen and College Ave — prime downtown location. Recently reimagined with a farm-to-table focus. More energy than The Tavern but still good for conversation. Good pick when you want to signal effort without going full fine dining."
+    },
+    "score": 71,
+    "score_breakdown": {
+      "energy_match": 22,
+      "shared_activity": 8,
+      "comfort_alignment": 25,
+      "vibe_alignment": 16
+    }
+  },
+  "runner_up_venues": [
+    {
+      "venue": {
+        "id": "manna_korea",
+        "name": "Manna Korean BBQ & Hotpot",
+        "address": "542 Westerly Pkwy, State College, PA 16801",
+        "maps_url": "https://maps.app.goo.gl/manna-korea-state-college",
+        "noise_level": 3,
+        "intimacy_score": 4,
+        "activity_available": true,
+        "activity_type": "cooking and building hot pot together at the table",
+        "vibe_tags": [
+          "adventurous",
+          "interactive",
+          "fun",
+          "foodie",
+          "all-you-can-eat"
+        ],
+        "best_for": [
+          "foodies",
+          "adventurous pairs",
+          "high-energy matches",
+          "people who hate awkward silence"
+        ],
+        "price_tier": 2,
+        "notes": "Opened March 2026 — new and buzzy, which is a talking point itself. All-you-can-eat Korean BBQ and hot pot. The shared cooking activity eliminates awkward silence entirely — you're always doing something. Slightly off the main strip at Westerly Pkwy, which makes it feel like a deliberate choice rather than a default."
+      },
+      "score": 61,
+      "score_breakdown": {
+        "energy_match": 22,
+        "shared_activity": 10,
+        "comfort_alignment": 25,
+        "vibe_alignment": 4
+      }
+    },
+    {
+      "venue": {
+        "id": "the_phyrst",
+        "name": "The Phyrst",
+        "address": "Downtown State College, PA 16801",
+        "maps_url": "https://maps.app.goo.gl/phyrst-state-college",
+        "noise_level": 4,
+        "intimacy_score": 2,
+        "activity_available": true,
+        "activity_type": "live music every night, Table Wars tradition",
+        "vibe_tags": [
+          "live music",
+          "Penn State tradition",
+          "rowdy",
+          "fun",
+          "high energy"
+        ],
+        "best_for": [
+          "Penn State-proud pairs",
+          "music lovers",
+          "high energy social types",
+          "people who love a spectacle"
+        ],
+        "price_tier": 1,
+        "notes": "Live music 365 days a year. Famous for Table Wars — when the band takes a break, each table shouts their chant at the others. Loud, chaotic, and genuinely fun if you're into it. Good for a pair that wants an experience, not a conversation."
+      },
+      "score": 61,
+      "score_breakdown": {
+        "energy_match": 22,
+        "shared_activity": 10,
+        "comfort_alignment": 25,
+        "vibe_alignment": 4
+      }
+    }
+  ],
+  "cards": {
+    "persona_a": {
+      "compatibility_story": "Riley brings a warmth and curiosity that matches your social energy without overwhelming it — they're genuinely interested in people and experiences, which means you'll never run out of things to talk about. Their passion for food and travel gives them stories, and their openness to new things means they'll be down for wherever the night takes you. You bring the spark; they bring the depth.",
+      "venue_rationale": "Allen Street Grill sits right at the heart of downtown State College — the kind of corner spot that has energy without being a scene. It's got enough buzz to match your vibe while still being good enough for someone who actually cares about what's on the plate.",
+      "talking_points": [
+        "Riley has been deep into Korean culture lately — ask them what dish or show pulled them in first and whether they've tried to cook any of it at home.",
+        "You're both drawn to experiences over things — compare notes on the last time you did something that felt completely spontaneous and whether it paid off.",
+        "Riley travels to eat, not just to see. Ask them to pitch you one city they think you'd love based purely on its food and nightlife scene."
+      ],
+      "logistics": "Meet at the main entrance on the College Ave side — it's the corner with the most foot traffic and easy to spot. Aim to arrive around 7:00 PM on a weekday or 6:30 PM on a weekend to beat the wait. The cocktail menu is solid, so ordering a drink while you settle in is a natural opener. Dress how you normally would for a night out — the vibe rewards it."
+    },
+    "persona_b": {
+      "compatibility_story": "Sam has the kind of confident, present energy that makes a night out feel alive — they're not on their phone, they're in the moment with you. Your love of food and their love of atmosphere are a natural pairing: you'll care about what's on the menu, they'll make sure the night has momentum. Together you cover both halves of a great date.",
+      "venue_rationale": "Allen Street Grill recently shifted to a farm-to-table focus, so the food is actually worth talking about — which matters to you. It's also lively enough that Sam will feel at home, and the downtown location means you can keep the night going if things are going well.",
+      "talking_points": [
+        "Sam is into Latin music and dance — ask if they've ever traveled somewhere specifically for the music or a festival, and whether that's on the bucket list.",
+        "You both value openness to new experiences. Compare your approaches: do you plan adventures in advance or just show up and figure it out?",
+        "You love trying new restaurants — ask Sam if there's a cuisine they've never tried but are curious about, and make a case for why your favorite underrated dish would change their mind."
+      ],
+      "logistics": "Head to the entrance on the Allen Street side — it's the quieter of the two corners and easier for introductions. Arriving at 7:00 PM gives you a good table without rushing. The menu leans seasonal, so ask your server what's fresh that night — it's a natural conversation starter. If you want to extend the evening, the downtown strip has plenty of options within walking distance."
+    }
+  },
+  "compatibility": {
+    "score": 39,
+    "label": "High Contrast",
+    "breakdown": {
+      "energy_alignment": 19,
+      "interest_overlap": 5,
+      "values_alignment": 5,
+      "vibe_compatibility": 10
+    }
+  }
+}

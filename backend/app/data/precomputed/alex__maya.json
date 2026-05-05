@@ -1,0 +1,138 @@
+{
+  "venue": {
+    "venue": {
+      "id": "elixr_coffee",
+      "name": "Elixr Coffee Roasters",
+      "address": "123 W Beaver Ave, State College, PA 16801",
+      "maps_url": "https://maps.app.goo.gl/elixr-state-college",
+      "noise_level": 2,
+      "intimacy_score": 3,
+      "activity_available": false,
+      "activity_type": null,
+      "vibe_tags": [
+        "cozy",
+        "trendy",
+        "neighborhood",
+        "coffee-forward",
+        "casual"
+      ],
+      "best_for": [
+        "thoughtful pairs",
+        "conversation-first dates",
+        "low energy introverts",
+        "coffee people"
+      ],
+      "price_tier": 1,
+      "notes": "Philadelphia roaster with a State College outpost on Beaver Ave. Warm decor, good seating variety, not overly loud. Strawberry matcha is a talking point on its own. Good neutral ground for a first meet — low stakes, easy to extend or exit."
+    },
+    "score": 72,
+    "score_breakdown": {
+      "energy_match": 25,
+      "shared_activity": 8,
+      "comfort_alignment": 23,
+      "vibe_alignment": 16
+    }
+  },
+  "runner_up_venues": [
+    {
+      "venue": {
+        "id": "the_tavern",
+        "name": "The Tavern Restaurant",
+        "address": "220 E College Ave, State College, PA 16801",
+        "maps_url": "https://maps.app.goo.gl/the-tavern-state-college",
+        "noise_level": 2,
+        "intimacy_score": 4,
+        "activity_available": false,
+        "activity_type": null,
+        "vibe_tags": [
+          "classic",
+          "cozy",
+          "colonial",
+          "upscale-casual",
+          "intimate"
+        ],
+        "best_for": [
+          "intentional daters",
+          "any pair wanting a real dinner",
+          "mid-range date energy"
+        ],
+        "price_tier": 2,
+        "notes": "State College institution since 1948. Colonial tavern atmosphere — dark wood, warm lighting, booths. One of those places that signals you put thought into the date without being pretentious. Good for pairs where both people actually want to have a real conversation over a real meal."
+      },
+      "score": 67,
+      "score_breakdown": {
+        "energy_match": 25,
+        "shared_activity": 8,
+        "comfort_alignment": 18,
+        "vibe_alignment": 16
+      }
+    },
+    {
+      "venue": {
+        "id": "websters",
+        "name": "Webster's Bookstore Café",
+        "address": "133 E Beaver Ave, State College, PA 16801",
+        "maps_url": "https://maps.app.goo.gl/websters-state-college",
+        "noise_level": 1,
+        "intimacy_score": 4,
+        "activity_available": true,
+        "activity_type": "browsing used books and vintage vinyl together",
+        "vibe_tags": [
+          "intellectual",
+          "quirky",
+          "intimate",
+          "eclectic",
+          "cozy"
+        ],
+        "best_for": [
+          "introverts",
+          "book lovers",
+          "curious pairs",
+          "low pressure",
+          "creative types"
+        ],
+        "price_tier": 1,
+        "notes": "Used bookstore, organic coffee, vintage vinyl, and Tigers Eye vintage clothing all in one building. The browsing IS the date — picking out books for each other, reacting to weird finds, debating vinyl picks. One of the most unique first-date spots in State College for the right pair."
+      },
+      "score": 63,
+      "score_breakdown": {
+        "energy_match": 19,
+        "shared_activity": 18,
+        "comfort_alignment": 18,
+        "vibe_alignment": 8
+      }
+    }
+  ],
+  "cards": {
+    "persona_a": {
+      "compatibility_story": "Maya brings the kind of depth you actually want in a conversation — she's drawn to philosophy and film the way you're drawn to history and live music, all of it circling the same impulse to understand why things matter. She's low-energy in the best sense: no performance, no small talk for its own sake. You'll both leave the conversation feeling like you actually said something real.",
+      "venue_rationale": "Elixr is exactly the kind of place where a good conversation can breathe — unhurried, not trying too hard, with enough ambient noise to feel alive without drowning you out. It's the anti-scene, which matches where both of you are at.",
+      "talking_points": [
+        "You're into history and she's into philosophy — ask her: 'Is there a historical moment or figure you think philosophers get completely wrong?' It's a good bridge between your worlds.",
+        "She loves film, you love live music — compare notes on the last thing that genuinely surprised you. Not your favorite, the last one that caught you off guard.",
+        "Craft beer and indie music both have this thing where the discovery is half the point. Ask her if she has a philosophy equivalent — a thinker or idea she stumbled onto that changed how she sees something."
+      ],
+      "logistics": "Meet at the front entrance on Beaver Ave — it's easy to spot and there's no confusing back entrance. Aim to arrive around 2–4pm on a weekend when it's relaxed but not dead. Order something you wouldn't normally — the strawberry matcha is genuinely worth trying and gives you something to react to together. No need to plan an exit time; the vibe lends itself to staying as long as the conversation does."
+    },
+    "persona_b": {
+      "compatibility_story": "Alex has the same low-pretense instinct you do — he's not performing interests, he's actually lived inside them: hiking trails, dive bars with good local acts, the kind of history that doesn't show up on plaques. He's reflective in the way that makes conversation feel collaborative rather than competitive. You'll likely find that your questions go somewhere with him.",
+      "venue_rationale": "Elixr is a Philadelphia roaster with a real sensibility — the kind of place that has opinions about coffee without making you feel bad about yours. It's quiet enough to think, comfortable enough to stay, and neutral enough that neither of you has to 'perform' the date.",
+      "talking_points": [
+        "You love film and philosophy, he loves history — ask him: 'Is there a period in history you think would make a devastating film that no one's made yet?' See where he goes with it.",
+        "Indie music and live music overlap but aren't the same thing. Compare what you each look for in a live show — the intimacy of a small venue versus something else. He'll have a specific answer.",
+        "You're both drawn to authenticity as a value. Ask him what tipped him off the last time something felt genuinely real versus curated — could be a place, a person, a conversation."
+      ],
+      "logistics": "Meet at the front entrance on Beaver Ave — straightforward, no ambiguity. Afternoon is the sweet spot, around 2–4pm, when the space is calm and there's no pressure to free up a table. The strawberry matcha is a legitimate talking point and worth ordering even just to have a reaction to it. The space is easy to linger in, so don't feel like you need an agenda beyond showing up and seeing where it goes."
+    }
+  },
+  "compatibility": {
+    "score": 92,
+    "label": "Highly Compatible",
+    "breakdown": {
+      "energy_alignment": 25,
+      "interest_overlap": 21,
+      "values_alignment": 21,
+      "vibe_compatibility": 25
+    }
+  }
+}

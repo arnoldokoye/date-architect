@@ -1,0 +1,136 @@
+{
+  "venue": {
+    "venue": {
+      "id": "allen_street_grill",
+      "name": "Allen Street Grill",
+      "address": "100 W College Ave, State College, PA 16801",
+      "maps_url": "https://maps.app.goo.gl/allen-street-grill-state-college",
+      "noise_level": 3,
+      "intimacy_score": 3,
+      "activity_available": false,
+      "activity_type": null,
+      "vibe_tags": [
+        "upscale-casual",
+        "lively",
+        "quality food",
+        "corner spot",
+        "social"
+      ],
+      "best_for": [
+        "confident pairs",
+        "food-forward dates",
+        "slightly more formal energy"
+      ],
+      "price_tier": 2,
+      "notes": "Corner of Allen and College Ave — prime downtown location. Recently reimagined with a farm-to-table focus. More energy than The Tavern but still good for conversation. Good pick when you want to signal effort without going full fine dining."
+    },
+    "score": 68,
+    "score_breakdown": {
+      "energy_match": 19,
+      "shared_activity": 8,
+      "comfort_alignment": 25,
+      "vibe_alignment": 16
+    }
+  },
+  "runner_up_venues": [
+    {
+      "venue": {
+        "id": "the_phyrst",
+        "name": "The Phyrst",
+        "address": "Downtown State College, PA 16801",
+        "maps_url": "https://maps.app.goo.gl/phyrst-state-college",
+        "noise_level": 4,
+        "intimacy_score": 2,
+        "activity_available": true,
+        "activity_type": "live music every night, Table Wars tradition",
+        "vibe_tags": [
+          "live music",
+          "Penn State tradition",
+          "rowdy",
+          "fun",
+          "high energy"
+        ],
+        "best_for": [
+          "Penn State-proud pairs",
+          "music lovers",
+          "high energy social types",
+          "people who love a spectacle"
+        ],
+        "price_tier": 1,
+        "notes": "Live music 365 days a year. Famous for Table Wars — when the band takes a break, each table shouts their chant at the others. Loud, chaotic, and genuinely fun if you're into it. Good for a pair that wants an experience, not a conversation."
+      },
+      "score": 64,
+      "score_breakdown": {
+        "energy_match": 25,
+        "shared_activity": 10,
+        "comfort_alignment": 25,
+        "vibe_alignment": 4
+      }
+    },
+    {
+      "venue": {
+        "id": "champs",
+        "name": "Champs",
+        "address": "College Ave, State College, PA 16801",
+        "maps_url": "https://maps.app.goo.gl/champs-state-college",
+        "noise_level": 5,
+        "intimacy_score": 1,
+        "activity_available": false,
+        "activity_type": null,
+        "vibe_tags": [
+          "sports bar",
+          "Greek life",
+          "loud",
+          "cheap drinks",
+          "social"
+        ],
+        "best_for": [
+          "high energy extroverts",
+          "social Greek-life types",
+          "pairs who already know each other"
+        ],
+        "price_tier": 1,
+        "notes": "One of the 4 main Penn State sports bars. Packed on weekends, cheap drinks, sports on every screen. Loud enough that conversation is hard — works best for pairs who are already comfortable with each other and want to be out in the scene rather than talking deeply. Not a great first-date venue for two strangers."
+      },
+      "score": 60,
+      "score_breakdown": {
+        "energy_match": 19,
+        "shared_activity": 8,
+        "comfort_alignment": 25,
+        "vibe_alignment": 8
+      }
+    }
+  ],
+  "cards": {
+    "persona_a": {
+      "compatibility_story": "Jordan's spontaneity and high energy are the exact counterweight to a thoughtful planner — the kind of person who makes sure you actually go on the adventure instead of just bookmarking it. Where you bring depth (knowing why a dish matters, what a neighborhood feels like, the story behind a cuisine), Jordan brings momentum. That combination tends to produce nights you actually remember.",
+      "venue_rationale": "Allen Street Grill's farm-to-table focus gives you real material to work with — provenance, seasonality, craft — and the prime corner location delivers the lively social atmosphere that keeps Jordan engaged. You get the food quality you'd actually care about, and the vibe does the heavy lifting for the energy.",
+      "talking_points": [
+        "You've explored Korean food culture pretty deeply — has that changed how you think about what makes a meal worth traveling for, or is it more about the place than the plate?",
+        "Jordan's world is sports and rap, which are both deeply tied to city identity and culture — what cities or neighborhoods have you been to where you felt like the food scene was inseparable from the place itself?",
+        "If you had to design the perfect day-trip — somewhere within a few hours, a meal that anchors the whole thing — where does it go and what are you eating?"
+      ],
+      "logistics": "Meet at the corner entrance on Allen Street around 7:00 PM — the corner of Allen and College Ave is hard to miss. Let the server walk you through what's rotating on the seasonal menu; it's a natural opener and signals you know what you're doing. Arrive a few minutes before Jordan so you're already settled — it sets a confident, relaxed tone from the start."
+    },
+    "persona_b": {
+      "compatibility_story": "Riley knows food and travel in a way that makes going out feel like it actually means something — not just a spot, but an experience worth talking about. Your energy and spontaneity are exactly what keeps that kind of person from overthinking and just having fun. You show up and make it a good time; they make sure you remember why it was.",
+      "venue_rationale": "Allen Street Grill is right at the center of downtown — prime corner, real crowd, the kind of place that signals you put thought in without overdoing it. Riley gets the quality food they genuinely care about, and you get the social environment you need to actually enjoy yourself.",
+      "talking_points": [
+        "Riley's been places — ask them what city surprised them most and what they ate there. Let them tell the story; it'll go somewhere interesting.",
+        "You're locked into basketball culture and they're locked into food culture — ask if they've ever been to a city where the food scene and the sports culture actually felt connected. Memphis, New Orleans, Philly — there's more overlap than you'd think.",
+        "If you could pick any artist to score a perfect night out — dinner, wherever the night goes after — who is it and what does the night actually look like?"
+      ],
+      "logistics": "Corner entrance on Allen and College Ave — walk right up to it. Aim for 7:05 PM, a couple minutes after Riley is settled. If the wait is short, the bar area is a solid place to open before you sit down. Let Riley take the lead on the menu — ask what looks good to them — they'll appreciate it and it gives you an easy first moment."
+    }
+  },
+  "compatibility": {
+    "score": 33,
+    "label": "High Contrast",
+    "breakdown": {
+      "energy_alignment": 13,
+      "interest_overlap": 5,
+      "values_alignment": 5,
+      "vibe_compatibility": 10
+    }
+  }
+}

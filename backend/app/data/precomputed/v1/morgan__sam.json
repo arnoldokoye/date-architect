@@ -1,0 +1,137 @@
+{
+  "venue": {
+    "venue": {
+      "id": "allen_street_grill",
+      "name": "Allen Street Grill",
+      "address": "100 W College Ave, State College, PA 16801",
+      "maps_url": "https://maps.app.goo.gl/allen-street-grill-state-college",
+      "noise_level": 3,
+      "intimacy_score": 3,
+      "activity_available": false,
+      "activity_type": null,
+      "vibe_tags": [
+        "upscale-casual",
+        "lively",
+        "quality food",
+        "corner spot",
+        "social"
+      ],
+      "best_for": [
+        "confident pairs",
+        "food-forward dates",
+        "slightly more formal energy"
+      ],
+      "price_tier": 2,
+      "notes": "Corner of Allen and College Ave — prime downtown location. Recently reimagined with a farm-to-table focus. More energy than The Tavern but still good for conversation. Good pick when you want to signal effort without going full fine dining."
+    },
+    "score": 63,
+    "score_breakdown": {
+      "energy_match": 22,
+      "shared_activity": 8,
+      "comfort_alignment": 25,
+      "vibe_alignment": 8
+    }
+  },
+  "runner_up_venues": [
+    {
+      "venue": {
+        "id": "manna_korea",
+        "name": "Manna Korean BBQ & Hotpot",
+        "address": "542 Westerly Pkwy, State College, PA 16801",
+        "maps_url": "https://maps.app.goo.gl/manna-korea-state-college",
+        "noise_level": 3,
+        "intimacy_score": 4,
+        "activity_available": true,
+        "activity_type": "cooking and building hot pot together at the table",
+        "vibe_tags": [
+          "adventurous",
+          "interactive",
+          "fun",
+          "foodie",
+          "all-you-can-eat"
+        ],
+        "best_for": [
+          "foodies",
+          "adventurous pairs",
+          "high-energy matches",
+          "people who hate awkward silence"
+        ],
+        "price_tier": 2,
+        "notes": "Opened March 2026 — new and buzzy, which is a talking point itself. All-you-can-eat Korean BBQ and hot pot. The shared cooking activity eliminates awkward silence entirely — you're always doing something. Slightly off the main strip at Westerly Pkwy, which makes it feel like a deliberate choice rather than a default."
+      },
+      "score": 61,
+      "score_breakdown": {
+        "energy_match": 22,
+        "shared_activity": 10,
+        "comfort_alignment": 25,
+        "vibe_alignment": 4
+      }
+    },
+    {
+      "venue": {
+        "id": "the_phyrst",
+        "name": "The Phyrst",
+        "address": "Downtown State College, PA 16801",
+        "maps_url": "https://maps.app.goo.gl/phyrst-state-college",
+        "noise_level": 4,
+        "intimacy_score": 2,
+        "activity_available": true,
+        "activity_type": "live music every night, Table Wars tradition",
+        "vibe_tags": [
+          "live music",
+          "Penn State tradition",
+          "rowdy",
+          "fun",
+          "high energy"
+        ],
+        "best_for": [
+          "Penn State-proud pairs",
+          "music lovers",
+          "high energy social types",
+          "people who love a spectacle"
+        ],
+        "price_tier": 1,
+        "notes": "Live music 365 days a year. Famous for Table Wars — when the band takes a break, each table shouts their chant at the others. Loud, chaotic, and genuinely fun if you're into it. Good for a pair that wants an experience, not a conversation."
+      },
+      "score": 61,
+      "score_breakdown": {
+        "energy_match": 22,
+        "shared_activity": 10,
+        "comfort_alignment": 25,
+        "vibe_alignment": 4
+      }
+    }
+  ],
+  "cards": {
+    "persona_a": {
+      "compatibility_story": "Sam brings the vibrant social energy that can pull you out of your head and into the moment — a natural complement to your more intentional, observant nature. Their confidence and love of movement pairs interestingly with your eye for beauty and detail; you'll likely notice things about the night that Sam experiences but never stops to name. There's real potential here for someone who helps you feel alive in the room, not just in your thoughts.",
+      "venue_rationale": "Allen Street Grill sits at one of State College's most visually interesting corners — good light, street energy, and a farm-to-table menu that reflects the kind of intentionality you value in everyday things. It's lively enough to feel like an event, but the layout still makes real conversation possible.",
+      "talking_points": [
+        "You're into astrology — what's your read on Sam's energy just from tonight? What sign would you guess, and why?",
+        "Photography is all about finding beauty in composition. If you were shooting this corner of Allen and College right now, what would you frame?",
+        "Brent Faiyaz writes a lot about tension between solitude and connection. Do you think that tension ever fully resolves, or is it just something you learn to move between?"
+      ],
+      "logistics": "Meet at the main entrance on the Allen Street side — it's the corner with the most foot traffic and easiest to spot. Aim to arrive around 7:00 PM before the dinner rush peaks. The seasonal menu changes often, so ask your server what's local right now — that's usually the best order. Parking on Allen fills up fast on weekends; Pugh Street garage is two blocks away."
+    },
+    "persona_b": {
+      "compatibility_story": "Morgan is the kind of person who actually listens — curious, thoughtful, and genuinely interested in what makes people tick, which means your natural outgoing energy will have somewhere real to land tonight. Their appreciation for beauty and aesthetics means they'll notice the effort you put into how you show up, and they'll mean it when they say something. The contrast between your styles is a feature, not a bug — you'll likely bring out sides of each other that don't come out with people who are just like you.",
+      "venue_rationale": "Allen Street Grill has the right downtown energy and a social scene that fits your vibe, without being so loud that the conversation gets lost — which matters more tonight than usual given who you're sitting across from. It's a spot worth being seen at, which doesn't hurt.",
+      "talking_points": [
+        "You're into Latin music and dancing — is there a song or artist right now that you think more people need to know about? What would you put on if you were setting the mood for tonight?",
+        "Fashion is visual storytelling. What's the story you were trying to tell with what you're wearing tonight?",
+        "You love living in the moment — but is there a place, a trip, or an experience that you keep coming back to in your head? Something that stuck?"
+      ],
+      "logistics": "Head to the Allen Street entrance — it's on the corner, hard to miss. Try to get there by 7:00 PM so you can grab the table before the spot fills up. The cocktail menu is worth a look before you default to something familiar — it's a good opener for conversation. If the vibe is right after dinner, Allen Street itself has enough going on that a walk is a natural next move."
+    }
+  },
+  "compatibility": {
+    "score": 49,
+    "label": "High Contrast",
+    "breakdown": {
+      "energy_alignment": 19,
+      "interest_overlap": 13,
+      "values_alignment": 5,
+      "vibe_compatibility": 12
+    }
+  }
+}

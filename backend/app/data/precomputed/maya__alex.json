@@ -1,0 +1,138 @@
+{
+  "venue": {
+    "venue": {
+      "id": "elixr_coffee",
+      "name": "Elixr Coffee Roasters",
+      "address": "123 W Beaver Ave, State College, PA 16801",
+      "maps_url": "https://maps.app.goo.gl/elixr-state-college",
+      "noise_level": 2,
+      "intimacy_score": 3,
+      "activity_available": false,
+      "activity_type": null,
+      "vibe_tags": [
+        "cozy",
+        "trendy",
+        "neighborhood",
+        "coffee-forward",
+        "casual"
+      ],
+      "best_for": [
+        "thoughtful pairs",
+        "conversation-first dates",
+        "low energy introverts",
+        "coffee people"
+      ],
+      "price_tier": 1,
+      "notes": "Philadelphia roaster with a State College outpost on Beaver Ave. Warm decor, good seating variety, not overly loud. Strawberry matcha is a talking point on its own. Good neutral ground for a first meet — low stakes, easy to extend or exit."
+    },
+    "score": 72,
+    "score_breakdown": {
+      "energy_match": 25,
+      "shared_activity": 8,
+      "comfort_alignment": 23,
+      "vibe_alignment": 16
+    }
+  },
+  "runner_up_venues": [
+    {
+      "venue": {
+        "id": "the_tavern",
+        "name": "The Tavern Restaurant",
+        "address": "220 E College Ave, State College, PA 16801",
+        "maps_url": "https://maps.app.goo.gl/the-tavern-state-college",
+        "noise_level": 2,
+        "intimacy_score": 4,
+        "activity_available": false,
+        "activity_type": null,
+        "vibe_tags": [
+          "classic",
+          "cozy",
+          "colonial",
+          "upscale-casual",
+          "intimate"
+        ],
+        "best_for": [
+          "intentional daters",
+          "any pair wanting a real dinner",
+          "mid-range date energy"
+        ],
+        "price_tier": 2,
+        "notes": "State College institution since 1948. Colonial tavern atmosphere — dark wood, warm lighting, booths. One of those places that signals you put thought into the date without being pretentious. Good for pairs where both people actually want to have a real conversation over a real meal."
+      },
+      "score": 67,
+      "score_breakdown": {
+        "energy_match": 25,
+        "shared_activity": 8,
+        "comfort_alignment": 18,
+        "vibe_alignment": 16
+      }
+    },
+    {
+      "venue": {
+        "id": "websters",
+        "name": "Webster's Bookstore Café",
+        "address": "133 E Beaver Ave, State College, PA 16801",
+        "maps_url": "https://maps.app.goo.gl/websters-state-college",
+        "noise_level": 1,
+        "intimacy_score": 4,
+        "activity_available": true,
+        "activity_type": "browsing used books and vintage vinyl together",
+        "vibe_tags": [
+          "intellectual",
+          "quirky",
+          "intimate",
+          "eclectic",
+          "cozy"
+        ],
+        "best_for": [
+          "introverts",
+          "book lovers",
+          "curious pairs",
+          "low pressure",
+          "creative types"
+        ],
+        "price_tier": 1,
+        "notes": "Used bookstore, organic coffee, vintage vinyl, and Tigers Eye vintage clothing all in one building. The browsing IS the date — picking out books for each other, reacting to weird finds, debating vinyl picks. One of the most unique first-date spots in State College for the right pair."
+      },
+      "score": 63,
+      "score_breakdown": {
+        "energy_match": 19,
+        "shared_activity": 18,
+        "comfort_alignment": 18,
+        "vibe_alignment": 8
+      }
+    }
+  ],
+  "cards": {
+    "persona_a": {
+      "compatibility_story": "Alex is the kind of person who asks real questions and actually listens to the answers — no performance, no small talk for its own sake. Their interest in history and live music means they think about why things matter, not just what's trending, which should feel familiar to someone who values depth over surface. The reflective quality you both share means this conversation is unlikely to stay shallow for long.",
+      "venue_rationale": "Elixr is low-stakes and genuinely good — a Philadelphia roaster that takes coffee seriously without being precious about it, which fits two people who'd rather have a real conversation than impress each other with a fancy setting. No music loud enough to derail a thought, and enough seating variety that you can find your own corner.",
+      "talking_points": [
+        "You both seem drawn to things with a 'why' behind them — is there a film or a book that shifted how you actually think about something, not just entertained you?",
+        "Alex is into history in a way that sounds more like curiosity than trivia collecting — what era or question are they currently down a rabbit hole on?",
+        "Indie music often exists in reaction to something. What's a band or album you've discovered recently that felt like it was made specifically for you?"
+      ],
+      "logistics": "Meet at the front entrance on Beaver Ave — it's easy to spot and there's no confusing side door situation. Aim to arrive around 2pm on a weekend when it's lively but not packed. Order whatever sounds good, but the strawberry matcha is worth at least a mention — it's an easy, low-stakes conversation opener. If it's going well, the walk along Beaver Ave is a natural next step with zero pressure."
+    },
+    "persona_b": {
+      "compatibility_story": "Maya thinks carefully before she speaks and means what she says — if you're tired of conversations that go nowhere, that's the main thing to know. Her interests in film and philosophy aren't academic hobbies; they're how she processes the world, which means she's probably thought about the same kinds of questions you have, just from a different angle. The curiosity you both share is the actual common ground here.",
+      "venue_rationale": "Elixr was picked because it's the kind of place that doesn't try too hard — good coffee, warm space, no agenda — which matches how both of you seem to prefer things. It's a solid neutral ground where the conversation is the point, not the venue.",
+      "talking_points": [
+        "You're both drawn to authenticity in different domains — what's something in your world (beer, music, trails, wherever) where you can immediately tell the real thing from the imitation?",
+        "Maya is interested in philosophy in a grounded way, not an abstract one — what's a question about how people actually live that you find yourself coming back to?",
+        "Live music and film are both about the experience of being in a room with something that moves you. What's the last time something — a show, a place, a conversation — actually surprised you?"
+      ],
+      "logistics": "The entrance is right on Beaver Ave — straightforward, no guessing. Get there around 2pm if you're going on a weekend; it's a comfortable crowd at that hour. Just get a coffee you actually want — this isn't a place where the order matters, but the strawberry matcha tends to come up in conversation on its own. If the hour flies by, the street is walkable and there's no natural stopping point, which is the whole idea."
+    }
+  },
+  "compatibility": {
+    "score": 92,
+    "label": "Highly Compatible",
+    "breakdown": {
+      "energy_alignment": 25,
+      "interest_overlap": 21,
+      "values_alignment": 21,
+      "vibe_compatibility": 25
+    }
+  }
+}

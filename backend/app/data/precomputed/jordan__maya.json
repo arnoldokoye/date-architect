@@ -1,0 +1,137 @@
+{
+  "venue": {
+    "venue": {
+      "id": "the_phyrst",
+      "name": "The Phyrst",
+      "address": "Downtown State College, PA 16801",
+      "maps_url": "https://maps.app.goo.gl/phyrst-state-college",
+      "noise_level": 4,
+      "intimacy_score": 2,
+      "activity_available": true,
+      "activity_type": "live music every night, Table Wars tradition",
+      "vibe_tags": [
+        "live music",
+        "Penn State tradition",
+        "rowdy",
+        "fun",
+        "high energy"
+      ],
+      "best_for": [
+        "Penn State-proud pairs",
+        "music lovers",
+        "high energy social types",
+        "people who love a spectacle"
+      ],
+      "price_tier": 1,
+      "notes": "Live music 365 days a year. Famous for Table Wars — when the band takes a break, each table shouts their chant at the others. Loud, chaotic, and genuinely fun if you're into it. Good for a pair that wants an experience, not a conversation."
+    },
+    "score": 61,
+    "score_breakdown": {
+      "energy_match": 22,
+      "shared_activity": 10,
+      "comfort_alignment": 25,
+      "vibe_alignment": 4
+    }
+  },
+  "runner_up_venues": [
+    {
+      "venue": {
+        "id": "allen_street_grill",
+        "name": "Allen Street Grill",
+        "address": "100 W College Ave, State College, PA 16801",
+        "maps_url": "https://maps.app.goo.gl/allen-street-grill-state-college",
+        "noise_level": 3,
+        "intimacy_score": 3,
+        "activity_available": false,
+        "activity_type": null,
+        "vibe_tags": [
+          "upscale",
+          "lively",
+          "farm-to-table",
+          "food-forward",
+          "corner spot"
+        ],
+        "best_for": [
+          "confident pairs",
+          "food-forward dates",
+          "slightly more formal energy"
+        ],
+        "price_tier": 2,
+        "notes": "Corner of Allen and College Ave — prime downtown location. Recently reimagined with a farm-to-table focus. More energy than The Tavern but still good for conversation. Good pick when you want to signal effort without going full fine dining."
+      },
+      "score": 59,
+      "score_breakdown": {
+        "energy_match": 22,
+        "shared_activity": 8,
+        "comfort_alignment": 25,
+        "vibe_alignment": 4
+      }
+    },
+    {
+      "venue": {
+        "id": "zenos_pub",
+        "name": "Zeno's Pub",
+        "address": "100 W College Ave, State College, PA 16801",
+        "maps_url": "https://maps.app.goo.gl/zenos-state-college",
+        "noise_level": 3,
+        "intimacy_score": 3,
+        "activity_available": false,
+        "activity_type": null,
+        "vibe_tags": [
+          "dive bar",
+          "character",
+          "live music",
+          "beer-forward",
+          "underground"
+        ],
+        "best_for": [
+          "laid-back pairs",
+          "anti-pretense types",
+          "music lovers",
+          "beer people"
+        ],
+        "price_tier": 1,
+        "notes": "50+ year old underground pub with an enormous beer selection and rotating live music. Low pretense, high character. The kind of place where a 2-hour date turns into a 4-hour date without either person noticing. Best for pairs who'd roll their eyes at a wine bar but still want somewhere with actual atmosphere."
+      },
+      "score": 59,
+      "score_breakdown": {
+        "energy_match": 22,
+        "shared_activity": 8,
+        "comfort_alignment": 25,
+        "vibe_alignment": 4
+      }
+    }
+  ],
+  "cards": {
+    "persona_a": {
+      "compatibility_story": "Maya brings a depth and curiosity that'll keep you on your toes — she's not just going to laugh at your jokes, she's going to make you think harder about why something's funny. She's authentic and loyal to the things she loves, which lines up with how seriously you take your own values. The contrast in your energy levels is actually the interesting part — she'll slow you down just enough to have a real conversation, and you'll pull her into the moment.",
+      "venue_rationale": "The Phyrst is your kind of spot — live music every night, cold drinks, and the Table Wars tradition means you're not just sitting there, you're in it. Jordan, this is a place where your energy actually belongs.",
+      "talking_points": [
+        "You're both into music from completely different angles — ask Maya what a song has to do to earn a spot on her all-time list, then tell her yours. See if any overlap surprises you both.",
+        "Ask her: if a philosopher wrote the best rap album ever made, who would it be and what would it be about? There's no wrong answer and it'll tell you a lot about how she thinks.",
+        "You're spontaneous, she's deliberate — ask her about a time she did something completely impulsive and whether it paid off. Trade stories."
+      ],
+      "logistics": "Meet at the front entrance on Allen Street — it's the main door facing the street, hard to miss. Aim to arrive around 9pm when the first set is usually in full swing. Get there early enough to grab a table before it fills up; the bar area gets tight fast. Order whatever's on draft and just stay close — the music is loud so lean in and keep it simple."
+    },
+    "persona_b": {
+      "compatibility_story": "Jordan's the kind of person who's fully present — no half-attention, no irony shield, just genuinely in it with you. That spontaneity and loyalty you're going to sense pretty quickly is real, not performed. And if you're willing to let the evening be a little chaotic, you might find that the noise actually makes the quiet moments between you two land harder.",
+      "venue_rationale": "The Phyrst was chosen because this date is meant to be an experience you share, not just a backdrop — the live music and Table Wars tradition give you both something to react to together, which takes the pressure off the conversation and lets connection happen more naturally.",
+      "talking_points": [
+        "The band playing tonight is doing something live that no recording can fully capture — ask Jordan what he thinks is lost when music gets produced and polished. See how far that conversation goes.",
+        "You study depth, he lives in the moment — ask him: is there a person, a game, or a place that genuinely changed how he sees things? Listen for what he doesn't say.",
+        "Indie film and rap music aren't as far apart as people think — both started outside the machine and got absorbed by it. Bring that up and see if he bites."
+      ],
+      "logistics": "Meet at the front entrance on Allen Street — it's the main door on the street level, easy to find. Getting there around 9pm puts you right into the first live set without the late-night crowd crunch. If the noise feels like a lot, the back area near the bar tends to be slightly less chaotic. You don't need to match his energy — just show up as yourself and let the room do some of the work."
+    }
+  },
+  "compatibility": {
+    "score": 33,
+    "label": "High Contrast",
+    "breakdown": {
+      "energy_alignment": 7,
+      "interest_overlap": 13,
+      "values_alignment": 5,
+      "vibe_compatibility": 8
+    }
+  }
+}

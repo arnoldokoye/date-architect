@@ -1,0 +1,137 @@
+{
+  "venue": {
+    "venue": {
+      "id": "the_phyrst",
+      "name": "The Phyrst",
+      "address": "Downtown State College, PA 16801",
+      "maps_url": "https://maps.app.goo.gl/phyrst-state-college",
+      "noise_level": 4,
+      "intimacy_score": 2,
+      "activity_available": true,
+      "activity_type": "live music every night, Table Wars tradition",
+      "vibe_tags": [
+        "live music",
+        "Penn State tradition",
+        "rowdy",
+        "fun",
+        "high energy"
+      ],
+      "best_for": [
+        "Penn State-proud pairs",
+        "music lovers",
+        "high energy social types",
+        "people who love a spectacle"
+      ],
+      "price_tier": 1,
+      "notes": "Live music 365 days a year. Famous for Table Wars — when the band takes a break, each table shouts their chant at the others. Loud, chaotic, and genuinely fun if you're into it. Good for a pair that wants an experience, not a conversation."
+    },
+    "score": 61,
+    "score_breakdown": {
+      "energy_match": 22,
+      "shared_activity": 10,
+      "comfort_alignment": 25,
+      "vibe_alignment": 4
+    }
+  },
+  "runner_up_venues": [
+    {
+      "venue": {
+        "id": "allen_street_grill",
+        "name": "Allen Street Grill",
+        "address": "100 W College Ave, State College, PA 16801",
+        "maps_url": "https://maps.app.goo.gl/allen-street-grill-state-college",
+        "noise_level": 3,
+        "intimacy_score": 3,
+        "activity_available": false,
+        "activity_type": null,
+        "vibe_tags": [
+          "upscale",
+          "lively",
+          "farm-to-table",
+          "food-forward",
+          "corner spot"
+        ],
+        "best_for": [
+          "confident pairs",
+          "food-forward dates",
+          "slightly more formal energy"
+        ],
+        "price_tier": 2,
+        "notes": "Corner of Allen and College Ave — prime downtown location. Recently reimagined with a farm-to-table focus. More energy than The Tavern but still good for conversation. Good pick when you want to signal effort without going full fine dining."
+      },
+      "score": 59,
+      "score_breakdown": {
+        "energy_match": 22,
+        "shared_activity": 8,
+        "comfort_alignment": 25,
+        "vibe_alignment": 4
+      }
+    },
+    {
+      "venue": {
+        "id": "zenos_pub",
+        "name": "Zeno's Pub",
+        "address": "100 W College Ave, State College, PA 16801",
+        "maps_url": "https://maps.app.goo.gl/zenos-state-college",
+        "noise_level": 3,
+        "intimacy_score": 3,
+        "activity_available": false,
+        "activity_type": null,
+        "vibe_tags": [
+          "dive bar",
+          "character",
+          "live music",
+          "beer-forward",
+          "underground"
+        ],
+        "best_for": [
+          "laid-back pairs",
+          "anti-pretense types",
+          "music lovers",
+          "beer people"
+        ],
+        "price_tier": 1,
+        "notes": "50+ year old underground pub with an enormous beer selection and rotating live music. Low pretense, high character. The kind of place where a 2-hour date turns into a 4-hour date without either person noticing. Best for pairs who'd roll their eyes at a wine bar but still want somewhere with actual atmosphere."
+      },
+      "score": 59,
+      "score_breakdown": {
+        "energy_match": 22,
+        "shared_activity": 8,
+        "comfort_alignment": 25,
+        "vibe_alignment": 4
+      }
+    }
+  ],
+  "cards": {
+    "persona_a": {
+      "compatibility_story": "Alex brings a curiosity and depth that'll keep you on your toes — they're not just going through the motions, they actually want to know what makes things tick, including you. They love live music and have a genuine appreciation for experiences that feel real, not performative. The loyalty and fun you bring will balance out their more reflective side in a way that makes the energy feel right.",
+      "venue_rationale": "The Phyrst runs live music every single night, which hits your love of going out and high-energy social scenes — and the Table Wars tradition is exactly the kind of spontaneous, chaotic fun you thrive in.",
+      "talking_points": [
+        "You're both into music — ask Alex what the last live show was that actually blew them away, and what made it different from just listening at home.",
+        "You're wired for competition and they like history — ask them if they think sports rivalries (like college basketball) are more about tradition or talent, and see where it goes.",
+        "You value loyalty hard — ask them about a time a friend came through for them when it actually mattered. You'll learn a lot fast."
+      ],
+      "logistics": "Meet at the front entrance on College Ave around 9pm — that's when the band usually hits their stride and the crowd fills in. Get there early enough to grab a table before it gets packed; standing room only later. Order whatever's on draft, keep it simple, and when Table Wars starts — commit to your table's chant, don't hold back."
+    },
+    "persona_b": {
+      "compatibility_story": "Jordan is exactly the kind of person who pulls you out of your head and into the moment — high energy, genuinely fun, and loyal to the core. They love basketball and rap, but what's more interesting is that they lead with enthusiasm, which creates space for you to engage on your own terms without any social pressure to perform. Your curiosity will find a lot to chew on in someone that direct.",
+      "venue_rationale": "The Phyrst has real live music every night — not a playlist, not a DJ — which speaks directly to something you actually care about, and the low-key Penn State dive bar atmosphere keeps the pretense completely out of the equation.",
+      "talking_points": [
+        "You're into history and Jordan loves sports culture — ask them what they think makes a sports dynasty (like the Lakers or a college program) actually last, and whether it's about the players or the city.",
+        "You both landed here — ask Jordan what their honest first impression of State College was, and whether a place can feel like home before you've really lived in it.",
+        "You care about what's real over what looks good — ask them what's one thing most people pretend to enjoy that they genuinely think is overrated. It'll tell you everything."
+      ],
+      "logistics": "Head to The Phyrst on College Ave downtown — aim for around 8:30pm to get a table before the room fills up. It's a cash-friendly dive so keep it simple; the beer selection is nothing fancy but that's kind of the point. When the band takes a break and Table Wars kicks off, just go with it — it's loud and a little absurd, which is exactly what makes it worth experiencing once."
+    }
+  },
+  "compatibility": {
+    "score": 33,
+    "label": "High Contrast",
+    "breakdown": {
+      "energy_alignment": 7,
+      "interest_overlap": 13,
+      "values_alignment": 5,
+      "vibe_compatibility": 8
+    }
+  }
+}

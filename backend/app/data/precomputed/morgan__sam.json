@@ -1,0 +1,137 @@
+{
+  "venue": {
+    "venue": {
+      "id": "manna_korea",
+      "name": "Manna Korean BBQ & Hotpot",
+      "address": "542 Westerly Pkwy, State College, PA 16801",
+      "maps_url": "https://maps.app.goo.gl/manna-korea-state-college",
+      "noise_level": 3,
+      "intimacy_score": 4,
+      "activity_available": true,
+      "activity_type": "cooking and building hot pot together at the table",
+      "vibe_tags": [
+        "adventurous",
+        "interactive",
+        "fun",
+        "foodie",
+        "all-you-can-eat"
+      ],
+      "best_for": [
+        "foodies",
+        "adventurous pairs",
+        "high-energy matches",
+        "people who hate awkward silence"
+      ],
+      "price_tier": 2,
+      "notes": "Opened March 2026 — new and buzzy, which is a talking point itself. All-you-can-eat Korean BBQ and hot pot. The shared cooking activity eliminates awkward silence entirely — you're always doing something. Slightly off the main strip at Westerly Pkwy, which makes it feel like a deliberate choice rather than a default."
+    },
+    "score": 61,
+    "score_breakdown": {
+      "energy_match": 22,
+      "shared_activity": 10,
+      "comfort_alignment": 25,
+      "vibe_alignment": 4
+    }
+  },
+  "runner_up_venues": [
+    {
+      "venue": {
+        "id": "the_phyrst",
+        "name": "The Phyrst",
+        "address": "Downtown State College, PA 16801",
+        "maps_url": "https://maps.app.goo.gl/phyrst-state-college",
+        "noise_level": 4,
+        "intimacy_score": 2,
+        "activity_available": true,
+        "activity_type": "live music every night, Table Wars tradition",
+        "vibe_tags": [
+          "live music",
+          "Penn State tradition",
+          "rowdy",
+          "fun",
+          "high energy"
+        ],
+        "best_for": [
+          "Penn State-proud pairs",
+          "music lovers",
+          "high energy social types",
+          "people who love a spectacle"
+        ],
+        "price_tier": 1,
+        "notes": "Live music 365 days a year. Famous for Table Wars — when the band takes a break, each table shouts their chant at the others. Loud, chaotic, and genuinely fun if you're into it. Good for a pair that wants an experience, not a conversation."
+      },
+      "score": 61,
+      "score_breakdown": {
+        "energy_match": 22,
+        "shared_activity": 10,
+        "comfort_alignment": 25,
+        "vibe_alignment": 4
+      }
+    },
+    {
+      "venue": {
+        "id": "allen_street_grill",
+        "name": "Allen Street Grill",
+        "address": "100 W College Ave, State College, PA 16801",
+        "maps_url": "https://maps.app.goo.gl/allen-street-grill-state-college",
+        "noise_level": 3,
+        "intimacy_score": 3,
+        "activity_available": false,
+        "activity_type": null,
+        "vibe_tags": [
+          "upscale",
+          "lively",
+          "farm-to-table",
+          "food-forward",
+          "corner spot"
+        ],
+        "best_for": [
+          "confident pairs",
+          "food-forward dates",
+          "slightly more formal energy"
+        ],
+        "price_tier": 2,
+        "notes": "Corner of Allen and College Ave — prime downtown location. Recently reimagined with a farm-to-table focus. More energy than The Tavern but still good for conversation. Good pick when you want to signal effort without going full fine dining."
+      },
+      "score": 59,
+      "score_breakdown": {
+        "energy_match": 22,
+        "shared_activity": 8,
+        "comfort_alignment": 25,
+        "vibe_alignment": 4
+      }
+    }
+  ],
+  "cards": {
+    "persona_a": {
+      "compatibility_story": "Sam brings the social energy and spontaneity that balance your more intentional, reflective nature — they'll pull you into the moment while you'll add depth to the experience. Their confidence and love of self-expression through fashion and dance actually resonates with your eye for beauty and aesthetics. Together you create a dynamic where neither person is bored and neither feels rushed.",
+      "venue_rationale": "Manna's interactive hot pot setup gives your curious, observational side something to engage with — there's real craft in building the perfect bowl — while the lively, communal atmosphere matches Sam's social energy and makes the whole evening feel like an event rather than just dinner.",
+      "talking_points": [
+        "You're into astrology — what sign do you think Sam is just from first impressions, and what would make you change your mind by the end of the night?",
+        "You both have a strong aesthetic lens — you through photography and art, Sam through fashion. Ask them: if this meal were an outfit, what would it be?",
+        "Manna just opened in March — ask Sam if they're the type to seek out new spots or stick to favorites, and share what draws you to discovering new places through your photography."
+      ],
+      "logistics": "Meet at the entrance on Westerly Pkwy at 7:00 PM — it's slightly off the main strip so give yourself a few extra minutes to park. Once seated, let Sam take the lead on building the hot pot broth base while you focus on the ingredient selection — it's a natural way to divide and connect. Pro tip: the all-you-can-eat format means you can order in rounds, so pace yourselves and keep the conversation going between rounds."
+    },
+    "persona_b": {
+      "compatibility_story": "Morgan's calm, curious energy is the perfect counterbalance to your outgoing nature — they'll actually listen and go deep with you in a way that makes the conversation feel meaningful rather than surface-level. Their interests in art, photography, and music (Brent Faiyaz has serious style) show they have taste and an inner world worth exploring. You'll bring the spark; they'll bring the substance.",
+      "venue_rationale": "Manna is exactly the kind of buzzy, new spot that fits your vibe — it opened in March so you can genuinely say you're ahead of the curve — and the all-you-can-eat Korean BBQ format keeps the energy high and the experience interactive, which is where you thrive socially.",
+      "talking_points": [
+        "You love latin music and dancing — ask Morgan if they've ever been to a live music event or show that completely changed how they heard a genre, and share yours.",
+        "Morgan shoots photography — ask them what they'd photograph about tonight if they had their camera. It'll tell you a lot about how they see the world.",
+        "You're both into self-expression in different ways — fashion for you, aesthetics and art for them. Ask: what's one thing about your personal style that most people misread or don't notice?"
+      ],
+      "logistics": "Head to the entrance on Westerly Pkwy and aim to arrive by 7:00 PM — it books up, so being on time matters. Don't overthink the menu: grab the signature hot pot broth and go all-in on the meat and veggie selection together — making decisions as a team immediately breaks the ice. The place has great energy on weeknights, so expect a lively room that'll keep the vibe moving."
+    }
+  },
+  "compatibility": {
+    "score": 49,
+    "label": "High Contrast",
+    "breakdown": {
+      "energy_alignment": 19,
+      "interest_overlap": 13,
+      "values_alignment": 5,
+      "vibe_compatibility": 12
+    }
+  }
+}

@@ -1,0 +1,136 @@
+{
+  "venue": {
+    "venue": {
+      "id": "allen_street_grill",
+      "name": "Allen Street Grill",
+      "address": "100 W College Ave, State College, PA 16801",
+      "maps_url": "https://maps.app.goo.gl/allen-street-grill-state-college",
+      "noise_level": 3,
+      "intimacy_score": 3,
+      "activity_available": false,
+      "activity_type": null,
+      "vibe_tags": [
+        "upscale-casual",
+        "lively",
+        "quality food",
+        "corner spot",
+        "social"
+      ],
+      "best_for": [
+        "confident pairs",
+        "food-forward dates",
+        "slightly more formal energy"
+      ],
+      "price_tier": 2,
+      "notes": "Corner of Allen and College Ave — prime downtown location. Recently reimagined with a farm-to-table focus. More energy than The Tavern but still good for conversation. Good pick when you want to signal effort without going full fine dining."
+    },
+    "score": 67,
+    "score_breakdown": {
+      "energy_match": 22,
+      "shared_activity": 8,
+      "comfort_alignment": 25,
+      "vibe_alignment": 12
+    }
+  },
+  "runner_up_venues": [
+    {
+      "venue": {
+        "id": "elixr_coffee",
+        "name": "Elixr Coffee Roasters",
+        "address": "123 W Beaver Ave, State College, PA 16801",
+        "maps_url": "https://maps.app.goo.gl/elixr-state-college",
+        "noise_level": 2,
+        "intimacy_score": 3,
+        "activity_available": false,
+        "activity_type": null,
+        "vibe_tags": [
+          "cozy",
+          "trendy",
+          "neighborhood",
+          "coffee-forward",
+          "casual"
+        ],
+        "best_for": [
+          "thoughtful pairs",
+          "conversation-first dates",
+          "low energy introverts",
+          "coffee people"
+        ],
+        "price_tier": 1,
+        "notes": "Philadelphia roaster with a State College outpost on Beaver Ave. Warm decor, good seating variety, not overly loud. Strawberry matcha is a talking point on its own. Good neutral ground for a first meet — low stakes, easy to extend or exit."
+      },
+      "score": 63,
+      "score_breakdown": {
+        "energy_match": 22,
+        "shared_activity": 8,
+        "comfort_alignment": 25,
+        "vibe_alignment": 8
+      }
+    },
+    {
+      "venue": {
+        "id": "the_tavern",
+        "name": "The Tavern Restaurant",
+        "address": "220 E College Ave, State College, PA 16801",
+        "maps_url": "https://maps.app.goo.gl/the-tavern-state-college",
+        "noise_level": 2,
+        "intimacy_score": 4,
+        "activity_available": false,
+        "activity_type": null,
+        "vibe_tags": [
+          "classic",
+          "cozy",
+          "colonial",
+          "upscale-casual",
+          "intimate"
+        ],
+        "best_for": [
+          "intentional daters",
+          "any pair wanting a real dinner",
+          "mid-range date energy"
+        ],
+        "price_tier": 2,
+        "notes": "State College institution since 1948. Colonial tavern atmosphere — dark wood, warm lighting, booths. One of those places that signals you put thought into the date without being pretentious. Good for pairs where both people actually want to have a real conversation over a real meal."
+      },
+      "score": 62,
+      "score_breakdown": {
+        "energy_match": 22,
+        "shared_activity": 8,
+        "comfort_alignment": 20,
+        "vibe_alignment": 12
+      }
+    }
+  ],
+  "cards": {
+    "persona_a": {
+      "compatibility_story": "Maya's thoughtful, curious nature means she'll actually engage with the things you're passionate about — she won't just nod along when you talk about a dish you tried in Seoul or a market you found while traveling. Her love of film and philosophy suggests she sees the world with real depth, which pairs well with your openness to new experiences. She's not low-energy in a checked-out way — she's the kind of person who listens closely and says something worth remembering.",
+      "venue_rationale": "Allen Street Grill's farm-to-table pivot gives you something real to riff on — the kind of place where you can actually talk about what you're eating, where it's from, and why it works. It signals you put thought into this without going so formal it kills the vibe.",
+      "talking_points": [
+        "You travel and eat intentionally — ask Maya if she has a film or book that made her want to go somewhere, and whether she ever actually went.",
+        "Korean cuisine has a strong philosophy around fermentation, balance, and communal eating. Ask Maya, given her interest in philosophy, what she makes of cultures that build meaning into food rituals.",
+        "You both value authenticity over performance — ask her what the last thing was that genuinely surprised her, whether it was a film, a meal, a conversation, or something else entirely."
+      ],
+      "logistics": "Meet at the main entrance on the corner of Allen and College Ave — it's easy to spot. Aim to arrive around 7:00 PM on a weeknight when it's lively but not chaotic. The menu leans seasonal, so ask your server what's fresh; skip the safe picks and order something you'd actually want to talk about. If the conversation is flowing, the bar area is a good spot to linger after the meal."
+    },
+    "persona_b": {
+      "compatibility_story": "Riley brings a kind of enthusiastic warmth that doesn't feel performative — the interest in Korean culture, cooking, and travel suggests someone who engages with the world on its own terms, not just for content. That aligns with what you value: authenticity, and people who actually mean what they say. The culinary focus might seem surface-level, but food is one of the oldest philosophical subjects — there's real depth to explore here if you want it.",
+      "venue_rationale": "Allen Street Grill is relaxed enough that you won't feel like you're in a scene, but it has enough going on that silence never gets awkward. It's a good middle ground — Riley put in effort, but there's no pressure on either of you to perform.",
+      "talking_points": [
+        "Riley loves Korean culture and food — ask what drew them to it specifically, and whether there's a dish or experience that changed how they thought about something.",
+        "You're both drawn to things that feel genuine. Ask Riley about a place they've traveled where the food told them something true about the people who lived there.",
+        "You read and think seriously about ideas — Riley values openness and adventure. Ask each other: is there something you believed strongly five years ago that you've since changed your mind about?"
+      ],
+      "logistics": "The restaurant is on the corner of Allen and College Ave — meet out front at 7:00 PM. You don't need a complicated plan; just show up and let the evening find its shape. If you're not sure what to order, the seasonal specials are usually the safest bet for something worth talking about. If the noise level picks up later in the evening, the corner tables tend to be quieter."
+    }
+  },
+  "compatibility": {
+    "score": 47,
+    "label": "High Contrast",
+    "breakdown": {
+      "energy_alignment": 19,
+      "interest_overlap": 5,
+      "values_alignment": 5,
+      "vibe_compatibility": 18
+    }
+  }
+}

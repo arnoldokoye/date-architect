@@ -1,0 +1,137 @@
+{
+  "venue": {
+    "venue": {
+      "id": "allen_street_grill",
+      "name": "Allen Street Grill",
+      "address": "100 W College Ave, State College, PA 16801",
+      "maps_url": "https://maps.app.goo.gl/allen-street-grill-state-college",
+      "noise_level": 3,
+      "intimacy_score": 3,
+      "activity_available": false,
+      "activity_type": null,
+      "vibe_tags": [
+        "upscale-casual",
+        "lively",
+        "quality food",
+        "corner spot",
+        "social"
+      ],
+      "best_for": [
+        "confident pairs",
+        "food-forward dates",
+        "slightly more formal energy"
+      ],
+      "price_tier": 2,
+      "notes": "Corner of Allen and College Ave — prime downtown location. Recently reimagined with a farm-to-table focus. More energy than The Tavern but still good for conversation. Good pick when you want to signal effort without going full fine dining."
+    },
+    "score": 63,
+    "score_breakdown": {
+      "energy_match": 22,
+      "shared_activity": 8,
+      "comfort_alignment": 25,
+      "vibe_alignment": 8
+    }
+  },
+  "runner_up_venues": [
+    {
+      "venue": {
+        "id": "manna_korea",
+        "name": "Manna Korean BBQ & Hotpot",
+        "address": "542 Westerly Pkwy, State College, PA 16801",
+        "maps_url": "https://maps.app.goo.gl/manna-korea-state-college",
+        "noise_level": 3,
+        "intimacy_score": 4,
+        "activity_available": true,
+        "activity_type": "cooking and building hot pot together at the table",
+        "vibe_tags": [
+          "adventurous",
+          "interactive",
+          "fun",
+          "foodie",
+          "all-you-can-eat"
+        ],
+        "best_for": [
+          "foodies",
+          "adventurous pairs",
+          "high-energy matches",
+          "people who hate awkward silence"
+        ],
+        "price_tier": 2,
+        "notes": "Opened March 2026 — new and buzzy, which is a talking point itself. All-you-can-eat Korean BBQ and hot pot. The shared cooking activity eliminates awkward silence entirely — you're always doing something. Slightly off the main strip at Westerly Pkwy, which makes it feel like a deliberate choice rather than a default."
+      },
+      "score": 61,
+      "score_breakdown": {
+        "energy_match": 22,
+        "shared_activity": 10,
+        "comfort_alignment": 25,
+        "vibe_alignment": 4
+      }
+    },
+    {
+      "venue": {
+        "id": "the_phyrst",
+        "name": "The Phyrst",
+        "address": "Downtown State College, PA 16801",
+        "maps_url": "https://maps.app.goo.gl/phyrst-state-college",
+        "noise_level": 4,
+        "intimacy_score": 2,
+        "activity_available": true,
+        "activity_type": "live music every night, Table Wars tradition",
+        "vibe_tags": [
+          "live music",
+          "Penn State tradition",
+          "rowdy",
+          "fun",
+          "high energy"
+        ],
+        "best_for": [
+          "Penn State-proud pairs",
+          "music lovers",
+          "high energy social types",
+          "people who love a spectacle"
+        ],
+        "price_tier": 1,
+        "notes": "Live music 365 days a year. Famous for Table Wars — when the band takes a break, each table shouts their chant at the others. Loud, chaotic, and genuinely fun if you're into it. Good for a pair that wants an experience, not a conversation."
+      },
+      "score": 61,
+      "score_breakdown": {
+        "energy_match": 22,
+        "shared_activity": 10,
+        "comfort_alignment": 25,
+        "vibe_alignment": 4
+      }
+    }
+  ],
+  "cards": {
+    "persona_a": {
+      "compatibility_story": "Morgan brings a calm, curious energy that complements your outgoing nature — they'll actually keep up with the conversation instead of just nodding along. Their eye for beauty through photography and art means they notice the world in ways that might surprise you, and that kind of depth pairs well with your confidence. You both move through life intentionally, just at different tempos, and that contrast tends to spark real chemistry.",
+      "venue_rationale": "Allen Street Grill sits right at the center of downtown's social pulse — the corner spot, the energy, the people-watching — which is exactly your kind of scene. The farm-to-table refresh gives it just enough style to feel like you made an effort without overdoing it.",
+      "talking_points": [
+        "You're into fashion and curating how things look — ask Morgan what they notice first when they're framing a shot. The answer will tell you a lot about how they see the world.",
+        "You live for the moment and Morgan values intentionality — ask them about the last time they did something completely spontaneous and whether it paid off.",
+        "Latin music is rooted in movement and feeling. Ask Morgan if music ever changes how they experience a place or a moment — their astrology interest means they probably think about energy more than most people do."
+      ],
+      "logistics": "Meet at the front entrance on the College Ave side — it's the corner, you can't miss it. Aim to arrive around 7:00 PM when the dining room has energy but isn't chaotic. Order something off the seasonal menu and split an appetizer to keep things relaxed and low-pressure. Street parking is available on Allen, or there's a garage one block north."
+    },
+    "persona_b": {
+      "compatibility_story": "Sam's energy and confidence create the kind of presence that makes a night feel alive — and you'll have plenty to observe and think about, which is where you thrive. Their passion for music, movement, and style gives you real material to engage with curiously, not just small talk. Where you bring intentionality and depth, Sam brings momentum — and that balance can make for a genuinely interesting dynamic.",
+      "venue_rationale": "Allen Street Grill was picked because it offers the social atmosphere Sam needs while still being intimate enough for the kind of real conversation you're drawn to. The farm-to-table focus and thoughtful menu give you something worth being curious about before you even sit down.",
+      "talking_points": [
+        "You're into astrology and Sam is all about confidence and energy — ask them what they think shapes a person more: the environment they grew up in or something they were just born with. See where it goes.",
+        "Your photography eye means you notice light, composition, mood — ask Sam how they decide what to wear or how they put a look together. Aesthetics is a language you both speak, just differently.",
+        "Brent Faiyaz writes about vulnerability underneath a cool exterior. Sam loves latin music built on feeling and rhythm. Ask Sam if there's a song or artist that actually says something real to them — not just one they play at parties."
+      ],
+      "logistics": "Meet Sam at the front corner entrance on College Ave — the restaurant is easy to spot from the street. Plan to arrive by 7:00 PM so you're settled before the dinner rush picks up. Don't overthink the menu — the seasonal dishes are the move, and ordering something to share early keeps the energy easy. If you want a quieter corner, mention it when you're seated; the layout gives you options."
+    }
+  },
+  "compatibility": {
+    "score": 49,
+    "label": "High Contrast",
+    "breakdown": {
+      "energy_alignment": 19,
+      "interest_overlap": 13,
+      "values_alignment": 5,
+      "vibe_compatibility": 12
+    }
+  }
+}
