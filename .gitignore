@@ -28,5 +28,8 @@ scripts/frames/
 # Superpowers planning artifacts
 docs/superpowers/
 
+# Internal recording notes
+docs/video-recording-guide.md
+
 # Runtime-generated SQLite DB (seed script is committed, data is not)
 backend/app/data/outcomes.db
