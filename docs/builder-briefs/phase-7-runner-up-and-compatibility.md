@@ -1,0 +1,17 @@
+# Phase 7 — Runner-Up Venues + Person Compatibility Score
+
+**What I built:** Two new panels in the UI. At the top of every result: a compatibility banner that scores the two people against each other (energy alignment, interest overlap, values alignment, vibe compatibility — each 0–25, total 0–100, with a label like "Highly Compatible"). At the bottom: an "Also Considered" section showing the two runner-up venues with a one-line "Lost on: X (N/25)" explanation of what dimension cost each one the top spot. Also cleaned up a naming artifact: `_call_gemini` was renamed to `_call_claude` (the function was already calling Claude, the name was a leftover from early dev), and `google-generativeai` was removed from `requirements.txt` (it was never imported anywhere in the codebase).
+
+**Why runner-up venues:** The data was already there — `rank_venues_for_pair()` returns a sorted list on every request, and positions 1 and 2 were being silently discarded. Stopping that discard took one line in `main.py`. The "Also Considered" panel does something subtle: it makes the winning pick feel *chosen*, not just returned. When you see that Webster's Bookstore Café scored 63 and lost on vibe match, the Elixr pick feels earned. It also surfaces the scoring system's reasoning without the user having to ask.
+
+**Why a person compatibility engine:** The matching engine tells you which venue fits the pair. The compatibility engine tells you whether the people fit each other. These are different signals. "Elixr Coffee scored 72" is about the venue. "Maya and Alex are 92% compatible" is about them. Leading with the personal score sets the right emotional frame for reading the date plan.
+
+**Key decisions:**
+- **Group-based interest and values matching.** `"indie music"` and `"live music"` are different strings but compatible interests. Exact string matching would score them as non-overlapping. The engine uses `INTEREST_GROUPS` and `VALUES_GROUPS` — sets of semantically related terms — and awards points per group where both personas have at least one member. Robust to phrasing variation without requiring normalization or embeddings.
+- **"Lost on" label computed relative to the winner, not the runner-up's absolute weakest score.** The first implementation showed the runner-up's absolute weakest dimension — which had an edge case: if the winning venue scored the same on that dimension, the label was misleading. Fixed to `biggestGapDimension(winnerBreakdown, runnerBreakdown)` — show where the runner-up fell furthest behind the winner. That's the actual competitive differentiator.
+- **Compatibility engine is deterministic, not LLM-generated.** The score needs to be stable — same pair, same number. If it were LLM-generated, it would drift between sessions and couldn't be unit tested. The two-stage principle (deterministic scoring for auditable outputs, LLM for narrative) applies here too.
+- **Compatibility banner renders first in the layout.** The person-to-person signal is the most emotionally resonant information on the page. "Highly Compatible: 92/100" is a warmer opening than a coffee shop name.
+
+**What I rejected:**
+- **LLM-generated compatibility narrative.** More nuanced copy, yes. But at the cost of reproducibility, testability, and an additional 5–10s of latency on top of the card generation call.
+- **Showing compatibility breakdown inside the "Also Considered" panel.** Too much information. The panel is meant to be scannable: venue name, score, one reason it lost. A second layer of breakdown would clutter it.

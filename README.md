@@ -1,10 +1,20 @@
 # Date Architect
 
-A persona-aware date experience engine that matches two people to the ideal State College venue using a four-dimension compatibility scorer and generates personalized date cards via Claude AI.
+A persona-aware date planning engine built for Penn State. Pick two people, get the ideal State College venue — chosen by a four-dimension algorithmic scorer, explained by Claude AI in a personalized date card for each person.
+
+![Date Architect demo](docs/demo.gif)
 
 ---
 
-## Architecture
+## How it works
+
+Two-stage pipeline:
+
+1. **Matching engine** (pure Python, no LLM) — scores all 12 venues against the pair on four dimensions: energy fit, shared activity potential, comfort alignment, and vibe match. Each dimension is 0–25; total is 0–100. Deterministic, auditable, runs in milliseconds.
+
+2. **Card generator** (Anthropic SDK) — takes the top-ranked venue and both persona profiles, builds a grounded prompt, and returns two personalized date cards — one per person — each with a compatibility story, venue rationale, specific talking points, and logistics.
+
+A compatibility engine runs in parallel, scoring the two people against each other (energy alignment, interest overlap, values alignment, vibe compatibility) to produce the banner shown at the top of every result.
 
 ```
 ┌──────────────────────────────────────────────────────────┐
@@ -20,6 +30,10 @@ A persona-aware date experience engine that matches two people to the ideal Stat
 ┌──────────────────────────────────────────────────────────┐
 │                    FastAPI backend                        │
 │                                                          │
+│   ┌─── cache hit? ──────────────────────────────────┐   │
+│   │    return precomputed result immediately         │   │
+│   └─────────────────────────────────────────────────┘   │
+│                          │ (cache miss)                  │
 │         ┌────────────────┴─────────────────┐            │
 │         ▼                                  ▼            │
 │   Matching Engine                  Compatibility Engine  │
@@ -31,7 +45,7 @@ A persona-aware date experience engine that matches two people to the ideal Stat
 │  vibe_alignment                   vibe_compatibility     │
 │         │                                  │            │
 │         ▼                                  │            │
-│   top venue ──► Claude CLI                 │            │
+│   top venue ──► Anthropic SDK              │            │
 │                (card_generator.py)         │            │
 │                                            │            │
 │  compatibility_story                       │            │
@@ -40,10 +54,10 @@ A persona-aware date experience engine that matches two people to the ideal Stat
 │  logistics                                 │            │
 └──────────────────────────────────────────────────────────┘
                │ DatePlanResponse
+               │  ├─ compatibility (PersonCompatibility)
                │  ├─ venue (RankedVenue)
                │  ├─ runner_up_venues (2 × RankedVenue)
-               │  ├─ cards (DateCards)
-               │  └─ compatibility (PersonCompatibility)
+               │  └─ cards (DateCards)
                ▼
         DateCard component (React)
   CompatibilityBanner · Venue card · Persona cards
@@ -52,13 +66,14 @@ A persona-aware date experience engine that matches two people to the ideal Stat
 
 ---
 
-## How to Run Locally
+## How to run locally
 
 ### Prerequisites
 
 - Python 3.11+
 - Node.js 18+
-- `claude` CLI authenticated (`claude --version` should work)
+
+No Claude CLI. No API key required — all 30 persona pairs are precomputed and served from cache.
 
 ### Backend
 
@@ -84,7 +99,7 @@ Open **http://localhost:3000**, select two personas, and click **Find Our Date**
 
 ---
 
-## Example Output — Maya + Alex
+## Example output — Maya + Alex
 
 **Compatibility: Highly Compatible — 92/100**
 
@@ -114,10 +129,18 @@ Open **http://localhost:3000**, select two personas, and click **Find Our Date**
 
 ---
 
-## Running Tests
+## Running tests
 
 ```bash
 cd backend
 source venv/bin/activate
 pytest tests/ -v
 ```
+
+25 tests across 4 files. All pass.
+
+---
+
+## Build notes
+
+The `docs/builder-briefs/` folder has one short doc per phase explaining what was built, why, what was decided, and what was surprising. Start there if you want to understand the reasoning behind the architecture.
