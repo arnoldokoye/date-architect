@@ -34,3 +34,4 @@ docs/video-recording-guide.md
 # Runtime-generated SQLite DB (seed script is committed, data is not)
 backend/app/data/outcomes.db
 docs/video-scripts/
+docs/ditto-context.md
