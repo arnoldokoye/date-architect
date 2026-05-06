@@ -68,6 +68,14 @@ A compatibility engine runs in parallel, scoring the two people against each oth
 
 ---
 
+## Live demo
+
+**[date-architect-mu.vercel.app](https://date-architect-mu.vercel.app)**
+
+Frontend on Vercel, backend on Railway. All 30 persona pairs are precomputed — results load instantly.
+
+---
+
 ## How to run locally
 
 ### Prerequisites
@@ -75,7 +83,7 @@ A compatibility engine runs in parallel, scoring the two people against each oth
 - Python 3.11+
 - Node.js 18+
 
-No Claude CLI. No API key required — all 30 persona pairs are precomputed and served from cache.
+No API key required — all 30 persona pairs are precomputed and served from cache.
 
 ### Backend
 
