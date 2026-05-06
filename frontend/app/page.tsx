@@ -27,43 +27,43 @@ function PersonaProfileCard({ persona, label }: { persona: Persona; label: strin
     <div className="bg-white rounded-2xl shadow-sm border border-rose-100 p-4">
       <div className="flex items-center justify-between mb-3">
         <div>
-          <div className="text-xs font-semibold text-zinc-400 uppercase tracking-wide">{label}</div>
-          <div className="text-base font-bold text-zinc-900">{persona.name}</div>
+          <div className="text-sm font-semibold text-zinc-500 uppercase tracking-wide">{label}</div>
+          <div className="text-lg font-bold text-zinc-900">{persona.name}</div>
         </div>
-        <span className="text-xs bg-rose-100 text-rose-700 font-semibold px-2.5 py-1 rounded-full">
+        <span className="text-sm bg-rose-100 text-rose-700 font-semibold px-2.5 py-1 rounded-full">
           {DATE_PREF_LABELS[persona.date_preference] ?? persona.date_preference}
         </span>
       </div>
 
       <div className="flex items-center gap-1.5 mb-3">
-        <span className="text-xs text-zinc-400">Energy</span>
+        <span className="text-sm text-zinc-500">Energy</span>
         <div className="flex gap-0.5">
           {[1, 2, 3, 4, 5].map((n) => (
             <div
               key={n}
-              className={`w-2.5 h-2.5 rounded-full ${
+              className={`w-3 h-3 rounded-full ${
                 n <= persona.energy_level ? "bg-rose-400" : "bg-zinc-100"
               }`}
             />
           ))}
         </div>
-        <span className="text-xs text-zinc-400 ml-1">{persona.conversation_style}</span>
+        <span className="text-sm text-zinc-500 ml-1">{persona.conversation_style}</span>
       </div>
 
       <div className="mb-2">
-        <div className="text-xs font-semibold text-zinc-400 uppercase tracking-wide mb-1">Interests</div>
+        <div className="text-sm font-semibold text-zinc-500 uppercase tracking-wide mb-1">Interests</div>
         <div className="flex flex-wrap gap-1">
           {persona.interests.map((i) => (
-            <span key={i} className="bg-zinc-100 text-zinc-600 text-xs px-2 py-0.5 rounded-full">{i}</span>
+            <span key={i} className="bg-zinc-100 text-zinc-600 text-sm px-2 py-0.5 rounded-full">{i}</span>
           ))}
         </div>
       </div>
 
       <div>
-        <div className="text-xs font-semibold text-zinc-400 uppercase tracking-wide mb-1">Values</div>
+        <div className="text-sm font-semibold text-zinc-500 uppercase tracking-wide mb-1">Values</div>
         <div className="flex flex-wrap gap-1">
           {persona.values.map((v) => (
-            <span key={v} className="bg-rose-50 text-rose-600 text-xs px-2 py-0.5 rounded-full">{v}</span>
+            <span key={v} className="bg-rose-50 text-rose-600 text-sm px-2 py-0.5 rounded-full">{v}</span>
           ))}
         </div>
       </div>
@@ -116,7 +116,7 @@ export default function Home() {
 
   return (
     <main className="min-h-screen bg-rose-50 py-12 px-4">
-      <div className="max-w-2xl mx-auto">
+      <div className="max-w-3xl mx-auto">
         {/* Header */}
         <div className="text-center mb-10">
           <h1 className="text-4xl font-bold text-rose-700 mb-2">Date Architect</h1>
@@ -127,11 +127,11 @@ export default function Home() {
         <div className="bg-white rounded-2xl shadow-sm border border-rose-100 p-6 mb-6">
           <div className="flex flex-col sm:flex-row gap-4 items-end">
             <div className="flex-1">
-              <label className="block text-xs font-semibold text-zinc-400 uppercase tracking-wide mb-1">
+              <label className="block text-sm font-semibold text-zinc-500 uppercase tracking-wide mb-1">
                 Person A
               </label>
               <select
-                className="w-full rounded-lg border border-zinc-200 px-3 py-2 text-sm text-zinc-800 focus:outline-none focus:ring-2 focus:ring-rose-400"
+                className="w-full rounded-lg border border-zinc-200 px-3 py-2 text-base text-zinc-800 focus:outline-none focus:ring-2 focus:ring-rose-400"
                 value={personaA}
                 onChange={(e) => setPersonaA(e.target.value)}
               >
@@ -148,11 +148,11 @@ export default function Home() {
             </div>
 
             <div className="flex-1">
-              <label className="block text-xs font-semibold text-zinc-400 uppercase tracking-wide mb-1">
+              <label className="block text-sm font-semibold text-zinc-500 uppercase tracking-wide mb-1">
                 Person B
               </label>
               <select
-                className="w-full rounded-lg border border-zinc-200 px-3 py-2 text-sm text-zinc-800 focus:outline-none focus:ring-2 focus:ring-rose-400"
+                className="w-full rounded-lg border border-zinc-200 px-3 py-2 text-base text-zinc-800 focus:outline-none focus:ring-2 focus:ring-rose-400"
                 value={personaB}
                 onChange={(e) => setPersonaB(e.target.value)}
               >

@@ -120,7 +120,7 @@ function CompatibilityBanner({
           {compatibility.score}/100
         </span>
       </div>
-      <p className="text-sm text-zinc-500 mb-4">
+      <p className="text-base text-zinc-500 mb-4">
         {personaAName} × {personaBName}
       </p>
       <div className="grid grid-cols-4 gap-2 text-center">
@@ -130,8 +130,8 @@ function CompatibilityBanner({
           >
         ).map((key) => (
           <div key={key} className="bg-rose-50 rounded-lg p-2">
-            <div className="text-xs text-zinc-400 mb-0.5">{dimLabels[key]}</div>
-            <div className="text-sm font-semibold text-rose-700">
+            <div className="text-sm text-zinc-500 mb-0.5">{dimLabels[key]}</div>
+            <div className="text-base font-semibold text-rose-700">
               {compatibility.breakdown[key]}/25
             </div>
           </div>
@@ -145,21 +145,21 @@ function PersonaCardPanel({ name, card }: { name: string; card: PersonaCard }) {
   return (
     <div className="bg-white rounded-2xl shadow-sm border border-rose-100 p-5">
       <h3 className="font-bold text-zinc-900 mb-4">{name}&rsquo;s Card</h3>
-      <div className="space-y-4 text-sm">
+      <div className="space-y-4 text-base">
         <section>
-          <div className="text-xs font-semibold text-zinc-400 uppercase tracking-wide mb-1">
+          <div className="text-sm font-semibold text-zinc-500 uppercase tracking-wide mb-1">
             Why you&rsquo;re a match
           </div>
           <p className="text-zinc-700 leading-relaxed">{card.compatibility_story}</p>
         </section>
         <section>
-          <div className="text-xs font-semibold text-zinc-400 uppercase tracking-wide mb-1">
+          <div className="text-sm font-semibold text-zinc-500 uppercase tracking-wide mb-1">
             Why this venue
           </div>
           <p className="text-zinc-700 leading-relaxed">{card.venue_rationale}</p>
         </section>
         <section>
-          <div className="text-xs font-semibold text-zinc-400 uppercase tracking-wide mb-1">
+          <div className="text-sm font-semibold text-zinc-500 uppercase tracking-wide mb-1">
             Talking points
           </div>
           <ul className="list-disc list-inside space-y-1 text-zinc-700">
@@ -169,7 +169,7 @@ function PersonaCardPanel({ name, card }: { name: string; card: PersonaCard }) {
           </ul>
         </section>
         <section>
-          <div className="text-xs font-semibold text-zinc-400 uppercase tracking-wide mb-1">
+          <div className="text-sm font-semibold text-zinc-500 uppercase tracking-wide mb-1">
             Logistics
           </div>
           <p className="text-zinc-700 leading-relaxed">{card.logistics}</p>
@@ -230,10 +230,10 @@ export default function DateCard({ result, personaAName, personaBName }: Props) 
           {(Object.keys(breakdown) as Array<keyof typeof breakdown>).map(
             (key) => (
               <div key={key} className="bg-rose-50 rounded-lg p-2">
-                <div className="text-xs text-zinc-400 mb-0.5">
+                <div className="text-sm text-zinc-500 mb-0.5">
                   {breakdownLabels[key] ?? key}
                 </div>
-                <div className="text-sm font-semibold text-rose-700">
+                <div className="text-base font-semibold text-rose-700">
                   {breakdown[key]}/25
                 </div>
               </div>
@@ -267,10 +267,10 @@ export default function DateCard({ result, personaAName, personaBName }: Props) 
                   }`}
                 >
                   <div>
-                    <p className="text-sm font-semibold text-zinc-800">
+                    <p className="text-base font-semibold text-zinc-800">
                       {runnerUp.venue.name}
                     </p>
-                    <p className="text-xs text-zinc-400 mt-0.5">
+                    <p className="text-sm text-zinc-500 mt-0.5">
                       Lost on: {weak.label} ({weak.score}/25)
                     </p>
                   </div>
